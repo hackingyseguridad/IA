@@ -11,3 +11,5 @@ https://chatgpt.com/
 nmap -sV IP/rango
 
 2.- que puerto o servicio tiene vulnerabilidades mas criticas y faciles de explotar :  
+
+3.- 
