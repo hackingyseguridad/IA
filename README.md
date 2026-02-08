@@ -18,4 +18,4 @@ podemos subir el fichero de resultado.txt para que lo procese la IA, o podemos l
 
 **3.- PREGUNTA:**  que reparos o configuraciones habria que hacer para hacer seguro este activo IP/fqdn ?
 
-**4.- 
+**4.- PREGUNTA:** genera con todo: con las potenciales vulnerabilidades y los posibles reparos / configuraciones un informe, paper en formato PDF.
