@@ -1,12 +1,16 @@
 ### hacking con IA 
 
-**0.- Usanto LLM IA gratis**;  
+**0.- Usanto LLM IA gratis**;  El objetivo es emostrar cómo utilizar modelos de lenguaje (LLMs) de IA disponibles públicamente para ayudar en procesos de evaluación de seguridad, desde el descubrimiento de servicios hasta la generación de informes.
 
 https://chat.deepseek.com/  IA de origen chino enfocada en la eficiencia técnica, matemáticas y programación.
 
 https://grok.com/ IA con acceso en tiempo real a la red social X.
 
 https://chatgpt.com/ IA versatil, lenguaje natural, con filtros de seguridad.
+
+### Metodología Propuesta (Flujo de Trabajo en 4 Pasos)
+
+La guía se organiza como una serie de preguntas que harías a una IA, siguiendo el proceso lógico de una prueba de penetración o evaluación de vulnerabilidades:
 
 **1.- PREGUNTA:** comando y parametros para escanear puerto con Kali Linux,  que extraiga los fingerprint de las versiones usadas en cada servicio.
 
