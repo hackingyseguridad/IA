@@ -1,4 +1,4 @@
-### hacking IA 
+### hacking con IA 
 
 https://chat.deepseek.com/
 
