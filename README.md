@@ -14,4 +14,6 @@ nmap -sV IP/rango -oN resultado.txt   # guardamos el resultado del escaneo en el
 
 **2.- PREGUNTA:** que puerto o servicio tiene vulnerabilidades mas criticas y faciles de explotar :  
 
+podemos subir el fichero de resultado.txt para que lo procese la IA, o podemos limpiar y filtrar la informacion previamente datos que no nos interesa enviar, previo a pegar y procesar con IA
+
 **3.- PREGUNTA:**  
