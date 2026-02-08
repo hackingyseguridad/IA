@@ -1,5 +1,8 @@
 ### hacking con IA:
 
+<img style="float:left" alt="hacking con IA" src="https://github.com/hackingyseguridad/ia/blob/main/hackingia.png">
+
+
 **0.- Usando LLM IA gratis**;  El objetivo es emostrar cómo utilizar modelos de lenguaje (LLMs) de IA disponibles públicamente para ayudar en procesos de evaluación de seguridad, desde el descubrimiento de servicios hasta la generación de informes.
 
 https://chat.deepseek.com/  IA de origen chino enfocada en la eficiencia técnica, matemáticas y programación.
