@@ -16,4 +16,6 @@ nmap -sV IP/rango -oN resultado.txt   # guardamos el resultado del escaneo en el
 
 podemos subir el fichero de resultado.txt para que lo procese la IA, o podemos limpiar y filtrar la informacion previamente datos que no nos interesa enviar, previo a pegar y procesar con IA
 
-**3.- PREGUNTA:**  
+**3.- PREGUNTA:**  que reparos o configuraciones habria que hacer para hacer seguro este activo IP/fqdn ?
+
+**4.- 
