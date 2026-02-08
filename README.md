@@ -1,5 +1,7 @@
 ### hacking con IA 
 
+0.- IA gratis;
+
 https://chat.deepseek.com/
 
 https://grok.com/
