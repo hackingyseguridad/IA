@@ -11,7 +11,7 @@ https://grok.com/ IA con acceso en tiempo real a la red social X.
 
 https://chatgpt.com/ IA versatil, lenguaje natural, con filtros de seguridad.
 
-### Metodología Propuesta (Flujo de Trabajo en 4 Pasos)
+### Metodología (Flujo de trabajo en 4 pasos)
 
 La guía se organiza como una serie de preguntas que harías a una IA, siguiendo el proceso lógico de una prueba de penetración o evaluación de vulnerabilidades:
 
