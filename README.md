@@ -1,5 +1,7 @@
 ### hacking con IA:
 
+https://www.larazon.es/tecnologia-consumo/google-ia-hackers-ciberseguridad-informe-gtic_20260212698ca7f29243cc133c42345d.html
+
 <img style="float:left" alt="hacking con IA" src="https://github.com/hackingyseguridad/ia/blob/main/hackingia.png">
 
 
@@ -28,4 +30,5 @@ podemos subir el fichero de resultado.txt para que lo procese la IA, o podemos l
 **4.- PREGUNTA:** genera con todo: una tabla resumen, con de las vulnerabilidades 3 columnas ordenando de mas critica a menor gravedad y resumen con las potenciales vulnerabilidades y los posibles reparos / configuraciones un informe, paper en formato PDF. + resumen ejecutivo.
 
 Se demuestra el potencial de la IA como un asistente en ciberseguridad. En lugar de contener código o exploits, proporciona un método para utilizar asistentes de IA conversacionales como fuerza multiplicadora para analizar datos, priorizar riesgos y redactar documentación técnica de manera más eficiente.
+
 
