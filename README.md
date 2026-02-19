@@ -1,6 +1,7 @@
 ### hacking con IA:
 
 https://www.larazon.es/tecnologia-consumo/google-ia-hackers-ciberseguridad-informe-gtic_20260212698ca7f29243cc133c42345d.html
+
 https://cybersecuritynews.com/guardian-ai-penetration-testing-tool/
 
 <img style="float:left" alt="hacking con IA" src="https://github.com/hackingyseguridad/ia/blob/main/hackingia.png">
