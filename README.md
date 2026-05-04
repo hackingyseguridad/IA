@@ -1,4 +1,4 @@
-### hacking con IA:
+### hacking con Chatbot de IA o IA Conversacional:  
 
 https://www.larazon.es/tecnologia-consumo/google-ia-hackers-ciberseguridad-informe-gtic_20260212698ca7f29243cc133c42345d.html
 
