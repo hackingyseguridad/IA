@@ -2,11 +2,11 @@
 
 ### 1.- con chatboot web IA 
 
-chatboot.md
+[chatboot.md](https://github.com/hackingyseguridad/IA/blob/main/chatboot.md)
 
 ### 2.- con code IA en local
 
-code.md
+[code.md](https://github.com/hackingyseguridad/IA/blob/main/chatboot.md)
 
 #
 http://www.hackingyseguridad.com/
