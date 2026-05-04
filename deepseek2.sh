@@ -1,6 +1,6 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
-# Script Bash Shell 1.0.x para ejecutar DeepSeek Coder, con ollana
+# Script Bash Shell 1.0.x para ejecutar  en local DeepSeek Coder, con ollana
 # ejecuta DeepSeek Coder en CPU (sin GPU NVIDIA)
 
 MODEL="deepseek-coder:6.7b"
