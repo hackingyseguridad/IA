@@ -1,5 +1,5 @@
 #!/bin/sh
-# Script para DeepSeek IA
+# Script para ejecutar en local DeepSeek IA
 
 # Comprobar si ollama existe
 if command -v ollama >/dev/null 2>&1; then
