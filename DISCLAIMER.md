@@ -3,16 +3,16 @@ Solo para uso autorizado
 Este conjunto de herramientas está destinado exclusivamente a los siguientes fines:
 
 Pruebas de penetración autorizadas realizadas bajo una declaración de trabajo firmada, reglas de contratación o autorización legal equivalente.
-Ejercicios de equipo rojo realizados con aprobación explícita de la organización y alcance definido.
+Ejercicios de Red Team realizados con aprobación explícita de la organización y alcance definido.
 Investigación de seguridad realizada en entornos de laboratorio controlados o contra sistemas de su propiedad.
 Operaciones de seguridad defensiva que incluyen ingeniería de detección, modelado de amenazas y evaluación de seguridad.
 Requisitos de autorización
 Los usuarios DEBEN contar con la autorización escrita correspondiente antes de utilizar estos agentes en cualquier capacidad. Las formas de autorización aceptables incluyen:
 
-Un documento de reglas de participación (ROE) firmado
-Un alcance de trabajo formal o declaración de trabajo (SOW, por sus siglas en inglés)
+Un documento de reglas de participación (ROE) firmado.
+Un alcance de trabajo formal o declaración de trabajo.
 Autorización por escrito del propietario del sistema.
-Un acuerdo firmado de pruebas de penetración
+Un acuerdo firmado de pruebas de penetración.
 Autorización legal equivalente reconocida por su jurisdicción.
 Si no dispone de autorización por escrito para los sistemas de destino, no utilice estos agentes.
 
