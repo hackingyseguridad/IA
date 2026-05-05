@@ -11,6 +11,7 @@ Referencias:
 
 https://docs.ollama.com/integrations/claude-code#recommended-models
 
+https://claude.com/product/claude-security#public-beta
 
 #
 https://hackingyseguridad.com/
