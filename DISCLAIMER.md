@@ -31,16 +31,6 @@ Uso indebido de cualquier tipo, incluyendo, entre otros, el acceso no autorizado
 Cualquier daño, directo o indirecto, que resulte del uso de este conjunto de herramientas.
 Consecuencias legales derivadas del uso no autorizado o indebido
 Pérdida de datos, daños al sistema o interrupción del servicio causados ​​por actividades realizadas siguiendo las directrices de estos agentes.
-Cualificaciones recomendadas
-Los usuarios de este conjunto de herramientas deben poseer una o más de las siguientes certificaciones, o demostrar una competencia equivalente a través de la experiencia profesional:
-
-OSCP (Profesional Certificado en Seguridad Ofensiva)
-GPEN (Probador de penetración GIAC)
-PenTest+ (CompTIA)
-CEH (Hacker Ético Certificado)
-CPTS (Especialista Certificado en Pruebas de Penetración)
-GXPN (Investigador de exploits y probador de penetración avanzado de GIAC)
-Estas certificaciones son recomendables, no obligatorias, pero los usuarios deben tener un conocimiento sólido de los principios del hacking ético, los límites legales y los estándares profesionales antes de utilizar estos agentes.
 
 Qué hacen y qué no hacen estos agentes
 Estos agentes proporcionan orientación metodológica, análisis, asistencia con la documentación y (para algunos agentes) ejecución directa de herramientas con la aprobación del usuario. Están diseñados para ayudar a los profesionales de seguridad experimentados a trabajar de forma más eficiente durante las intervenciones autorizadas.
