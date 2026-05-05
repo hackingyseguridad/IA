@@ -41,9 +41,11 @@ Al usar AI , los datos que proporcione son procesados ​​por un proveedor ext
 Sin embargo, los usuarios deben tener en cuenta lo siguiente:
 
 Procesamiento por terceros: Cualquier dato incluido en sus indicaciones (resultados del escaneo, direcciones IP, hallazgos) se envía al proveedor de LLM para su procesamiento.
-Datos confidenciales: Los usuarios son responsables de eliminar la información de identificación personal (PII), las credenciales internas, la información que permita identificar al cliente y los datos de propiedad exclusiva antes de enviarlos, a menos que hayan verificado las políticas de retención de datos y capacitación del proveedor de LLM.
+Datos confidenciales: Los usuarios son responsables de eliminar la información de identificación personal , las credenciales internas, la información que permita identificar al cliente y los datos de propiedad exclusiva antes de enviarlos, a menos que hayan verificado las políticas de retención de datos y capacitación del proveedor de LLM.
 Políticas del cliente: Consulte sus normas de colaboración y los acuerdos de confidencialidad de sus clientes para conocer las restricciones sobre el procesamiento de datos de IA por parte de terceros antes de utilizar este conjunto de herramientas en proyectos profesionales.
+
 Cumplimiento: Asegúrese de que el uso cumpla con las regulaciones aplicables (HIPAA, PCI-DSS, FedRAMP, etc.).
+
 Para interacciones delicadas, se recomienda a los usuarios lo siguiente:
 
 Utilice modelos alojados localmente para mantener todos los datos dentro del perímetro local.
