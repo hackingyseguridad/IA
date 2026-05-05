@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # Script  para escanear vulnerabilidades con Claude Security Beta, en la carpeta actual
+# ./claudesecuritybeta.sh /ruta/a/escanear
 # https://claude.com/pricing/enterprise
 
 MODEL="claude-3-sonnet-20240229"
