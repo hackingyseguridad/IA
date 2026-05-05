@@ -46,18 +46,10 @@ Políticas del cliente: Consulte sus normas de colaboración y los acuerdos de c
 Cumplimiento: Asegúrese de que el uso cumpla con las regulaciones aplicables (HIPAA, PCI-DSS, FedRAMP, etc.).
 Para interacciones delicadas, se recomienda a los usuarios lo siguiente:
 
-Utilice la API de Anthropic con su propia clave (las entradas de la API no se utilizan para el entrenamiento de forma predeterminada).
-Oculte los datos específicos del cliente antes de pegar la salida de la herramienta.
 Utilice modelos alojados localmente para mantener todos los datos dentro del perímetro local.
 Revise las políticas actuales de retención de datos y privacidad del proveedor del programa LLM.
-Consulte el archivo docs/DATA-PRIVACY.md para obtener instrucciones detalladas, opciones de configuración y una plantilla de comunicación con el cliente.
 
 Divulgación responsable
 Los usuarios deben seguir prácticas de divulgación responsable para cualquier vulnerabilidad descubierta durante las pruebas autorizadas. Esto incluye:
 
-Informar de los hallazgos al propietario del sistema o al punto de contacto designado dentro del plazo acordado.
-Gestionar los detalles de las vulnerabilidades con la confidencialidad adecuada.
-Siguiendo cualquier procedimiento de divulgación especificado en las reglas de participación.
-Considerar la divulgación coordinada a través de canales establecidos (como CERT/CC o equipos de seguridad de proveedores) cuando sea apropiado.
-Aceptación
 Al utilizar este conjunto de herramientas, usted reconoce haber leído, comprendido y aceptado los términos descritos en este aviso legal. Si no está de acuerdo con estos términos, no utilice este conjunto de herramientas.
