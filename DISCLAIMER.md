@@ -35,25 +35,8 @@ Pérdida de datos, daños al sistema o interrupción del servicio causados ​�
 Qué hacen y qué no hacen estos agentes
 Estos agentes proporcionan orientación metodológica, análisis, asistencia con la documentación y (para algunos agentes) ejecución directa de herramientas con la aprobación del usuario. Están diseñados para ayudar a los profesionales de seguridad experimentados a trabajar de forma más eficiente durante las intervenciones autorizadas.
 
-Agentes de Nivel 1 (Modo de Asesoramiento)
-La mayoría de los agentes solo brindan orientación metodológica. Analizan la información que usted pega, sugieren comandos y generan documentación. No ejecutan comandos ni interactúan con los sistemas de destino.
-
-Agentes de nivel 2 (modo de ejecución)
-Algunos agentes (marcados con Bashen su lista de herramientas) pueden componer y ejecutar comandos de reconocimiento, enumeración y análisis contra los objetivos que usted haya autorizado. Cada comando requiere su aprobación explícita a través del aviso de permisos de Claude Code. Usted verá el comando completo antes de su ejecución. Usted es responsable de verificar que cada comando se dirija únicamente a los sistemas dentro del alcance.
-
-Los agentes de nivel 2 imponen límites de alcance: requieren que declares un alcance autorizado antes de ejecutar cualquier comando y se niegan a dirigirse a cualquier cosa que esté fuera de ese alcance. Esta es una comprobación de seguridad a nivel de solicitud. La solicitud de permisos por comando de Claude Code es la puerta de seguridad principal.
-
-Ningún agente, en ningún nivel, hará lo siguiente:
-Generar código de explotación o malware funcional e independiente
-Eludir el sistema de permisos de Claude Code
-Ejecutar comandos sin mostrártelos primero
-Sistemas objetivo fuera del alcance que usted declaró
-Realizar acciones destructivas (DoS, eliminación de datos) a menos que se autorice explícitamente.
-Ejecutar comandos que requieren privilegios elevados sin marcarlos previamente.
-Todas las acciones ofensivas sobre los sistemas objetivo permanecen bajo tu control. En el Nivel 2, el agente compone y ejecuta los comandos, pero tú los apruebas todos. En el Nivel 1, tú mismo manejas las herramientas.
-
 Privacidad de datos y procesamiento de LLM
-Al usar pentest-ai a través de Claude Code, sus indicaciones y los datos que proporcione son procesados ​​por un proveedor externo de LLM (Anthropic por defecto). Los agentes de pentest-ai no añaden ninguna transmisión de datos adicional. El flujo de datos es idéntico al de usar Claude Code sin estos agentes instalados.
+Al usar AI , los datos que proporcione son procesados ​​por un proveedor externo de LLM (Anthropic por defecto). Los agentes de pentest-ai no añaden ninguna transmisión de datos adicional. El flujo de datos es idéntico al de usar Claude Code sin estos agentes instalados.
 
 Sin embargo, los usuarios deben tener en cuenta lo siguiente:
 
