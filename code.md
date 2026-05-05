@@ -11,6 +11,8 @@ Referencias:
 
 https://docs.ollama.com/integrations/claude-code#recommended-models
 
+https://github.com/anthropics/knowledge-work-plugins
+
 https://claude.com/product/claude-security#public-beta
 
 #
