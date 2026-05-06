@@ -1,4 +1,4 @@
-### Detectar vulnerabilidades CVE, Hacking (prueba de concepto, explotar vuln) con chatbot de IA o IA conversacional:  
+### Detectar vulnerabilidades CVE, Hacking (pruebas, explotar vuln) con chatbot de IA o IA conversacional:  
 
 
 
