@@ -2,7 +2,7 @@
 
 para ayudar a identificar vulnerabilidades conocidas CVE, como para hacking ofensivo (explotar vulnerabilidades o hacer pruebas de concepto PoC), **ambos sirven**, facilitaran darán Script con Exploit, listos  para copiar y pegar! 
   
-[Claude Code ](https://github.com/hackingyseguridad/IA/blob/main/claudecode.sh) ; la IA de Anthropic desde la terminal (CLI) tiene una capacidad de análisis arquitectónico inalcanzable, hay que "engañarlo" un poco o pedirle que analice el código por "razones de auditoría de calidad".- si haces más de 50 comandos en la terminal, algunos de sus filtros de seguridad "se saltan" por el coste de tokens. este fallo se esta  usando para forzar al modelo a ejecutar acciones que normalmente estarían bloqueadas!
+[Claude Code ](https://github.com/hackingyseguridad/IA/blob/main/claudecode.sh) ; la IA de Anthropic desde la terminal (CLI) tiene una alta capacidad de análisis, hay que "engañarlo" un poco o pedirle que analice el código por "razones de auditoría de calidad".- si haces más de 50 comandos en la terminal, algunos de sus filtros de seguridad "se saltan" por el coste de tokens. este fallo se esta  usando para forzar al modelo a ejecutar acciones que normalmente estarían bloqueadas!
 
 <img style="float:left" alt="hacking con IA Claude Code" src="https://github.com/hackingyseguridad/ia/blob/main/claudecode.png">
 
