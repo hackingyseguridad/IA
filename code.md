@@ -1,5 +1,14 @@
 ### Hacking ofensivo con code IA en local: modelos especializados en programación y ciberseguridad
 
+para ayudar a identificar vulnerabilidades conocidas CVE, como para hacking ofensivo (explotar vulnerabilidades o hacer pruebas de concepto PoC), **ambos sirven**, facilitaran darán Script con Exploit, listos  para copiar y pegar! 
+  
+[Claude Code ](https://github.com/hackingyseguridad/IA/blob/main/claudecode.sh) ; la IA de Anthropic desde la terminal (CLI) tiene una alta capacidad de análisis, hay que "engañarlo" un poco o pedirle que analice el código por "razones de auditoría de calidad".- si haces más de 50 comandos en la terminal, algunos de sus filtros de seguridad "se saltan" por el coste de tokens. este fallo se esta  usando para forzar al modelo a ejecutar acciones que normalmente estarían bloqueadas!
+
+<img style="float:left" alt="hacking con IA Claude Code" src="https://github.com/hackingyseguridad/ia/blob/main/claudecode.png">
+
+[DeepSeek Coder ](https://github.com/hackingyseguridad/IA/blob/main/deepseek2.sh) ; modelo de lenguaje (especializado en programacion), 
+suele ser menos restrictivo en su versión base (ejecutado en la terminal (CLI) localmente) o para detección de bugs críticos
+
 # Guía de Integración de IA en Procesos de Pentesting
 
 La Inteligencia Artificial (IA) actúa como un **asistente experto de alto nivel**, especializado en programación y ciberseguridad. Su valor reside en su capacidad para identificar vulnerabilidades complejas, sugerir vectores de ataque basados en CVEs específicos y analizar código fuente en busca de fallos de lógica que suelen pasar desapercibidos para las herramientas de escaneo tradicionales.
@@ -27,15 +36,6 @@ Ejecución de herramientas técnicas para obtener información detallada de los 
     * `webaudit.sh`: Especializado en aplicaciones Web y APIs.
     * `fqdnaudit.sh`: Para la extracción de información basada en nombres de dominio.
 
-para ayudar a identificar vulnerabilidades conocidas CVE, como para hacking ofensivo (explotar vulnerabilidades o hacer pruebas de concepto PoC), **ambos sirven**, facilitaran darán Script con Exploit, listos  para copiar y pegar! 
-  
-[Claude Code ](https://github.com/hackingyseguridad/IA/blob/main/claudecode.sh) ; la IA de Anthropic desde la terminal (CLI) tiene una alta capacidad de análisis, hay que "engañarlo" un poco o pedirle que analice el código por "razones de auditoría de calidad".- si haces más de 50 comandos en la terminal, algunos de sus filtros de seguridad "se saltan" por el coste de tokens. este fallo se esta  usando para forzar al modelo a ejecutar acciones que normalmente estarían bloqueadas!
-
-<img style="float:left" alt="hacking con IA Claude Code" src="https://github.com/hackingyseguridad/ia/blob/main/claudecode.png">
-
-[DeepSeek Coder ](https://github.com/hackingyseguridad/IA/blob/main/deepseek2.sh) ; modelo de lenguaje (especializado en programacion), 
-suele ser menos restrictivo en su versión base (ejecutado en la terminal (CLI) localmente) o para detección de bugs críticos
-
 ### 3. Análisis de Datos mediante IA
 Se adjunta el archivo de resultados (`resultado.xml`) a la IA para su procesamiento avanzado.
 * **Prompt Sugerido:** *"Genera una tabla de resumen ejecutivo que ordene los puertos y servicios detectados, destacando vulnerabilidades CVE críticas que posean exploits conocidos y verificados."*
@@ -52,9 +52,6 @@ Obtención de código específico para demostrar el impacto real de las vulnerab
 Fase final donde se documentan los resultados y se establecen las medidas de mitigación.
 * **Acción:** Se entregan las notas de los hallazgos a la IA para normalizar la información.
 * **Prompt Sugerido:** *"Redacta un informe técnico detallado, un resumen ejecutivo para gerencia y una lista de recomendaciones técnicas de parcheo y remediación."*
-
-
-
 
 #
 
