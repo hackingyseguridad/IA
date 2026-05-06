@@ -6,7 +6,7 @@ El proceso se integra en las fases estándar de un pentest:
 
 PROCESO: 
 
-
+1. Planificación y Reconocimiento (Recon)
 
 1.- reclutar las IP, fqdn, rangos, url, uri, etc. que queremos explotar:
 
