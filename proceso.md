@@ -28,11 +28,11 @@ ejecutar Script ,obtener la inforamción del activo y guardar en un reporte resu
 
 ordena en una tabla resumen ejecutivo, los puertos/servicios con las vulnerabilidades CVE criticas y que hay exploit, son explotables
 
-4º.- Obtener scripts para pruebas de concepto (POC), 
+4º.- Obtener de la IA scripts para pruebas de concepto (POC), 
 
 ordenados de mas facil a menos, codigo simple Script, en Bash Shell o Python3
 
-5º.- Obtener scripts para explotar las vulnerabilidades (Exploit)
+5º.- Obtener de la IA scripts para explotar las vulnerabilidades (Exploit)
 
 codigo de los Exploit disponibles, ordenados de mas facil explotación a menos
 
