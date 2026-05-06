@@ -1,3 +1,11 @@
+
+
+La IA funciona como un asistente experto: especializado con alto conocimiento en programación y ciberseguridad; Conoce vulnerabilidades, sugiere vectores de ataque basados en CVEs y analiza código para encontrar fallos de lógica que herramientas tradicionales ignoran.
+
+actualmente no sustituye el juicio humano en una auditoría:
+
+
+
 PROCESO: 
 
 1.- reclutar las IP, fqdn, rangos, url, uri, etc. que queremos explotar:
