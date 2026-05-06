@@ -31,4 +31,6 @@ podemos subir el fichero de resultado.txt para que lo procese la IA, o podemos l
 
 Se demuestra el potencial de la IA como un asistente en ciberseguridad. En lugar de contener código o exploits, proporciona un método para utilizar asistentes de IA conversacionales como fuerza multiplicadora para analizar datos, priorizar riesgos y redactar documentación técnica de manera más eficiente.
 
-
+#
+http://goo.gl/ID8XBX 
+#
