@@ -6,9 +6,12 @@ El proceso se integra en las fases estándar de un pentest:
 
 PROCESO: 
 
+
+
 1.- reclutar las IP, fqdn, rangos, url, uri, etc. que queremos explotar:
 
-
+Reconocimiento (Recon): La IA no escanea ni hace pruebas de forma directa; 
+A la IA tedremos que darle datos para que analice, procese e identifique vulnerabilidades, clasifique y resuma;
 
 
 2.- Ejecutar Script ,obtener la inforamción del activo y guardar en un reporte resultado.xml 
