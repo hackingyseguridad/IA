@@ -27,3 +27,10 @@ ordenados de mas facil a menos, codigo simple Script, en Bash Shell o Python3
 5º.- Explotar las vulnerabilidades 
 
 codigo de los Exploit disponibles, ordenados de mas facil explotación a menos
+
+Post-Explotación y Reporte:
+
+6º,. Redactar informes técnicos claros y sugerir medidas de remediación.
+
+Pasar las notas de los hallazgo a la IA para que genere un resumen ejecutivo y recomendaciones técnicas de parcheo.
+
