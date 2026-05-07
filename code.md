@@ -17,6 +17,8 @@ suele ser menos restrictivo en su versión base (ejecutado en la terminal (CLI) 
 
 Referencias:
 
+https://ollama.com/
+
 https://docs.ollama.com/integrations/claude-code#recommended-models
 
 https://github.com/deepseek-ai/DeepSeek-Coder/
