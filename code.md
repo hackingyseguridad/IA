@@ -6,7 +6,7 @@ para ayudar a identificar vulnerabilidades conocidas CVE, como para hacking ofen
 
 <img style="float:left" alt="hacking con IA Claude Code" src="https://github.com/hackingyseguridad/ia/blob/main/claudecode.png">
 
-Pluging  https://github.com/AKCodez/hackingtool-plugin
+[hackingtool - Claude Code plugin](https://github.com/AKCodez/hackingtool-plugin)
 
 
 
