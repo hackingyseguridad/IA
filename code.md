@@ -6,6 +6,10 @@ para ayudar a identificar vulnerabilidades conocidas CVE, como para hacking ofen
 
 <img style="float:left" alt="hacking con IA Claude Code" src="https://github.com/hackingyseguridad/ia/blob/main/claudecode.png">
 
+Pluging  https://github.com/AKCodez/hackingtool-plugin
+
+
+
 [DeepSeek Coder ](https://github.com/hackingyseguridad/IA/blob/main/deepseek2.sh) ; modelo de lenguaje (especializado en programacion), 
 suele ser menos restrictivo en su versión base (ejecutado en la terminal (CLI) localmente) o para detección de bugs críticos
 
