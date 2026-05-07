@@ -1,3 +1,7 @@
+<img style="float:left" alt="hacking con IA" src="https://github.com/hackingyseguridad/ia/blob/main/banner.png">
+
+---
+
 ### IA aplicada a la detección de vulnerabilidades y hacking (Offensive AI)
 
 La Inteligencia artificial (IA) funciona como un **asistente experto: especializado con alto conocimiento** en programación y ciberseguridad; Conoce vulnerabilidades, sugiere vectores de ataque basados en CVEs y analiza código para encontrar fallos de lógica que herramientas tradicionales ignoran. Evalua y describre las vulnerabilides **CVE (Common Vulnerabilities and Exposures)**, genera Scripts de pruebas de deteccion en distintos lenguajes, Scripts para: pruebas de conceto (POC) y Scripts para explotar las vulnerabilidades confirmadas (Exploits). 
