@@ -1,10 +1,8 @@
 ### IA aplicada a la detección de vulnerabilidades y hacking etico (Offensive AI)
 
-### Introducción
-
 La Inteligencia artificial (IA) funciona como un **asistente experto: especializado con alto conocimiento** en programación y ciberseguridad; Conoce vulnerabilidades, sugiere vectores de ataque basados en CVEs y analiza código para encontrar fallos de lógica que herramientas tradicionales ignoran. Evalua y describre las vulnerabilides **CVE (Common Vulnerabilities and Exposures)**, genera Scripts de pruebas de deteccion en distintos lenguajes, Scripts para: pruebas de conceto (POC) y Scripts para explotar las vulnerabilidades confirmadas (Exploits). 
 
-Actualmente **la IA no sustituye el juicio humano en una auditoría**; su función principal es la de experto en conocimiento e informacion de vulnerabilidades, programación y scripts de  pruebas y explotacion;  acelera la ejecución de las pruebas (haciéndolas más rapidas y eficientes), pero el auditor sigue siendo quien rige y el responsable de validar los hallazgos y acciones ..
+Actualmente **la IA no sustituye el criterio humano en una auditoría**; su función principal es la de experto asesor en conocimiento e informacion de vulnerabilidades, programación, scripts de  pruebas y scripts de explotacion; ayuda a acelerar la ejecución de las pruebas (haciéndolas más rapidas y eficientes), pero el auditor sigue siendo quien rige y el responsable de validar los hallazgos y acciones ..
 
 ---
 
