@@ -24,7 +24,10 @@ Actualmente la IA no sustituye el juicio humano en una auditoría; Acelera la ej
 
 ---
 
+# 
+http://www.hackingyseguridad.com/
 #
+
 
 
 
