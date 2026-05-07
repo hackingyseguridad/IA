@@ -13,8 +13,6 @@ Actualmente la IA no sustituye el juicio humano en una auditoría; Acelera la ej
 
 ### Proceso pentesting integrado: Kali Linux + IA
 
-Flujo de trabajo dividido en las 6 fases, integrando el uso de scripts de auditoría y prompts específicos para la IA.
-
 | Fase | Descripción del Proceso | Acción / Scripts / Prompt |
 | :--- | :--- | :--- |
 | **1. Reconocimiento (Recon)** | Recopilación de activos (IPs, FQDNs, rangos, URLs). La IA actúa analizando y clasificando los datos proporcionados por el auditor. | **Entrada:** Listado de activos para que la IA identifique superficies de ataque potenciales y clasifique la infraestructura. |
