@@ -6,9 +6,12 @@ La Inteligencia Artificial ha evolucionado para actuar como un **asistente espec
 
 **la IA no sustituye el juicio humano**. Su función principal es la de experto en conocimiento de vulnerabilidades, programación y scripts de  pruebas y explotacion, delegando en el auditor la responsabilidad de regir el proceso, validar los hallazgos y ejecutar las acciones finales.
 
+La IA funciona como un asistente experto: especializado con alto conocimiento en programación y ciberseguridad; Conoce vulnerabilidades, sugiere vectores de ataque basados en CVEs y analiza código para encontrar fallos de lógica que herramientas tradicionales ignoran. Evalua y describre las vulnerabilides (CVE), genera scripts en distintos lenguajes, para: pruebas de conceto (POC), para explotar las vulnerabilidades ( Exploits. 
+Actualmente la IA no sustituye el juicio humano en una auditoría; Acelera la ejecución de las pruebas (haciéndolas más eficientes), pero el auditor sigue siendo quien rige y  el responsable de validar los hallazgos y acciones.
+
 ---
 
-## Proceso de Pentesting Integrado con IA
+## Proceso pentesting integrado: Kali Linux + IA
 
 Flujo de trabajo dividido en las 6 fases, integrando el uso de scripts de auditoría y prompts específicos para la IA.
 
@@ -23,20 +26,8 @@ Flujo de trabajo dividido en las 6 fases, integrando el uso de scripts de audito
 
 ---
 
-## Consideraciones Éticas y Responsabilidad
-* **Validación Humana:** El auditor debe revisar cada línea de código generada por la IA antes de su ejecución.
-* **Cumplimiento Legal:** Este proceso debe realizarse exclusivamente bajo entornos controlados o con autorización explícita (contratos de pentesting).
-* **Responsabilidad:** El auditor es el único responsable de las acciones ejecutadas y de la veracidad del informe final.
-
-
-
-
 #
 
-
-
-La IA funciona como un asistente experto: especializado con alto conocimiento en programación y ciberseguridad; Conoce vulnerabilidades, sugiere vectores de ataque basados en CVEs y analiza código para encontrar fallos de lógica que herramientas tradicionales ignoran. Evalua y describre las vulnerabilides (CVE), genera scripts en distintos lenguajes, para: pruebas de conceto (POC), para explotar las vulnerabilidades ( Exploits. 
-Actualmente la IA no sustituye el juicio humano en una auditoría; Acelera la ejecución de las pruebas (haciéndolas más eficientes), pero el auditor sigue siendo quien rige y  el responsable de validar los hallazgos y acciones.
 
 El proceso se integra en las fases estándar de un pentest:
 
