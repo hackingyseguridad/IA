@@ -26,6 +26,8 @@ Ver token: cat /usuario/.openclaw/openclaw.json
 
 Aplicar token: openclaw config set gateway.auth.token "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
+openclaw gateway run
+
 #
 
 Referencias:
