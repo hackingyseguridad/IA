@@ -21,5 +21,9 @@ if command -v systemctl >/dev/null 2>&1; then
     fi
 fi
 
+pipx install open-interpreter
+interpreter --local
+
 echo "..."
+
 
