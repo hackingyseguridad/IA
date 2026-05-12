@@ -16,6 +16,7 @@ suele ser menos restrictivo en su versión base (ejecutado en la terminal (CLI) 
 
 [Qween3.6](https://github.com/hackingyseguridad/IA/blob/main/qwen.sh) ; Qwen3.6 la IA de Alibaba, requiere 23GB de epacio en disco duro
 
+[OpenClaw](https://openclaw.ai/) ; OpenClaw, permite instalarse en Kali Linux en modo (Cli) e interactuar con las herramientas de Kali Linux y la xonexión disponible!
 
 #
 
