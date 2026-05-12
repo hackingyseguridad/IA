@@ -34,7 +34,7 @@ openclaw tui --local
 
 openclaw onboard
 
-openrouter
+openrouter  - gemini.genma4:free 
 
 #
 
