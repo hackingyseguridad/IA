@@ -18,6 +18,8 @@ suele ser menos restrictivo en su versión base (ejecutado en la terminal (CLI) 
 
 [OpenClaw](https://openclaw.ai/) ; OpenClaw, permite instalarse en Kali Linux en modo (Cli) e interactuar con las herramientas de Kali Linux y la xonexión disponible!  https://docs.openclaw.ai/start/getting-started 
 
+<img style="float:left" alt="hacking con IA OpenClaw" src="https://github.com/hackingyseguridad/ia/blob/main/openclw.png">
+
 #
 
 Referencias:
