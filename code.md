@@ -36,6 +36,8 @@ openclaw onboard
 
 openrouter  - gemini.genma4:free 
 
+ollama run comanderanch/Linux-Buster
+
 #
 
 Referencias:
