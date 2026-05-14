@@ -1,6 +1,6 @@
 ### Hacking ofensivo con code IA en local: modelos especializados en programación y ciberseguridad
 
-para ayudar a identificar vulnerabilidades conocidas CVE, como para hacking ofensivo (explotar vulnerabilidades o hacer pruebas de concepto PoC), **ambos sirven**, facilitaran darán Script con Exploit, listos  para copiar y pegar! o conectar la IA con Kali Linux (Function Calling), para ejecutar comandos o Script con las herramientas del SO Kali Linux (Distribución Linux Pentesting) 
+para ayudar a identificar vulnerabilidades conocidas CVE, como para hacking ofensivo (explotar vulnerabilidades o hacer pruebas de concepto PoC), **ambos sirven**, facilitaran darán Script con Exploit, listos  para copiar y pegar! o **conectar la IA con Kali Linux** (Function Calling), para ejecutar comandos o Script con las herramientas del SO Kali Linux (Distribución Linux Pentesting) 
 
 [Gemini-Cli](https://www.kali.org/tools/gemini-cli/) IA Google, en el terminal (Cli) integrada en Kali Linux (Function Calling), con interacción sobre los dispositivos, comandos y conexion de la maquina;  Paquetes:  gemini-cli, llm-tools-nmap, mcp-kali-server.
 
