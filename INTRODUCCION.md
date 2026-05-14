@@ -1,7 +1,7 @@
 
 
 
-### La lista modelos de lenguaje de datos (LLM): habilidades por defecto
+### lista ejemplo modelos de lenguaje de datos (LLM): habilidades por defecto (SKILs)
 
 | # | Compañía | IA Modelo | Skills básicas (versión gratuita / básica) |
 |---|----------|-----------|---------------------------------------------|
