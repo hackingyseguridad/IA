@@ -32,7 +32,9 @@ La inforamción la procesa la compañia de la IA, normalmente por centros de dat
 
 y habri menos privadidad de los datos y modelos que se pueden instalar en Local en un PC con un procesador y tarjeta de video Nvidia , instalar un
 
-2º.- "MODELO LOCAL PC" modelo LLM, instalado en local, procesa la inforamción en la CPU/GPU
+2º.- "MODELO LOCAL PC" modelo LLM, instalado en local, procesa la inforamción en la CPU/GPU en local, sin necesidad de subir la informacón a la nube, a la compañia de la IA - Solo para autenticar y facturacion tokens consumidos
+
+
 
 
 
