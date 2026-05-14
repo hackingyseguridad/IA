@@ -25,7 +25,7 @@
 | ElevenLabs | Eleven Multilingual |
 | Midjourney | Midjourney |
 
-### Privacidad de los datos que sube el usuario:
+### Privacidad de los datos del usuario IA:
 
 1º.- **MODELO NUBE ONLINE** modelos LLM en internet: formulario API/web (Chatboot) o consola (Cli), los datos del usuario se suben a la nube y la información es procesada por la compañia de la IA en centros de datos formados por granjas de GPUs con gran agilidad de proceso.
 
