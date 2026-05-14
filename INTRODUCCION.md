@@ -1,7 +1,7 @@
 
 
 
-### La lista modelos de lenguaje (LLM):
+### La lista modelos de lenguaje de datos (LLM):
 
 | Compañía | IA Modelo |
 |----------|-----------|
