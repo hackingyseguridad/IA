@@ -25,7 +25,13 @@
 | ElevenLabs | Eleven Multilingual |
 | Midjourney | Midjourney |
 
-### Privacidad  
+### Privacidad de los datos que sube el usuario
+
+
+
+
+
+
 
 
 
