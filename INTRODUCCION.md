@@ -19,9 +19,7 @@
 | 12 | Moonshot AI (China) | Kimi | Programación, procesamiento de textos largos, análisis de redes. Sin hacking ofensivo o exploits. |
 | 13 | Zhipu AI (China) | GLM | Programación, razonamiento, análisis de vulnerabilidades a nivel teórico. No permite generación de exploits prácticos. |
 | 14 | Xiaomi (China) | MiMo | Programación básica, scripts de automatización, IoT y redes domésticas. Sin capacidades ofensivas. |
-| 15 | MiniMax (China) | MiniMax | Programación, generación de código simple, análisis de datos. No incluye hacking ofensivo. |
-| 16 | iFLYTEK (China) | Spark Desk | Programación limitada, más orientado a voz y texto. Sin ciberseguridad ofensiva. |
-| 17 | Perplexity AI | Perplexity Pages | Búsqueda, resúmenes, investigación. No genera código ofensivo ni exploits. Capacidad de scripting muy limitada. |
+| 15 | Perplexity AI | Perplexity Pages | Búsqueda, resúmenes, investigación. No genera código ofensivo ni exploits. Capacidad de scripting muy limitada. |
 
 ### Privacidad de los datos del usuario IA:
 
