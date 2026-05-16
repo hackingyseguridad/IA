@@ -1,9 +1,17 @@
-Tipo       Instruccion IA
+#
 
-SKLIS      Este modelo de IA, ¿qué tipo de habilidades puedes ver?
+#
 
-SKILS      Este modelo de IA tiene modos de "razonamiento extendido" o thinking?
+| Tipo | Instrucción IA |
+|:-----|:----------------|
+| **SKILLS** | Este modelo de IA, ¿qué tipo de habilidades puedes ver? |
+| **SKILLS** | Este modelo de IA tiene modos de "razonamiento extendido" o thinking? |
+| **SKILLS** | Este modelo de IA, tiene habilidades (Skills) en: Programación (Bash, Python, C, ...), Vulnerabilidades (CVE), Scripts para Pruebas de concepto (POC), Scripts para explotar vulnerabilidades (Exploits) |
 
-SKILS      Este modelo de IA, tiene habilidades (Skiks) en: Programación (Bash, Python, C, .) , Vulnerabilidades (CVE), Scripts para Pruebas de concepto (POC), Scripts explotar vulnerabilidades (Exploits)
+#
+http://www.hackingyseguridad.com/
+#
+
+
 
 
