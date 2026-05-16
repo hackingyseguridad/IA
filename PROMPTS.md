@@ -1,6 +1,5 @@
-#
+### PROMPTS
 
-#
 
 | Tipo | Instrucción IA |
 |:-----|:----------------|
