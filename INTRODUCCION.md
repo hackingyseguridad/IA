@@ -12,7 +12,7 @@
 | 5 | Microsoft | Copilot | No? | Programación (especialmente en entornos MS), depuración, asistencia en redes. Dfrece detalle del funcionamiento de POC / Exploit exploits, da enlaces de Github u otras paginas con codigo: POC / Exploit. |
 | 6 | x | Grok | Si | Programación, análisis de datos, redes, scripting general. Facilita información detallada de los CVE, codigo para hacer pruebas de concepto (POC) y ofrece codigo en distintos lenguajes para explotar vulnerabilidades (Exploit). |
 | 7 | Mistral AI | Mistral | Sí | Modelo base. Programación, scripts, automatización. Sin hardcore filtering por defecto (el usuario puede ajustar para tareas ofensivas si se implementa localmente). |
-| 8 | Alibaba (China) | Qwen | No | Programación, redes, análisis de vulnerabilidades básico. Probable censura en contenido ilegal según leyes chinas. Sin hacking ofensivo explícito. |
+| 8 | Alibaba (China) | Qwen | Si | Programación, redes, análisis de vulnerabilidades básico. Facilita información detallada de los CVE, codigo para hacer pruebas de concepto (POC) y ofrece codigo en distintos lenguajes para explotar vulnerabilidades (Exploit). |
 | 9 | Baidu (China) | ERNIE | No | Programación, redes, ciberseguridad teórica. Restricciones legales chinas: no se permite generar exploits o malware. |
 | 10 | ByteDance (China) | Doubao | No | Programación, scripting, automatización de tareas. Bloquea contenido ofensivo y exploits. |
 | 11 | DeepSeek (China) | DeepSeek | Si | Programación avanzada, razonamiento matemático, scripts, POCs educativos. Permite cierto nivel de scripts de prueba (ethical hacking), pero restringe malware explícito. |
