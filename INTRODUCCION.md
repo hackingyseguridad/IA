@@ -9,7 +9,7 @@
 | 2 | Google | Gemini | No? | Programación, redes generales, documentación técnica, asistencia en ciberseguridad teórica. No ofrece exploits, malware o POCs ofensivos. (si da enlaces de Github u otras paginas con codigo: POC / Exploit) |
 | 3 | Anthropic | Claude | No | Programación, análisis de seguridad, blue team (detección de vulnerabilidades teórica). La versión gratuita filtra hacking ofensivo y codigo de POC / Exploit. |
 | 4 | Meta | Llama | No | Modelo base abierto. Skills dependen del fine-tuning. Versión base: programación, scripts básicos, redes.  Filtra: enlaces para hacking ofensivo y codigo de POC / Exploit.. |
-| 5 | Microsoft | Copilot | No | Programación (especialmente en entornos MS), depuración, asistencia en redes. Prohibido generar exploits, malware o POCs ofensivos (integra políticas de seguridad de GitHub y MS). |
+| 5 | Microsoft | Copilot | No? | Programación (especialmente en entornos MS), depuración, asistencia en redes. Dfrece detalle del funcionamiento de POC / Exploit exploits, da enlaces de Github u otras paginas con codigo: POC / Exploit. |
 | 6 | x | Grok | Si | Programación, análisis de datos, redes, scripting general. Tiene menos restricciones que OpenAI, pero no promueve activamente hacking ofensivo. |
 | 7 | Mistral AI | Mistral | Sí | Modelo base. Programación, scripts, automatización. Sin hardcore filtering por defecto (el usuario puede ajustar para tareas ofensivas si se implementa localmente). |
 | 8 | Alibaba (China) | Qwen | No | Programación, redes, análisis de vulnerabilidades básico. Probable censura en contenido ilegal según leyes chinas. Sin hacking ofensivo explícito. |
