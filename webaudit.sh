@@ -25,7 +25,7 @@ INFO
 if [ -z "$1" ]; then
         printf "${Amarillo}" ; echo
         echo "Test vulnerabilidades web."
-        echo "Uso: $0 <URL>"; printf "${Normal}\n"
+        echo "Uso: $0 <URL> 2>&1 | tee resultado.xml "; printf "${Normal}\n"
         exit 0
 fi
 
