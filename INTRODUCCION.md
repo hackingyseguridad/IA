@@ -5,7 +5,7 @@
 
 | # | Compañía | IA Modelo | Exploit | Skills básicas (versión gratuita / básica) |
 |---|----------|-----------|---------|---------------------------------------------|
-| 1 | OpenAI | GPT | No? | Programación (Python, JS, etc.), razonamiento, redacción, análisis de datos básico. Filtrado hacking ofensivo, codigo Exploit de CVE (Ofrece enlaces de Github u otras paginas con codigo: POC / Exploit). |
+| 1 | OpenAI | GPT | No? | Programación (Python, JS, etc.), razonamiento, redacción, análisis de datos básico. Filtrado hacking ofensivo, codigo Exploit de CVE (si da enlaces de Github u otras paginas con codigo: POC / Exploit) |
 | 2 | Google | Gemini | No | Programación, redes generales, documentación técnica, asistencia en ciberseguridad teórica. No permite generar exploits, malware o POCs ofensivos. |
 | 3 | Anthropic | Claude | No | Programación, análisis de seguridad, blue team (detección de vulnerabilidades teórica). Fuertemente alineado con IA "constitucional", rechaza hacking ofensivo y exploits. |
 | 4 | Meta | Llama | No | Modelo base abierto. Skills dependen del fine-tuning. Versión base: programación, scripts básicos, redes. Sin restricciones inherentes (el usuario puede fine-tunear para hacking ofensivo). |
