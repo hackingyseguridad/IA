@@ -16,7 +16,13 @@
 | 9 | DeepSeek (China) | DeepSeek | Si | Programación avanzada, razonamiento matemático, scripts, POCs educativos. Permite cierto nivel de scripts de prueba (ethical hacking), pero restringe malware explícito. |
 | 10 | Perplexity AI | Perplexity Pages | No | Búsqueda, resúmenes, investigación. No genera código ofensivo ni exploits. Capacidad de scripting muy limitada. |
 
-### Privacidad de los datos del usuario IA:
+### Privacidad de los datos del usuario IA: 
+---
+tags:
+  - privacidad
+  - modos
+  - consola
+---
 
 1º.- **MODELO NUBE ONLINE** modelos LLM en internet: formulario WEB [(chatboot)](https://github.com/hackingyseguridad/IA/blob/main/chatboot.md) de IA o IA conversacional /API o consola (Cli), los datos del usuario se suben a la nube y la información es procesada por la compañia de la IA en centros de datos formados por granjas de GPUs con gran agilidad de proceso.
 
