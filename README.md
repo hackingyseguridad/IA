@@ -25,11 +25,13 @@ Actualmente **la IA no sustituye el criterio humano en una auditoría**; su func
 
 ---
 
+### 2. Escaneo de vulnerabilidades, pruebas de aplicaciones web/api y analisis
+
 | Script | Descripción | Uso |
 |--------|-------------|-----|
 | **redaudit.sh** | Escaneos de puertos/servicios de la red | `./redaudit.sh 192.168.1.0/24` |
-| **webaudit.sh** | Auditoría para web/API | `./webaudit.sh https://ejemplo.com` |
-| **fqdnaudit.sh** | Análisis a partir de un FQDN | `./fqdnaudit.sh ejemplo.com` |
+| **webaudit.sh** | Auditoría para web/API | `./webaudit.sh ejemplo.com` |
+| **fqdnaudit.sh** | Análisis a partir de un FQDN | `./fqdnaudit.sh www2.ejemplo.com` |
 
 ---
 
