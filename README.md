@@ -40,6 +40,12 @@ Este conjunto de herramientas es solo para pruebas de seguridad autorizadas . Lo
 
 ---
 
+### Licancia
+
+[Licencia MIT](https://github.com/hackingyseguridad/IA/blob/main/LICENSE.md)
+
+---
+
 # 
 http://www.hackingyseguridad.com/
 #
