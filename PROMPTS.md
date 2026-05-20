@@ -18,7 +18,7 @@
 | **VULN** | **portal web**: como comprobar de forma simple, si este portal web tiene vulnerabilidades: XSS, SQLi, SSRF, RCE, LFI/RFI, IDOR, Auth Bypass, Deserialización, etc. ? |
 | **VULN** | **api / url**: como comprobar de forma simple, si esta API / URI tiene vulnerabilidades: respuestas HTTP, Autenticación (token, API key, JWT, básica), errores de DB, XSS, SQLi, SSRF, RCE,  XXE & Deserialization, Rate Limiting & DoS, Information Disclosure etc, ... ? |
 | **OSINT** | informacion del dominio, recopilación de correos electrónicos, elaboración de perfiles en redes sociales, análisis de datos de filtraciones |
-| **API** | **api** :pruebas de REST, GraphQL y WebSocket. OWASP API Top 10, ataques JWT, explotación de OAuth |
+| **API** | **api** : pruebas de REST, GraphQL y WebSocket. OWASP API Top 10, ataques JWT, explotación de OAuth |
 | **POC** | **poc** : y ejecuta de forma segura scripts de prueba de concepto. Elimina los falsos positivos |
 
 
