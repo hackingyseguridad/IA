@@ -25,7 +25,7 @@ Actualmente **la IA no sustituye el criterio humano en una auditoría**; su func
 
 ---
 
-### 2. Scripts escaneo de vulnerabilidades, pruebas de aplicaciones web/api y analisis
+### Scripts escaneo de vulnerabilidades, pruebas de aplicaciones web/api y analisis: Herramientas
 
 | Script | Descripción | Uso |
 |--------|-------------|-----|
