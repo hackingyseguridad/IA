@@ -56,6 +56,8 @@ https://docs.openclaw.ai/start/getting-started
 
 https://www.kali.org/tools/gemini-cli/
 
+https://github.com/bugbasesecurity/pentest-copilot
+
 https://lovable.dev/signup?referral_code=8RGUA2M
 
 #
