@@ -16,13 +16,13 @@ cat << "INFO"
 |  _| (_| | (_| | | | | | (_| | |_| | (_| | | |_
 |_|  \__, |\__,_|_| |_|  \__,_|\__,_|\__,_|_|\__| V 1.0
         |_|      http://www.hackingyseguridad.com
-                 Aldea del Fresno
+                 Aldea del Fresno 2026
 $$$$$$ $$$$$ $$$$  $$$ $$$$  $$$     $$$$     $$$$$$ $$$$$ $$$$$$$$$ $$$$$$$$$
 INFO
 
 if [ -z "$1" ]; then
         printf "${Amarillo}" ; echo
-        echo "Test vulnerabilidades API."
+        echo "Test simple para vulnerabilidades en el fqdn de API/web."
         echo "Uso: $0 <fqdn/IP> 2>&1 | tee resultado.xml "; printf "${Normal}\n"
         exit 0
 fi
