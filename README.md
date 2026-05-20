@@ -36,7 +36,7 @@ Actualmente **la IA no sustituye el criterio humano en una auditoría**; su func
 ---
 
 ### Legal
-Este conjunto de herramientas es solo para pruebas de seguridad autorizadas . Los usuarios deben contar con la autorización escrita correspondiente antes de utilizar estos agentes en cualquier proyecto. Consulte [DISCLAIMER.md](https://github.com/hackingyseguridad/IA/blob/main/DISCLAIMER.md) para conocer los términos y condiciones completos.
+Este conjunto de herramientas de tecnicas, es solo para pruebas de seguridad autorizadas . Los usuarios deben contar con la autorización escrita correspondiente antes de utilizar estos agentes en cualquier proyecto. Consulte [DISCLAIMER.md](https://github.com/hackingyseguridad/IA/blob/main/DISCLAIMER.md) para conocer los términos y condiciones completos.
 
 ---
 
