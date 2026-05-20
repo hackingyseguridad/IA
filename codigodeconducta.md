@@ -1,6 +1,6 @@
 ### Código de conducta
 
-### Introducción
+**Introducción**
 
 Como herramienta de hacking ético y pruebas de penetración, está diseñada para ayudar a los profesionales de la seguridad y a los investigadores a identificar vulnerabilidades de forma responsable.
 
@@ -29,8 +29,6 @@ Informe sobre las vulnerabilidades de forma responsable, siguiendo prácticas de
 Prohibiciones temporales o permanentes para contribuir o utilizar la herramienta.
 
 Consecuencias legales si la herramienta se utiliza indebidamente de forma que infrinja las leyes o las normas éticas.
-
-Si presencia o experimenta algún comportamiento poco ético relacionado con Pentest Copilot, infórmelo a nuestro equipo a través de queries@bugbase.ai .
 
 ### Nota final
 
