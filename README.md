@@ -25,6 +25,14 @@ Actualmente **la IA no sustituye el criterio humano en una auditoría**; su func
 
 ---
 
+| Script | Descripción | Uso |
+|--------|-------------|-----|
+| **redaudit.sh** | Escaneos de puertos/servicios de la red | `./redaudit.sh 192.168.1.0/24` |
+| **webaudit.sh** | Auditoría para web/API | `./webaudit.sh https://ejemplo.com` |
+| **fqdnaudit.sh** | Análisis a partir de un FQDN | `./fqdnaudit.sh ejemplo.com` |
+
+---
+
 ### Legal
 Este conjunto de herramientas es solo para pruebas de seguridad autorizadas . Los usuarios deben contar con la autorización escrita correspondiente antes de utilizar estos agentes en cualquier proyecto. Consulte [DISCLAIMER.md](https://github.com/hackingyseguridad/IA/blob/main/DISCLAIMER.md) para conocer los términos y condiciones completos.
 
