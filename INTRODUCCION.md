@@ -23,7 +23,7 @@
 En los accesos por API o versiones corporativas (Enterprise),  "se suele estipular que los datos están protegidos y no se usan para entrenamiento", aunque se sigan procesando en sus granjas de GPUs, en los centros de datos en la nube.
 
 
-2º.- **MODELO LOCAL PC** modelo LLM instalado totalmente en localhost: por API/web (Chatboot) o por terminal [consola Cli)](https://github.com/hackingyseguridad/IA/blob/main/consola.md); , **procesa la inforamción en la CPU/GPU/NPU del sistema local, sin subir informacón del usuario a la nube a la compañia de la IA.**  P.ej. el modelo Llama3 o Mistral se descarga e instala por completo en el ordenador del usuario, sin requerir conexión a internet!
+2º.- **MODELO LOCAL PC** modelo LLM instalado totalmente en localhost: por API/web (Chatboot) o por terminal [consola Cli)](https://github.com/hackingyseguridad/IA/blob/main/consola.md); , **procesa la inforamción en la CPU/GPU/NPU del sistema local, sin subir informacón del usuario a la nube a la compañia de la IA.**  P.ej. el modelo Llama3 o Mistral se descarga e instala por completo en el ordenador en local, sin requerir conexión a internet!
 
 (Local / Self-hosted) herramientas como Ollama, LM Studio o bibliotecas de Python. Se descarga el modelo (el "archivo" del cerebro de la IA) y lo ejecuta en un PC ene local, usando tu tarjeta gráfica (GPU) o procesador (CPU).  Tiene ventajas: seleccionar modo local o en la nube, trabajo desde la terminal (Cli), privacidad, suscripciones, filtros y personalización
 
