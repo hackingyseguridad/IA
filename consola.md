@@ -61,5 +61,5 @@ https://github.com/bugbasesecurity/pentest-copilot
 https://lovable.dev/signup?referral_code=8RGUA2M
 
 #
-https://hackingyseguridad.com/
+http://goo.gl/ID8XBX 
 #
