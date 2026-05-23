@@ -1,4 +1,4 @@
-
+#!/bin/sh
 
 # https://docs.ollama.com/context-length
 
