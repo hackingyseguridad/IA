@@ -12,10 +12,10 @@ para ayudar a identificar vulnerabilidades conocidas CVE, como para hacking ofen
 
 [hackingtool - Claude Code plugin](https://github.com/AKCodez/hackingtool-plugin)
 
+[Ollama](https://ollama.com) es una herramienta open source que permite descargar, ejecutar y gestionar modelos de lenguaje (LLMs) comprimidos y optimizados en local en un ordenador, CPU/GPU/MPU:  https://ollama.com/search 
+
 [DeepSeek Coder ](https://github.com/hackingyseguridad/IA/blob/main/deepseek2.sh) ; modelo de lenguaje (especializado en programacion), 
 suele ser menos restrictivo en su versión base (ejecutado en la terminal (CLI) localmente) o para detección de bugs críticos
-
-[Ollama](https://ollama.com) es una herramienta open source que permite descargar, ejecutar y gestionar modelos de lenguaje (LLMs) comprimidos y optimizados en local en un ordenador:  https://ollama.com/search 
 
 [Qween3.6](https://github.com/hackingyseguridad/IA/blob/main/qwen3_6.sh) ; Qwen3.6 la IA de Alibaba, requiere 23GB de epacio en disco duro
 
