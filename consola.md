@@ -15,7 +15,7 @@ para ayudar a identificar vulnerabilidades conocidas CVE, como para hacking ofen
 [DeepSeek Coder ](https://github.com/hackingyseguridad/IA/blob/main/deepseek2.sh) ; modelo de lenguaje (especializado en programacion), 
 suele ser menos restrictivo en su versión base (ejecutado en la terminal (CLI) localmente) o para detección de bugs críticos
 
-[Qween3.6](https://github.com/hackingyseguridad/IA/blob/main/qwen.sh) ; Qwen3.6 la IA de Alibaba, requiere 23GB de epacio en disco duro
+[Qween3.6](https://github.com/hackingyseguridad/IA/blob/main/qwen3_6.sh) ; Qwen3.6 la IA de Alibaba, requiere 23GB de epacio en disco duro
 
 [OpenClaw](https://openclaw.ai/) ; OpenClaw, permite instalarse en Kali Linux en modo (Cli) e interactuar con las herramientas de Kali Linux y la xonexión disponible!  https://docs.openclaw.ai/start/getting-started 
 
