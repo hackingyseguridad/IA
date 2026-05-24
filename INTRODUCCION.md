@@ -64,3 +64,27 @@ En modelos hibridos, la interfaz es localhost (terminal(Cli), api o web), pero e
        |  <-- (3) Devuelve rpta ----+                                     |
 
 
+
+
+# Glosario de Acrónimos de Ciberseguridad
+
+| Acrónimo | Término Original (Inglés) | Descripción en Castellano (Español) |
+| :--- | :--- | :--- |
+| **IPSec** | Internet Protocol Security | **Seguridad del Protocolo de Internet**: Conjunto de protocolos para asegurar las comunicaciones de red cifrando y autenticando cada paquete de datos. |
+| **SSL** | Secure Sockets Layer | **Capa de Sockets Seguros**: Protocolo de seguridad antiguo (reemplazado por TLS) para establecer enlaces cifrados entre un servidor web y un navegador. |
+| **TLS** | Transport Layer Security | **Seguridad de la Capa de Transporte**: Protocolo criptográfico seguro y moderno que sucede a SSL, utilizado para proteger las transferencias de datos en la web (HTTPS). |
+| **DoS** | Denial of Service | **Denegación de Servicio**: Tipo de ataque informático que busca hacer que un recurso, red o máquina no esté disponible para sus usuarios legítimos. |
+| **DDoS** | Distributed Denial of Service | **Denegación de Servicio Distribuida**: Ataque DoS que utiliza múltiples sistemas o computadoras conectadas a Internet (como botnets) para inundar el objetivo con tráfico masivo. |
+| **MitM** | Man-in-the-Middle Attack | **Ataque de Hombre en el Medio**: Tipo de ataque donde el atacante intercepta y altera en secreto la comunicación entre dos partes que creen que se comunican directamente. |
+| **XSS** | Cross Site Scripting | **Secuencias de Comandos en Sitios Cruzados**: Vulnerabilidad que permite a un atacante inyectar scripts maliciosos (normalmente código JavaScript) en sitios web legítimos. |
+| **CSRF** | Cross Site Request Forgery | **Falsificación de Petición en Sitios Cruzados**: Ataque que obliga al navegador web de un usuario autenticado a enviar una solicitud falsa a una aplicación web vulnerable. |
+| **SQLi** | SQL Injection | **Inyección SQL**: Técnica de infiltración de código malicioso que aprovecha una vulnerabilidad en la validación de las entradas para manipular una base de datos. |
+| **AES** | Advanced Encryption System | **Sistema de Cifrado Avanzado**: Esquema de cifrado de bloques simétrico que se ha convertido en el estándar global para proteger información confidencial. |
+| **DSA** | Digital Signature Algorithm | **Algoritmo de Firma Digital**: Estándar del gobierno federal de EE. UU. para firmas digitales, utilizado para verificar la autenticidad de un documento o mensaje electrónico. |
+| **2FA** | Two Factor Authentication | **Autenticación de Dos Factores**: Método de seguridad informática que requiere dos formas diferentes de identificación antes de conceder acceso a una cuenta. |
+| **MFA** | Multi Factor Authentication | **Autenticación Multifactor**: Sistema de verificación de identidad que requiere dos o más credenciales independientes pertenecientes a distintas categorías (saber, tener, ser). |
+| **WAP** | Web Application Protection | **Protección de Aplicaciones Web**: Estrategia o herramientas de seguridad diseñadas específicamente para defender las aplicaciones que se ejecutan en navegadores web contra exploits. |
+| **WAF** | Web Application Firewall | **Cortafuegos de Aplicaciones Web**: Cortafuegos específico que filtra, monitorea y bloquea el tráfico HTTP malicioso que viaja hacia y desde una aplicación web. |
+| **CVE** | Common Vulnerabilities and Exposures | **Vulnerabilidades y Exposiciones Comunes**: Lista oficial y pública de fallos de seguridad informática identificados de forma única mediante un identificador estándar. |
+| **CVSS** | Common Vulnerability Scoring System | **Sistema de Puntuación de Vulnerabilidades Comunes**: Sistema estandarizado de la industria para evaluar y clasificar la gravedad de las vulnerabilidades de seguridad de software. |
+
