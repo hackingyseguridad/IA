@@ -65,7 +65,7 @@ En modelos hibridos, la interfaz es localhost (terminal(Cli), api o web), pero e
 
 ```
 
-# Glosario de Acrónimos de Ciberseguridad
+### Glosario de acrónimos utilizados de ciberseguridad
 
 | Acrónimo | Término Original (Inglés) | Descripción en Castellano (Español) |
 | :--- | :--- | :--- |
