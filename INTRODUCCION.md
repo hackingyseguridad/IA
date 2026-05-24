@@ -87,6 +87,7 @@ En modelos hibridos, la interfaz es localhost (terminal(Cli), api o web), pero e
 | **CV** | Computer Vision | **Visión por Computadora**: Campo de la IA que entrena a las computadoras para interpretar y comprender el contenido del mundo visual (imágenes y videos). |
 | **Modelo** | Model | **Modelo**: Estructura matemática o algoritmo computacional que ha sido entrenado con datos para reconocer patrones y realizar predicciones o generar contenido. |
 | **Prompt** | Prompt | **Instrucción / Consigna**: Texto o comando de entrada que se le proporciona a un modelo de IA para guiarlo y obtener una respuesta específica. |
+| **Agente** | Agente IA | **Agente IA**: Capa de tomar decisiones y actuar de forma autónoma para alcanzar un objetivo específico, sin necesidad de supervisión humana constante. |
 | **IPSec** | Internet Protocol Security | **Seguridad del Protocolo de Internet**: Conjunto de protocolos para asegurar las comunicaciones de red cifrando y autenticando cada paquete de datos. |
 | **SSL** | Secure Sockets Layer | **Capa de Sockets Seguros**: Protocolo de seguridad antiguo (reemplazado por TLS) para establecer enlaces cifrados entre un servidor web y un navegador. |
 | **TLS** | Transport Layer Security | **Seguridad de la Capa de Transporte**: Protocolo criptográfico seguro y moderno que sucede a SSL, utilizado para proteger las transferencias de datos en la web (HTTPS). |
