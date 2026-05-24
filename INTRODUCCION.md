@@ -69,6 +69,23 @@ En modelos hibridos, la interfaz es localhost (terminal(Cli), api o web), pero e
 
 | Acrónimo | Término Original (Inglés) | Descripción en Castellano (Español) |
 | :--- | :--- | :--- |
+| **AI / IA** | Artificial Intelligence | **Inteligencia Artificial**: Campo de la informática dedicado al desarrollo de sistemas capaces de realizar tareas que requieren inteligencia humana, como el aprendizaje y el razonamiento. |
+| **LLM** | Large Language Model | **Gran Modelo de Lenguaje**: Modelo de IA entrenado con enormes cantidades de texto para comprender, generar y traducir lenguaje humano de manera coherente. |
+| **GenAI** | Generative Artificial Intelligence | **IA Generativa**: Rama de la IA enfocada en la creación de contenido nuevo y original (texto, imágenes, música, código) a partir de datos existentes. |
+| **NLP / PLN** | Natural Language Processing | **Procesamiento del Lenguaje Natural**: Disciplina que permite a las computadoras entender, interpretar y manipular el lenguaje humano. |
+| **ML** | Machine Learning | **Aprendizaje Automático**: Subcampo de la IA que permite a los sistemas aprender y mejorar de forma autónoma a partir de datos sin ser programados explícitamente. |
+| **DL** | Deep Learning | **Aprendizaje Profundo**: Evolución del ML basada en redes neuronales artificiales de múltiples capas que imitan la estructura del cerebro humano para procesar datos complejos. |
+| **ANN** | Artificial Neural Network | **Red Neuronal Artificial**: Modelo computacional inspirado en la estructura biológica del cerebro, compuesto por nodos conectados (neuronas) para procesar información. |
+| **RAG** | Retrieval-Augmented Generation | **Generación Aumentada por Recuperación**: Técnica que optimiza la salida de un LLM consultando una base de conocimientos externa antes de generar una respuesta. |
+| **RLHF** | Reinforcement Learning from Human Feedback | **Aprendizaje por Refuerzo a partir del Feedback Humano**: Método de entrenamiento que utiliza las preferencias de los usuarios para alinear el comportamiento de la IA con valores humanos. |
+| **AGI** | Artificial General Intelligence | **Inteligencia Artificial General**: IA hipotética que posee la capacidad de comprender, aprender y aplicar conocimientos en cualquier tarea intelectual de la misma forma que un humano. |
+| **CPU** | Central Processing Unit | **Unidad Central de Procesamiento**: El procesador principal de una computadora; maneja las tareas lógicas generales, pero es menos eficiente que las GPU para el entrenamiento masivo de IA. |
+| **GPU** | Graphics Processing Unit | **Unidad de Procesamiento Gráfico**: Coprocesador especializado en el cálculo en paralelo, fundamental para acelerar el entrenamiento y la ejecución de modelos de IA. |
+| **TPU** | Tensor Processing Unit | **Unidad de Procesamiento de Tensores**: Circuito integrado (ASIC) desarrollado específicamente por Google para acelerar las tareas de aprendizaje automático. |
+| **API** | Application Programming Interface | **Interfaz de Programación de Aplicaciones**: Conjunto de reglas que permite a un software conectarse e integrar las funciones de un modelo de IA en otras aplicaciones. |
+| **CV** | Computer Vision | **Visión por Computadora**: Campo de la IA que entrena a las computadoras para interpretar y comprender el contenido del mundo visual (imágenes y videos). |
+| **Modelo** | Model | **Modelo**: Estructura matemática o algoritmo computacional que ha sido entrenado con datos para reconocer patrones y realizar predicciones o generar contenido. |
+| **Prompt** | Prompt | **Instrucción / Consigna**: Texto o comando de entrada que se le proporciona a un modelo de IA para guiarlo y obtener una respuesta específica. |
 | **IPSec** | Internet Protocol Security | **Seguridad del Protocolo de Internet**: Conjunto de protocolos para asegurar las comunicaciones de red cifrando y autenticando cada paquete de datos. |
 | **SSL** | Secure Sockets Layer | **Capa de Sockets Seguros**: Protocolo de seguridad antiguo (reemplazado por TLS) para establecer enlaces cifrados entre un servidor web y un navegador. |
 | **TLS** | Transport Layer Security | **Seguridad de la Capa de Transporte**: Protocolo criptográfico seguro y moderno que sucede a SSL, utilizado para proteger las transferencias de datos en la web (HTTPS). |
