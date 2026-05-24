@@ -81,6 +81,7 @@ En modelos hibridos, la interfaz es localhost (terminal(Cli), api o web), pero e
 | **AGI** | Artificial General Intelligence | **Inteligencia Artificial General**: IA hipotética que posee la capacidad de comprender, aprender y aplicar conocimientos en cualquier tarea intelectual de la misma forma que un humano. |
 | **CPU** | Central Processing Unit | **Unidad Central de Procesamiento**: El procesador principal de una computadora; maneja las tareas lógicas generales, pero es menos eficiente que las GPU para el entrenamiento masivo de IA. |
 | **GPU** | Graphics Processing Unit | **Unidad de Procesamiento Gráfico**: Coprocesador especializado en el cálculo en paralelo, fundamental para acelerar el entrenamiento y la ejecución de modelos de IA. |
+| **ClI** | Command Line Interface | **Interfaz de la línea de comandos**:  Consola de comandos, terminal de Linux o Windows. |
 | **TPU** | Tensor Processing Unit | **Unidad de Procesamiento de Tensores**: Circuito integrado (ASIC) desarrollado específicamente por Google para acelerar las tareas de aprendizaje automático. |
 | **API** | Application Programming Interface | **Interfaz de Programación de Aplicaciones**: Conjunto de reglas que permite a un software conectarse e integrar las funciones de un modelo de IA en otras aplicaciones. |
 | **CV** | Computer Vision | **Visión por Computadora**: Campo de la IA que entrena a las computadoras para interpretar y comprender el contenido del mundo visual (imágenes y videos). |
