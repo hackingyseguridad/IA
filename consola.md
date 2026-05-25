@@ -17,7 +17,7 @@ para ayudar a identificar vulnerabilidades conocidas CVE, como para hacking ofen
 [DeepSeek Coder ](https://github.com/hackingyseguridad/IA/blob/main/deepseek2.sh) ; modelo de lenguaje (especializado en programacion), 
 suele ser menos restrictivo en su versión base (ejecutado en la terminal (CLI) localmente) o para detección de bugs críticos
 
-[Mistral IA](https://github.com/hackingyseguridad/IA/mistral.sh) sin restricciones para dar detalle del funcionamiento de vulnerabilidades CVE, POC, Exploits, facilitar el codigo para la explotacion o enlaces .
+[Mistral IA](https://chat.mistral.ai) sin restricciones para dar detalle del funcionamiento de vulnerabilidades CVE, POC, Exploit, facilitar codigo para la explotacion o enlaces.
 
 <img style="float:left" alt="hacking con Mistral IA" src="https://github.com/hackingyseguridad/IA/blob/main/mistral.png">
 
