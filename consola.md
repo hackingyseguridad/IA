@@ -12,12 +12,12 @@ para ayudar a identificar vulnerabilidades conocidas CVE, como para hacking ofen
 
 [hackingtool - Claude Code plugin](https://github.com/AKCodez/hackingtool-plugin)
 
-[Ollama](https://ollama.com) es una herramienta open source que permite descargar, ejecutar y gestionar modelos de lenguaje (LLMs) comprimidos, cuantizados y optimizados en local en un ordenador, CPU/GPU/MPU:  https://ollama.com/search 
-
 [DeepSeek Coder ](https://github.com/hackingyseguridad/IA/blob/main/deepseek2.sh) ; modelo de lenguaje (especializado en programacion), 
 suele ser menos restrictivo en su versión base (ejecutado en la terminal (CLI) localmente) o para detección de bugs críticos
 
-[Mistral IA](https://chat.mistral.ai) sin restricciones para dar detalle del funcionamiento de vulnerabilidades CVE, POC, Exploit, facilitar codigo para la explotacion o enlaces.
+[Ollama](https://ollama.com) es una herramienta open source que permite descargar, ejecutar y gestionar modelos de lenguaje (LLMs) comprimidos, cuantizados y optimizados en local en un ordenador, CPU/GPU/MPU:  https://ollama.com/search 
+
+[Mistral IA](https://chat.mistral.ai) sin restricciones para dar detalle del funcionamiento de vulnerabilidades CVE, POC, Exploit, facilitar codigo para la explotacion o enlaces. ollama run mistral
 
 <img style="float:left" alt="hacking con Mistral IA" src="https://github.com/hackingyseguridad/IA/blob/main/mistral.png">
 
