@@ -1,1 +1,5 @@
 2  fciheros de ejemplo., segun el numero del proceso pentest
+
+https://raw.githubusercontent.com/hackingyseguridad/IA/refs/heads/main/ejemplo/2/resultadofqdn.xml
+https://raw.githubusercontent.com/hackingyseguridad/IA/refs/heads/main/ejemplo/2/resultadored.xml
+https://raw.githubusercontent.com/hackingyseguridad/IA/refs/heads/main/ejemplo/2/resultadoweb.xml
