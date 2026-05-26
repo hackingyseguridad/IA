@@ -16,7 +16,7 @@ Actualmente **la IA no sustituye el criterio humano en una auditoría**; su func
 
 | 1º ──> | 2º ──> | 3º ──> | 4º ──> | 5º ──> | 6º ──> |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Alcance (RECON) | Escaneo de vulnerabilidades (SCAN) | Clasifica vulnerabilidades (VULN) | Prueba de concepto (POC) | Explota vulnerabilidades (EXPLOIT) | Informe (RPORTT) |
+| Alcance (RECON) | Escaneo de vulnerabilidades (SCAN) | Clasifica vulnerabilidades (VULN) | Prueba de concepto (POC) | Explota vulnerabilidades (EXPLOIT) | Informe (REPORTT) |
 
 | Fase | Descripción del Proceso | Acción / Scripts / Prompt |
 | :--- | :--- | :--- |
