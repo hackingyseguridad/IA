@@ -1,0 +1,1172 @@
+              _                     _ _ _
+              | |                   | (_) |
+ __      _____| |__   __ _ _   _  __| |_| |_
+ \ \ /\ / / _ \ '_ \ / _` | | | |/ _` | | __|
+  \ V  V /  __/ |_) | (_| | |_| | (_| | | |_
+   \_/\_/ \___|_.__/ \__,_|\__,_|\__,_|_|\__| ver. 1.0
+            http://www.hackingyseguridad.con/
+
+$$$$$$ $$$$$ $$$$  $$$ $$$$  $$$     $$$$     $$$$$$ $$$$$ $$$$$$$$$ $$$$$$$$$
+
+=================================================
+test sobre la url.: hackingseguridad.com
+=================================================
+
+-e # Informacion del host ########################################################
+
+hackingseguridad.com has address 1.1.1.1
+hackingseguridad.com mail is handled by 0 mail.hackingseguridad.com.
+
+HTTP/2 301
+
+-e # Escaneo con Nmap de puertos web habituales ########################################################
+
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-05-20 09:15 +0200
+Nmap scan report for hackingseguridad.com (1.1.1.1)
+Host is up (0.16s latency).
+rDNS record for 1.1.1.1: box5182.bluehost.com
+Not shown: 8 closed tcp ports (reset)
+Bug in http-security-headers: no string output.
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     Apache httpd
+| http-methods:
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache
+443/tcp open  ssl/http Apache httpd
+| http-security-headers:
+|   Strict_Transport_Security:
+|_    HSTS not configured in HTTPS Server
+| http-methods:
+|_  Supported Methods: GET POST OPTIONS HEAD
+| http-server-header:
+|   Apache
+|_  nginx/1.27.2
+Aggressive OS guesses: Linux 4.19 - 5.15 (96%), Linux 3.4 (95%), Linux 4.15 (95%), Linux 3.11 - 4.9 (92%), Linux 3.2 - 3.8 (92%), IPFire 2.25 firewall (Linux 4.14) (91%), Linux 2.6.32 (91%), Linux 2.6.32 or 3.10 (91%), Linux 2.6.39 (91%), Linux 3.10 - 3.12 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 15 hops
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 421.91 seconds
+
+-e # Escaneo con Nmap de otros puertos  de servicio sensibles ########################################################
+
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-05-20 09:23 +0200
+Nmap scan report for hackingseguridad.com (1.1.1.1)
+Host is up (0.16s latency).
+rDNS record for 1.1.1.1: box5182.bluehost.com
+Not shown: 16 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+21/tcp   open  ftp     Pure-FTPd
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| drwxr-xr-x    2 0          0                4096 Oct  2  2024 .
+|_drwxr-xr-x    2 0          0                4096 Oct  2  2024 ..
+| ssl-cert: Subject: commonName=*.bluehost.com
+| Subject Alternative Name: DNS:*.bluehost.com, DNS:bluehost.com
+| Not valid before: 2026-01-06T00:00:00
+|_Not valid after:  2027-01-06T23:59:59
+|_ssl-date: ERROR: Script execution failed (use -d to debug)
+22/tcp   open  ssh     OpenSSH 8.7 (protocol 2.0)
+| ssh-hostkey:
+|   3072 b7:05:47:11:f7:5c:ec:35:21:a8:7f:ce:71:82:39:0b (RSA)
+|   256 e5:9a:b3:ef:e9:da:35:5f:a5:9e:51:69:86:f3:fe:6a (ECDSA)
+|_  256 96:a6:bb:2f:35:90:20:d7:23:62:a7:80:77:6b:01:e5 (ED25519)
+25/tcp   open  smtp    Exim smtpd 4.99.2
+| ssl-cert: Subject: commonName=webdisk.hackingseguridad.com
+| Subject Alternative Name: DNS:autodiscover.hackingseguridad.com, DNS:cgn.ilc.mybluehost.me, DNS:cpanel.hackingseguridad.com, DNS:mail.cgn.ilc.mybluehost.me, DNS:mail.hackingseguridad.com, DNS:hackingseguridad.com, DNS:webdisk.hackingseguridad.com, DNS:webmail.hackingseguridad.com, DNS:www.cgn.ilc.mybluehost.me, DNS:www.hackingseguridad.com
+| Not valid before: 2026-04-24T08:04:34
+|_Not valid after:  2026-07-23T08:04:33
+|_ssl-date: ERROR: Script execution failed (use -d to debug)
+| smtp-commands: box5182.bluehost.com Hello 239.red-88-12-139.dynamicip.rima-tde.net [88.12.139.239], SIZE 52428800, LIMITS MAILMAX=50 RCPTMAX=50000, 8BITMIME, PIPELINING, PIPECONNECT, AUTH PLAIN LOGIN, STARTTLS, HELP
+|_ Commands supported: AUTH STARTTLS HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP
+53/tcp   open  domain  ISC BIND 9.16.23 (RedHat Linux)
+| dns-nsid:
+|_  bind.version: 9.16.23-RH
+3306/tcp open  mysql   MySQL 5.7.44-48
+| ssl-cert: Subject: commonName=*.bluehost.com
+| Subject Alternative Name: DNS:*.bluehost.com, DNS:bluehost.com
+| Not valid before: 2026-01-06T00:00:00
+|_Not valid after:  2027-01-06T23:59:59
+|_ssl-date: ERROR: Script execution failed (use -d to debug)
+| mysql-info:
+|   Protocol: 10
+|   Version: 5.7.44-48
+|   Thread ID: 6361663
+|   Capabilities flags: 65535
+|   Some Capabilities: InteractiveClient, LongPassword, SupportsLoadDataLocal, Support41Auth, FoundRows, IgnoreSpaceBeforeParenthesis, Speaks41ProtocolOld, IgnoreSigpipes, SwitchToSSLAfterHandshake, Speaks41ProtocolNew, DontAllowDatabaseTableColumn, SupportsTransactions, ODBCClient, SupportsCompression, ConnectWithDatabase, LongColumnFlag, SupportsMultipleResults, SupportsMultipleStatments, SupportsAuthPlugins
+|   Status: Autocommit
+|   Salt: ]:\x17V>s\x0F/,%BiivZ+G5`\x01
+|_  Auth Plugin Name: mysql_native_password
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 29.72 seconds
+
+-e # Informacion del servidor web ########################################################
+
+http://hackingseguridad.com [301 Moved Permanently] Apache, Country[UNITED STATES][US], HTTPServer[Apache], IP[1.1.1.1], RedirectLocation[https://hackingseguridad.com/], Title[301 Moved Permanently]
+https://hackingseguridad.com [403 Forbidden] Country[UNITED STATES][US], HTTPServer[nginx/1.27.2], IP[1.1.1.1], Title[403 Forbidden], UncommonHeaders[host-header], nginx[1.27.2]
+https://hackingseguridad.com/ [403 Forbidden] Country[UNITED STATES][US], HTTPServer[nginx/1.27.2], IP[1.1.1.1], Title[403 Forbidden], UncommonHeaders[host-header], nginx[1.27.2]
+404 Not Found
+Date: Wed, 20 May 2026 07:24:02 GMT
+Server: nginx/1.27.2
+Content-Length: 355
+Content-Type: text/html; charset=iso-8859-1
+Client-Date: Wed, 20 May 2026 07:24:02 GMT
+Client-Peer: 1.1.1.1:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R13
+Client-SSL-Cert-Subject: /CN=webdisk.hackingseguridad.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+HTTP/1.1 301 Moved Permanently
+Date: Wed, 20 May 2026 07:24:03 GMT
+Server: Apache
+Location: https://hackingseguridad.com/
+Content-Type: text/html; charset=iso-8859-1
+
+
+-e # Escaneo con Uniscan ########################################################
+
+####################################
+# Uniscan project                  #
+# http://uniscan.sourceforge.net/  #
+####################################
+V. 6.3
+
+
+Scan date: 20-5-2026 9:24:7
+===================================================================================================
+| Domain: http://hackingseguridad.com/
+| Server: nginx/1.27.2
+| IP: 1.1.1.1
+===================================================================================================
+|
+| Check robots.txt:
+|
+| Check sitemap.xml:
+===================================================================================================
+===================================================================================================
+Scan end date: 20-5-2026 9:24:14
+
+
+
+HTML report saved in: report/hackingseguridad.com.html
+
+-e # Detecta firewall o balanceador ########################################################
+
+
+lbd - load balancing detector 0.4 - Checks if a given domain uses load-balancing.
+                                    Written by Stefan Behte (http://ge.mine.nu)
+                                    Proof-of-concept! Might give false positives.
+
+Checking for DNS-Loadbalancing: NOT FOUND
+Checking for HTTP-Loadbalancing [Server]:
+ Apache
+ NOT FOUND
+
+Checking for HTTP-Loadbalancing [Date]: 07:24:35, 07:24:36, 07:24:36, 07:24:37, 07:24:37, 07:24:38, 07:24:38, 07:24:38, 07:24:39, 07:24:39, 07:24:40, 07:24:40, 07:24:41, 07:24:41, 07:24:42, 07:24:42, 07:24:42, 07:24:43, 07:24:43, 07:24:44, 07:24:44, 07:24:45, 07:24:45, 07:24:46, 07:24:46, 07:24:46, 07:24:47, 07:24:47, 07:24:48, 07:24:48, 07:24:49, 07:24:49, 07:24:50, 07:24:50, 07:24:50, 07:24:51, 07:24:51, 07:24:52, 07:24:52, 07:24:53, 07:24:53, 07:24:53, 07:24:54, 07:24:54, 07:24:55, 07:24:55, 07:24:56, 07:24:56, 07:24:57, 07:24:57, NOT FOUND
+
+Checking for HTTP-Loadbalancing [Diff]: NOT FOUND
+
+hackingseguridad.com does NOT use Load-balancing.
+
+
+-e # Detecta firewall WAF ########################################################
+
+
+                ______
+               /      \
+              (  W00f! )
+               \  ____/
+               ,,    __            404 Hack Not Found
+           |`-.__   / /                      __     __
+           /"  _/  /_/                       \ \   / /
+          *===*    /                          \ \_/ /  405 Not Allowed
+         /     )__//                           \   /
+    /|  /     /---`                        403 Forbidden
+    \\/`   \ |                                 / _ \
+    `\    /_\\_              502 Bad Gateway  / / \ \  500 Internal Error
+      `_____``-`                             /_/   \_\\
+
+                        ~ WAFW00F : v2.4.2 ~
+        The Web Application Firewall Fingerprinting Toolkit
+
+[*] Checking https://hackingseguridad.com
+[+] The site https://hackingseguridad.com is behind ModSecurity (SpiderLabs) WAF.
+[~] Number of requests: 2
+
+-e # Informacion en internet ########################################################
+
+┏━(Message from Kali developers)
+┃
+┃ The command theharvester is deprecated. Please use theHarvester instead.
+┃
+┗━
+
+
+-e # SQLi ########################################################
+
+        ___
+       __H__
+ ___ ___[.]_____ ___ ___  {1.10.4#stable}
+|_ -| . ["]     | .'| . |
+|___|_  [,]_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 09:25:31 /2026-05-20/
+
+[09:25:31] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0' from file '/usr/share/sqlmap/data/txt/user-agents.txt'
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[09:25:31] [INFO] starting crawler for target URL 'http://$1'
+[09:25:31] [INFO] searching for links with depth 1
+[09:25:31] [CRITICAL] unable to connect to the target URL. sqlmap is going to retry the request(s)
+[09:25:31] [WARNING] if the problem persists please check that the provided target URL is reachable. In case that it is, you can try to rerun with proxy switches ('--proxy', '--proxy-file'...)
+[09:25:31] [CRITICAL] connection exception detected ('unable to connect to the target URL'). skipping URL 'http://$1'
+[09:25:31] [WARNING] no usable links found (with GET parameters) or forms
+
+[*] ending @ 09:25:33 /2026-05-20/
+
+
+-e # Busqueda de recursos vulnerables ########################################################
+
+Prepended http:// to 'hackingseguridad.com/%7C~.aspx'
+--2026-05-20 09:25:34--  http://hackingseguridad.com/%7C~.aspx
+Resolving hackingseguridad.com (hackingseguridad.com)... 1.1.1.1
+Connecting to hackingseguridad.com (hackingseguridad.com)|1.1.1.1|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://hackingseguridad.com/%7c~.aspx [following]
+--2026-05-20 09:25:34--  https://hackingseguridad.com/%7C~.aspx
+Connecting to hackingseguridad.com (hackingseguridad.com)|1.1.1.1|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2026-05-20 09:25:36 ERROR 404: Not Found.
+
+Prepended http:// to 'hackingseguridad.com/wp-admin'
+--2026-05-20 09:25:36--  http://hackingseguridad.com/wp-admin
+Resolving hackingseguridad.com (hackingseguridad.com)... 1.1.1.1
+Connecting to hackingseguridad.com (hackingseguridad.com)|1.1.1.1|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://hackingseguridad.com/wp-admin [following]
+--2026-05-20 09:25:36--  https://hackingseguridad.com/wp-admin
+Connecting to hackingseguridad.com (hackingseguridad.com)|1.1.1.1|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2026-05-20 09:25:37 ERROR 404: Not Found.
+
+Prepended http:// to 'hackingseguridad.com/user'
+--2026-05-20 09:25:37--  http://hackingseguridad.com/user
+Resolving hackingseguridad.com (hackingseguridad.com)... 1.1.1.1
+Connecting to hackingseguridad.com (hackingseguridad.com)|1.1.1.1|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://hackingseguridad.com/user [following]
+--2026-05-20 09:25:37--  https://hackingseguridad.com/user
+Connecting to hackingseguridad.com (hackingseguridad.com)|1.1.1.1|:443... connected.
+HTTP request sent, awaiting response... 500 Internal Server Error
+2026-05-20 09:25:39 ERROR 500: Internal Server Error.
+
+Prepended http:// to 'hackingseguridad.com/administrator'
+--2026-05-20 09:25:39--  http://hackingseguridad.com/administrator
+Resolving hackingseguridad.com (hackingseguridad.com)... 1.1.1.1
+Connecting to hackingseguridad.com (hackingseguridad.com)|1.1.1.1|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://hackingseguridad.com/administrator [following]
+--2026-05-20 09:25:39--  https://hackingseguridad.com/administrator
+Connecting to hackingseguridad.com (hackingseguridad.com)|1.1.1.1|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2026-05-20 09:25:40 ERROR 404: Not Found.
+
+Prepended http:// to 'hackingseguridad.com/elmah.axd'
+--2026-05-20 09:25:40--  http://hackingseguridad.com/elmah.axd
+Resolving hackingseguridad.com (hackingseguridad.com)... 1.1.1.1
+Connecting to hackingseguridad.com (hackingseguridad.com)|1.1.1.1|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://hackingseguridad.com/elmah.axd [following]
+--2026-05-20 09:25:41--  https://hackingseguridad.com/elmah.axd
+Connecting to hackingseguridad.com (hackingseguridad.com)|1.1.1.1|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2026-05-20 09:25:42 ERROR 404: Not Found.
+
+
+-e # Informacion dominio ########################################################
+
+2026-05-20T09:25:51.103041+0200 INFO Starting enumeration for domain: hackingseguridad.com
+2026-05-20T09:25:51.108906+0200 INFO std: Performing General Enumeration against: hackingseguridad.com...
+2026-05-20T09:25:51.293892+0200 ERROR No answer for DNSSEC query for hackingseguridad.com
+2026-05-20T09:25:51.364608+0200 INFO     SOA ns1.bluehost.com 162.159.24.80
+2026-05-20T09:25:51.455111+0200 INFO     NS ns1.bluehost.com 162.159.24.80
+2026-05-20T09:25:51.517282+0200 INFO     NS ns2.bluehost.com 162.159.25.175
+2026-05-20T09:25:51.707814+0200 INFO     MX mail.hackingseguridad.com 1.1.1.1
+2026-05-20T09:25:51.725959+0200 INFO     A hackingseguridad.com 1.1.1.1
+2026-05-20T09:25:51.865410+0200 INFO     TXT hackingseguridad.com v=spf1 a mx include:websitewelcome.com ~all
+2026-05-20T09:25:51.956706+0200 INFO Enumerating SRV Records
+2026-05-20T09:25:53.053335+0200 INFO     SRV _autodiscover._tcp.hackingseguridad.com cpanelemaildiscovery.cpanel.net 184.94.203.11 443
+2026-05-20T09:25:53.054697+0200 INFO     SRV _autodiscover._tcp.hackingseguridad.com cpanelemaildiscovery.cpanel.net 184.94.204.11 443
+2026-05-20T09:25:53.056700+0200 INFO     SRV _autodiscover._tcp.hackingseguridad.com cpanelemaildiscovery.cpanel.net 184.94.203.9 443
+2026-05-20T09:25:53.059690+0200 INFO     SRV _autodiscover._tcp.hackingseguridad.com cpanelemaildiscovery.cpanel.net 184.94.203.15 443
+2026-05-20T09:25:53.062064+0200 INFO     SRV _autodiscover._tcp.hackingseguridad.com cpanelemaildiscovery.cpanel.net 184.94.204.9 443
+2026-05-20T09:25:53.063465+0200 INFO     SRV _autodiscover._tcp.hackingseguridad.com cpanelemaildiscovery.cpanel.net 184.94.204.14 443
+2026-05-20T09:25:53.064741+0200 INFO     SRV _autodiscover._tcp.hackingseguridad.com cpanelemaildiscovery.cpanel.net 184.94.204.15 443
+2026-05-20T09:25:53.065827+0200 INFO     SRV _autodiscover._tcp.hackingseguridad.com cpanelemaildiscovery.cpanel.net 184.94.203.14 443
+2026-05-20T09:25:53.071383+0200 INFO 8 Records Found
+2026-05-20T09:25:53.075202+0200 INFO Completed enumeration for domain: hackingseguridad.com
+
+
+-e # Busqyeda de subdominios del dominio ########################################################
+
+usage: fierce [-h] [--domain DOMAIN] [--connect] [--wide]
+              [--traverse TRAVERSE] [--search SEARCH [SEARCH ...]]
+              [--range RANGE] [--delay DELAY]
+              [--subdomains SUBDOMAINS [SUBDOMAINS ...] |
+              --subdomain-file SUBDOMAIN_FILE]
+              [--dns-servers DNS_SERVERS [DNS_SERVERS ...] |
+              --dns-file DNS_FILE] [--tcp]
+fierce: error: unrecognized arguments: -wordlist xxx -dns hackingseguridad.com
+usage: fierce [-h] [--domain DOMAIN] [--connect] [--wide]
+              [--traverse TRAVERSE] [--search SEARCH [SEARCH ...]]
+              [--range RANGE] [--delay DELAY]
+              [--subdomains SUBDOMAINS [SUBDOMAINS ...] |
+              --subdomain-file SUBDOMAIN_FILE]
+              [--dns-servers DNS_SERVERS [DNS_SERVERS ...] |
+              --dns-file DNS_FILE] [--tcp]
+fierce: error: unrecognized arguments: -dns hackingseguridad.com
+dnsmap 0.36 - DNS Network Mapper
+
+[+] searching (sub)domains for hackingseguridad.com using built-in wordlist
+[+] using maximum random delay of 10 millisecond(s) between requests
+
+cpanel.hackingseguridad.com
+IP address #1: 1.1.1.1
+
+ftp.hackingseguridad.com
+IP address #1: 1.1.1.1
+
+imap.hackingseguridad.com
+IP address #1: 1.1.1.1
+
+localhost.hackingseguridad.com
+IP address #1: 127.0.0.1
+[+] warning: domain might be vulnerable to "same site" scripting (https://seclists.org/bugtraq/2008/Jan/270)
+
+mail.hackingseguridad.com
+IP address #1: 1.1.1.1
+
+pop.hackingseguridad.com
+IP address #1: 1.1.1.1
+
+smtp.hackingseguridad.com
+IP address #1: 1.1.1.1
+
+webmail.hackingseguridad.com
+IP address #1: 1.1.1.1
+
+www.hackingseguridad.com
+IP address #1: 1.1.1.1
+
+[+] 9 (sub)domains and 9 IP address(es) found
+[+] completion time: 129 second(s)
+webaudit.sh: 95: dnsenum: not found
+
+-e # Vulnerabilidades DNS ########################################################
+
+webaudit.sh: 99: dnswalk: not found
+
+-e #Vulnerabilidades SSL########################################################
+
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-05-20 09:28 +0200
+Nmap scan report for hackingseguridad.com (1.1.1.1)
+Host is up (0.16s latency).
+rDNS record for 1.1.1.1: box5182.bluehost.com
+
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.57 seconds
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-05-20 09:28 +0200
+Nmap scan report for hackingseguridad.com (1.1.1.1)
+Host is up (0.17s latency).
+rDNS record for 1.1.1.1: box5182.bluehost.com
+
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.49 seconds
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-05-20 09:28 +0200
+Nmap scan report for hackingseguridad.com (1.1.1.1)
+Host is up (0.16s latency).
+rDNS record for 1.1.1.1: box5182.bluehost.com
+
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.99 seconds
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-05-20 09:28 +0200
+Nmap scan report for hackingseguridad.com (1.1.1.1)
+Host is up (0.16s latency).
+rDNS record for 1.1.1.1: box5182.bluehost.com
+
+PORT    STATE SERVICE
+443/tcp open  https
+| ssl-enum-ciphers:
+|   TLSv1.2:
+|     ciphers:
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (dh 2048) - A
+|     compressors:
+|       NULL
+|     cipher preference: server
+|   TLSv1.3:
+|     ciphers:
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_AKE_WITH_AES_128_CCM_SHA256 (ecdh_x25519) - A
+|     cipher preference: server
+|_  least strength: A
+
+Nmap done: 1 IP address (1 host up) scanned in 8.33 seconds
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-05-20 09:28 +0200
+Nmap scan report for hackingseguridad.com (1.1.1.1)
+Host is up (0.16s latency).
+rDNS record for 1.1.1.1: box5182.bluehost.com
+
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 16.49 seconds
+
+ CHECKING CONNECTIVITY TO SERVER(S)
+ ----------------------------------
+
+   hackingseguridad.com:443     => 1.1.1.1
+
+
+ SCAN RESULTS FOR hackingseguridad.com:443 - 1.1.1.1
+ --------------------------------------------------------
+
+ * OpenSSL Heartbleed:
+                                          OK - Not vulnerable to Heartbleed
+
+ SCANS COMPLETED IN 1.8452 S
+ ---------------------------
+
+ COMPLIANCE AGAINST TLS CONFIGURATION
+ ------------------------------------
+
+    Disabled; use --mozilla_config={old, intermediate, modern} or --custom_tls_config=path/to/profile.json.
+
+usage: sslyze [-h] [--update_trust_stores] [--cert CERTIFICATE_FILE]
+              [--key KEY_FILE] [--keyform KEY_FORMAT] [--pass PASSPHRASE]
+              [--json_out JSON_FILE] [--targets_in TARGET_FILE] [--quiet]
+              [--slow_connection] [--https_tunnel PROXY_SETTINGS]
+              [--starttls PROTOCOL] [--xmpp_to HOSTNAME]
+              [--sni SERVER_NAME_INDICATION] [--compression] [--tlsv1_1]
+              [--tlsv1_2] [--sslv3] [--sslv2] [--early_data] [--fallback]
+              [--http_headers] [--ems] [--tlsv1] [--certinfo]
+              [--certinfo_ca_file CERTINFO_CA_FILE] [--resum]
+              [--resum_attempts RESUM_ATTEMPTS] [--openssl_ccs] [--tlsv1_3]
+              [--heartbleed] [--reneg] [--robot] [--elliptic_curves]
+              [--custom_tls_config CUSTOM_TLS_CONFIG]
+              [--mozilla_config {modern,intermediate,old,disable}]
+              [target ...]
+sslyze: error: argument --certinfo: ignored explicit argument 'basic'
+
+ CHECKING CONNECTIVITY TO SERVER(S)
+ ----------------------------------
+
+   hackingseguridad.com:443     => 1.1.1.1
+
+
+ SCAN RESULTS FOR hackingseguridad.com:443 - 1.1.1.1
+ --------------------------------------------------------
+
+ * Deflate Compression:
+                                          OK - Compression disabled
+
+ SCANS COMPLETED IN 1.344973 S
+ -----------------------------
+
+ COMPLIANCE AGAINST TLS CONFIGURATION
+ ------------------------------------
+
+    Disabled; use --mozilla_config={old, intermediate, modern} or --custom_tls_config=path/to/profile.json.
+
+
+ CHECKING CONNECTIVITY TO SERVER(S)
+ ----------------------------------
+
+   hackingseguridad.com:443     => 1.1.1.1
+
+
+ SCAN RESULTS FOR hackingseguridad.com:443 - 1.1.1.1
+ --------------------------------------------------------
+
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
+
+ SCANS COMPLETED IN 1.538095 S
+ -----------------------------
+
+ COMPLIANCE AGAINST TLS CONFIGURATION
+ ------------------------------------
+
+    Disabled; use --mozilla_config={old, intermediate, modern} or --custom_tls_config=path/to/profile.json.
+
+
+ CHECKING CONNECTIVITY TO SERVER(S)
+ ----------------------------------
+
+   hackingseguridad.com:443     => 1.1.1.1
+
+
+ SCAN RESULTS FOR hackingseguridad.com:443 - 1.1.1.1
+ --------------------------------------------------------
+
+ * TLS 1.2 Session Resumption Support:
+      With Session IDs: OK - Supported (5 successful resumptions out of 5 attempts).
+      With TLS Tickets: OK - Supported (5 successful resumptions out of 5 attempts).
+
+ SCANS COMPLETED IN 2.542433 S
+ -----------------------------
+
+ COMPLIANCE AGAINST TLS CONFIGURATION
+ ------------------------------------
+
+    Disabled; use --mozilla_config={old, intermediate, modern} or --custom_tls_config=path/to/profile.json.
+
+
+-e #Vulnerabilidades con Kit Golismero ########################################################
+
+webaudit.sh: 116: golismero: not found
+webaudit.sh: 117: golismero: not found
+webaudit.sh: 118: golismero: not found
+webaudit.sh: 119: golismero: not found
+webaudit.sh: 120: golismero: not found
+webaudit.sh: 121: golismero: not found
+webaudit.sh: 122: golismero: not found
+webaudit.sh: 123: golismero: not found
+webaudit.sh: 124: golismero: not found
+
+-e # Descubre directorios por fuerza bruta ########################################################
+
+
+-----------------
+DIRB v2.22
+By The Dark Raver
+-----------------
+
+START_TIME: Wed May 20 09:29:23 2026
+URL_BASE: http://hackingseguridad.com/
+WORDLIST_FILES: diccionario.txt
+USER_AGENT: User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0
+OPTION: Fine tunning of NOT_FOUND detection
+ADDED_HEADERS:
+--
+Accept: text/html, applicattion/xhtml+xml, application/xml;q=0.9,*/*;q=0.8
+--
+MUTATION_LIST: (100,204,307,400,401,403,409,500,503) | (100)(204)(307)(400)(401)(403)(409)(500)(503)
+OPTION: Not Stopping on warning messages
+SPEED_DELAY: 99 milliseconds
+
+-----------------
+
+*** Generating Wordlist...
+(!) FATAL: Error opening wordlist file: diccionario.txt
+
+-e # Vulnerable a XSS ########################################################
+
+webaudit.sh: 132: xsser: not found
+
+-e #########################################################
+
+Deepmagic Information Gathering Tool
+"There be some deep magic going on"
+
+HostIP:1.1.1.1
+HostName:hackingseguridad.com
+
+Gathered E-Mail information for hackingseguridad.com
+---------------------------------
+Searching Google.com:80...
+Searching Altavista.com:80...
+Found 0 E-Mail(s) for host hackingseguridad.com, Searched 0 pages containing 0 results
+
+All scans completed, exiting
+Deepmagic Information Gathering Tool
+"There be some deep magic going on"
+
+HostIP:1.1.1.1
+HostName:hackingseguridad.com
+
+Gathered Subdomain information for hackingseguridad.com
+---------------------------------
+Searching Google.com:80...
+Searching Altavista.com:80...
+Found 0 possible subdomain(s) for host hackingseguridad.com, Searched 0 pages containing 0 results
+
+All scans completed, exiting
+
+-e # Vulnerabilidad DAV ########################################################
+
+OPEN            FAIL:   http://hackingseguridad.com        The URL "http://hackingseguridad.com/" is not DAV enabled or not accessible.
+********************************************************
+ Testing DAV connection
+
+-e # Vulnerabilidad web ########################################################
+
+webaudit.sh: 145: golismero: not found
+
+-e  Vulnerabilidades con Uniscan #########################################################
+
+####################################
+# Uniscan project                  #
+# http://uniscan.sourceforge.net/  #
+####################################
+V. 6.3
+
+
+Scan date: 20-5-2026 9:29:32
+===================================================================================================
+| Domain: http://hackingseguridad.com/
+| Server: nginx/1.27.2
+| IP: 1.1.1.1
+===================================================================================================
+|
+| File check:
+===================================================================================================
+===================================================================================================
+Scan end date: 20-5-2026 9:49:33
+
+
+
+HTML report saved in: report/hackingseguridad.com.html
+####################################
+# Uniscan project                  #
+# http://uniscan.sourceforge.net/  #
+####################################
+V. 6.3
+
+
+Scan date: 20-5-2026 9:49:36
+===================================================================================================
+| Domain: http://hackingseguridad.com/
+| Server: nginx/1.27.2
+| IP: 1.1.1.1
+===================================================================================================
+|
+| Directory check:
+===================================================================================================
+===================================================================================================
+Scan end date: 20-5-2026 10:37:4
+
+
+
+HTML report saved in: report/hackingseguridad.com.html
+####################################
+# Uniscan project                  #
+# http://uniscan.sourceforge.net/  #
+####################################
+V. 6.3
+
+
+Scan date: 20-5-2026 10:37:7
+===================================================================================================
+| Domain: http://hackingseguridad.com/
+| Server: nginx/1.27.2
+| IP: 1.1.1.1
+===================================================================================================
+===================================================================================================
+| Stress tests:
+| Plugin name: Mini Stress Test v.1.1 Loaded.
+|
+|
+| Mini Stress Test:
+| Looking for best cost:
+| Cost: [2] http://hackingseguridad.com/
+| Using http://hackingseguridad.com/ as target
+| Mini Stress Test End.
+===================================================================================================
+Scan end date: 20-5-2026 10:38:46
+
+
+
+HTML report saved in: report/hackingseguridad.com.html
+####################################
+# Uniscan project                  #
+# http://uniscan.sourceforge.net/  #
+####################################
+V. 6.3
+
+
+Scan date: 20-5-2026 10:38:50
+===================================================================================================
+| Domain: http://hackingseguridad.com/
+| Server: nginx/1.27.2
+| IP: 1.1.1.1
+===================================================================================================
+===================================================================================================
+| Static tests:
+| Plugin name: Local File Include tests v.1.1 Loaded.
+| Plugin name: Remote Command Execution tests v.1.1 Loaded.
+| Plugin name: Remote File Include tests v.1.1 Loaded.
+|
+|
+| Local File Include:
+|
+|
+| Remote Command Execution:
+|
+|
+| Remote File Include:
+===================================================================================================
+Scan end date: 20-5-2026 11:13:41
+
+
+
+HTML report saved in: report/hackingseguridad.com.html
+####################################
+# Uniscan project                  #
+# http://uniscan.sourceforge.net/  #
+####################################
+V. 6.3
+
+
+Scan date: 20-5-2026 11:13:44
+===================================================================================================
+| Domain: http://hackingseguridad.com/
+| Server: nginx/1.27.2
+| IP: 1.1.1.1
+===================================================================================================
+|
+| Crawler Started:
+| Plugin name: E-mail Detection v.1.1 Loaded.
+| Plugin name: Code Disclosure v.1.1 Loaded.
+| Plugin name: Timthumb <= 1.32 vulnerability v.1 Loaded.
+| Plugin name: phpinfo() Disclosure v.1 Loaded.
+| Plugin name: FCKeditor upload test v.1 Loaded.
+| Plugin name: Upload Form Detect v.1.1 Loaded.
+| Plugin name: Web Backdoor Disclosure v.1.1 Loaded.
+| Plugin name: External Host Detect v.1.2 Loaded.
+| [+] Crawling finished, 1 URL's found!
+|
+| E-mails:
+|
+| Source Code Disclosure:
+|
+| Timthumb:
+|
+| PHPinfo() Disclosure:
+|
+| FCKeditor File Upload:
+|
+| File Upload Forms:
+|
+| Web Backdoors:
+|
+| External hosts:
+|
+| Ignored Files:
+===================================================================================================
+| Dynamic tests:
+| Plugin name: Learning New Directories v.1.2 Loaded.
+| Plugin name: FCKedior tests v.1.1 Loaded.
+| Plugin name: Timthumb <= 1.32 vulnerability v.1 Loaded.
+| Plugin name: Find Backup Files v.1.2 Loaded.
+| Plugin name: Blind SQL-injection tests v.1.3 Loaded.
+| Plugin name: Local File Include tests v.1.1 Loaded.
+| Plugin name: PHP CGI Argument Injection v.1.1 Loaded.
+| Plugin name: Remote Command Execution tests v.1.1 Loaded.
+| Plugin name: Remote File Include tests v.1.2 Loaded.
+| Plugin name: SQL-injection tests v.1.2 Loaded.
+| Plugin name: Cross-Site Scripting tests v.1.2 Loaded.
+| Plugin name: Web Shell Finder v.1.3 Loaded.
+| [+] 0 New directories added
+|
+|
+| FCKeditor tests:
+|
+|
+| Timthumb < 1.33 vulnerability:
+|
+|
+| Backup Files:
+|
+|
+| Blind SQL Injection:
+|
+|
+| Local File Include:
+|
+|
+| PHP CGI Argument Injection:
+|
+|
+| Remote Command Execution:
+|
+|
+| Remote File Include:
+|
+|
+| SQL Injection:
+|
+|
+| Cross-Site Scripting (XSS):
+|
+|
+| Web Shell Finder:
+===================================================================================================
+Scan end date: 20-5-2026 11:15:11
+
+
+
+HTML report saved in: report/hackingseguridad.com.html
+
+-e # Vulnerabilidades web con Nikto ########################################################
+
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingseguridad.com
++ Target Port:        80
++ Platform:           Unknown
++ Start Time:         2026-05-20 11:15:17 (GMT2)
+---------------------------------------------------------------------------
++ Server: Apache
++ ERROR: Failed to check for updates: 403
++ 11 requests: 0 errors and 0 items reported on the remote host
++ End Time:           2026-05-20 11:15:19 (GMT2) (2 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingseguridad.com
++ Target Port:        80
++ Platform:           Unknown
++ Start Time:         2026-05-20 11:15:24 (GMT2)
+---------------------------------------------------------------------------
++ Server: Apache
++ ERROR: Failed to check for updates: 403
++ 11 requests: 0 errors and 0 items reported on the remote host
++ End Time:           2026-05-20 11:15:26 (GMT2) (2 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingseguridad.com
++ Target Port:        80
++ Platform:           Unknown
++ Start Time:         2026-05-20 11:15:31 (GMT2)
+---------------------------------------------------------------------------
++ Server: Apache
++ ERROR: Failed to check for updates: 403
++ ERROR: *** Error limit (20) reached for host, giving up. Last error: . ***
++ ERROR: *** Consider using mitmproxy to avoid TLS fingerprinting. ***
+- STATUS: Completed 1377 requests (~19% complete, ~31.7 minutes left): currently in plugin 'shellshock'
+- STATUS: Running average: Not enough data.
++ Scan terminated: 0 errors and 0 items reported on the remote host
++ End Time:           2026-05-20 11:22:55 (GMT2) (444 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingseguridad.com
++ Target Port:        80
++ Platform:           Unknown
++ Start Time:         2026-05-20 11:23:00 (GMT2)
+---------------------------------------------------------------------------
++ Server: Apache
++ ERROR: Failed to check for updates: 403
++ 11 requests: 0 errors and 0 items reported on the remote host
++ End Time:           2026-05-20 11:23:02 (GMT2) (2 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingseguridad.com
++ Target Port:        80
++ Platform:           Unknown
++ Start Time:         2026-05-20 11:23:07 (GMT2)
+---------------------------------------------------------------------------
++ Server: Apache
++ ERROR: Failed to check for updates: 403
++ 12 requests: 0 errors and 0 items reported on the remote host
++ End Time:           2026-05-20 11:23:09 (GMT2) (2 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingseguridad.com
++ Target Port:        80
++ Platform:           Unknown
++ Start Time:         2026-05-20 11:23:14 (GMT2)
+---------------------------------------------------------------------------
++ Server: Apache
++ ERROR: Failed to check for updates: 403
++ [999100] /: Uncommon header(s) 'host-header' found, with contents: c2hhcmVkLmJsdWVob3N0LmNvbQ==.
++ [013587] /: Suggested security header missing: strict-transport-security. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
++ [013587] /: Suggested security header missing: permissions-policy. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy
++ [013587] /: Suggested security header missing: referrer-policy. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
++ [013587] /: Suggested security header missing: x-content-type-options. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options
++ [013587] /: Suggested security header missing: content-security-policy. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
++ 39 requests: 0 errors and 6 items reported on the remote host
++ End Time:           2026-05-20 11:23:26 (GMT2) (12 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingseguridad.com
++ Target Port:        80
++ Platform:           Unknown
++ Start Time:         2026-05-20 11:23:31 (GMT2)
+---------------------------------------------------------------------------
++ Server: Apache
++ ERROR: Failed to check for updates: 403
++ 11 requests: 0 errors and 0 items reported on the remote host
++ End Time:           2026-05-20 11:23:33 (GMT2) (2 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingseguridad.com
++ Target Port:        80
++ Platform:           Unknown
++ Start Time:         2026-05-20 11:23:38 (GMT2)
+---------------------------------------------------------------------------
++ Server: Apache
++ ERROR: Failed to check for updates: 403
++ 11 requests: 0 errors and 0 items reported on the remote host
++ End Time:           2026-05-20 11:23:40 (GMT2) (2 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingseguridad.com
++ Target Port:        80
++ Platform:           Unknown
++ Start Time:         2026-05-20 11:23:45 (GMT2)
+---------------------------------------------------------------------------
++ Server: Apache
++ ERROR: Failed to check for updates: 403
++ 11 requests: 0 errors and 0 items reported on the remote host
++ End Time:           2026-05-20 11:23:47 (GMT2) (2 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingseguridad.com
++ Target Port:        80
++ Platform:           Unknown
++ Start Time:         2026-05-20 11:23:52 (GMT2)
+---------------------------------------------------------------------------
++ Server: Apache
++ ERROR: Failed to check for updates: 403
++ 21 requests: 0 errors and 0 items reported on the remote host
++ End Time:           2026-05-20 11:23:56 (GMT2) (4 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingseguridad.com
++ Target Port:        80
++ Platform:           Unknown
++ Start Time:         2026-05-20 11:24:02 (GMT2)
+---------------------------------------------------------------------------
++ Server: Apache
++ ERROR: Failed to check for updates: 403
++ No CGI Directories found (use '-C all' to force check all possible dirs). CGI tests skipped.
++ 34 requests: 0 errors and 0 items reported on the remote host
++ End Time:           2026-05-20 11:24:07 (GMT2) (5 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingseguridad.com
++ Target Port:        80
++ Platform:           Unknown
++ Start Time:         2026-05-20 11:24:12 (GMT2)
+---------------------------------------------------------------------------
++ Server: Apache
++ ERROR: Failed to check for updates: 403
++ 11 requests: 0 errors and 0 items reported on the remote host
++ End Time:           2026-05-20 11:24:14 (GMT2) (2 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingseguridad.com
++ Target Port:        80
++ Platform:           Unknown
++ Start Time:         2026-05-20 11:24:19 (GMT2)
+---------------------------------------------------------------------------
++ Server: Apache
++ ERROR: Failed to check for updates: 403
++ 341 requests: 0 errors and 0 items reported on the remote host
++ End Time:           2026-05-20 11:25:20 (GMT2) (61 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingseguridad.com
++ Target Port:        80
++ Platform:           Unknown
++ Start Time:         2026-05-20 11:25:25 (GMT2)
+---------------------------------------------------------------------------
++ Server: Apache
++ ERROR: Failed to check for updates: 403
++ 13 requests: 0 errors and 0 items reported on the remote host
++ End Time:           2026-05-20 11:25:27 (GMT2) (2 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+
+-e # Analisis con wapiti ########################################################
+webaudit.sh: 173: wapiti: not found
+
+-e # Informacion de registro del dominio ########################################################
+
+   Domain Name: hackingseguridad.com
+   Registry Domain ID: 2187886404_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.fastdomain.com
+   Registrar URL: https://www.bluehost.com
+   Updated Date: 2025-11-17T08:13:31Z
+   Creation Date: 2017-11-16T11:57:25Z
+   Registry Expiry Date: 2026-11-16T11:57:25Z
+   Registrar: Bluehost Inc.
+   Registrar IANA ID: 1154
+   Registrar Abuse Contact Email: abuse@bluehost.com
+   Registrar Abuse Contact Phone: +1.6028175172
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Name Server: NS1.BLUEHOST.COM
+   Name Server: NS2.BLUEHOST.COM
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of whois database: 2026-05-20T09:25:23Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+NOTICE: The expiration date displayed in this record is the date the
+registrar's sponsorship of the domain name registration in the registry is
+currently set to expire. This date does not necessarily reflect the expiration
+date of the domain name registrant's agreement with the sponsoring
+registrar.  Users may consult the sponsoring registrar's Whois database to
+view the registrar's reported date of expiration for this registration.
+
+TERMS OF USE: You are not authorized to access or query our Whois
+database through the use of electronic processes that are high-volume and
+automated except as reasonably necessary to register domain names or
+modify existing registrations; the Data in VeriSign Global Registry
+Services' ("VeriSign") Whois database is provided by VeriSign for
+information purposes only, and to assist persons in obtaining information
+about or related to a domain name registration record. VeriSign does not
+guarantee its accuracy. By submitting a Whois query, you agree to abide
+by the following terms of use: You agree that you may use this Data only
+for lawful purposes and that under no circumstances will you use this Data
+to: (1) allow, enable, or otherwise support the transmission of mass
+unsolicited, commercial advertising or solicitations via e-mail, telephone,
+or facsimile; or (2) enable high volume, automated, electronic processes
+that apply to VeriSign (or its computer systems). The compilation,
+repackaging, dissemination or other use of this Data is expressly
+prohibited without the prior written consent of VeriSign. You agree not to
+use electronic processes that are automated and high-volume to access or
+query the Whois database except as reasonably necessary to register
+domain names or modify existing registrations. VeriSign reserves the right
+to restrict your access to the Whois database in its sole discretion to ensure
+operational stability.  VeriSign may restrict or terminate your access to the
+Whois database for failure to abide by these terms of use. VeriSign
+reserves the right to modify these terms at any time.
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+Registrars.
+Domain Name: hackingseguridad.com
+Registry Domain ID:
+Registrar WHOIS Server: whois.fastdomain.com
+Registrar URL: http://www.bluehost.com/
+Updated Date: 2023-12-04T19:54:14Z
+Creation Date: 2017-11-16T11:57:25Z
+Registrar Registration Expiration Date: 2023-11-16T11:57:25Z
+Registrar: FastDomain Inc.
+Registrar IANA ID: 1154
+Reseller: BlueHost.Com
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Registry Registrant ID: Statutory Masking Enabled
+Registrant Name: Statutory Masking Enabled
+Registrant Organization: Statutory Masking Enabled
+Registrant Street: Statutory Masking Enabled
+Registrant City: Statutory Masking Enabled
+Registrant State/Province:
+Registrant Postal Code: Statutory Masking Enabled
+Registrant Country: ES
+Registrant Phone: Statutory Masking Enabled
+Registrant Phone Ext: Statutory Masking Enabled
+Registrant Fax: Statutory Masking Enabled
+Registrant Fax Ext: Statutory Masking Enabled
+Registrant Email: dataprotected@maskeddetails.com
+Registry Admin ID: Statutory Masking Enabled
+Admin Name: Statutory Masking Enabled
+Admin Organization: Statutory Masking Enabled
+Admin Street: Statutory Masking Enabled
+Admin City: Statutory Masking Enabled
+Admin State/Province: Statutory Masking Enabled
+Admin Postal Code: Statutory Masking Enabled
+Admin Country: Statutory Masking Enabled
+Admin Phone: Statutory Masking Enabled
+Admin Phone Ext: Statutory Masking Enabled
+Admin Fax: Statutory Masking Enabled
+Admin Fax Ext: Statutory Masking Enabled
+Admin Email: dataprotected@maskeddetails.com
+Registry Tech ID: Statutory Masking Enabled
+Tech Name: Statutory Masking Enabled
+Tech Organization: Statutory Masking Enabled
+Tech Street: Statutory Masking Enabled
+Tech City: Statutory Masking Enabled
+Tech State/Province: Statutory Masking Enabled
+Tech Postal Code: Statutory Masking Enabled
+Tech Country: Statutory Masking Enabled
+Tech Phone: Statutory Masking Enabled
+Tech Phone Ext: Statutory Masking Enabled
+Tech Fax: Statutory Masking Enabled
+Tech Fax Ext: Statutory Masking Enabled
+Tech Email: dataprotected@maskeddetails.com
+Registry Billing ID: Statutory Masking Enabled
+Billing Name: Statutory Masking Enabled
+Billing Organization: Statutory Masking Enabled
+Billing Street: Statutory Masking Enabled
+Billing City: Statutory Masking Enabled
+Billing State/Province: Statutory Masking Enabled
+Billing Postal Code: Statutory Masking Enabled
+Billing Country: Statutory Masking Enabled
+Billing Phone: Statutory Masking Enabled
+Billing Phone Ext: Statutory Masking Enabled
+Billing Fax: Statutory Masking Enabled
+Billing Fax Ext: Statutory Masking Enabled
+Billing Email: dataprotected@maskeddetails.com
+Name Server: NS1.BLUEHOST.COM
+Name Server: NS2.BLUEHOST.COM
+DNSSEC: unsigned
+Registrar Abuse Contact Email: tos@fastdomain.com
+Registrar Abuse Contact Phone: 888-210-3278
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2023-12-04T19:54:14Z <<<
+
+
