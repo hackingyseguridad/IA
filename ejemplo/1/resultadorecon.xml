@@ -1,0 +1,141 @@
+=== Reconocimiento sobre: hackingyseguridad.com ===
+
+[*] WHOIS - Información de registro:
+   Creation Date: 2014-10-23T16:50:29Z
+   Registry Expiry Date: 2026-10-23T16:50:29Z
+   Name Server: NS1.CDMON.NET
+   Name Server: NS2.CDMON.NET
+   Name Server: NS3.CDMON.NET
+   Name Server: NS4.CDMONDNS-01.ORG
+   Name Server: NS5.CDMONDNS-01.COM
+Creation Date: 2014-10-23T16:50:29Z
+Registry Registrant ID: 1624446
+Registrant Name: ANTONIO TABOADA LLUFRIU
+Registrant Organization:
+Registrant Street: Costanilla de los Olivos, 16, 2A
+Registrant City: Madrid
+Registrant State/Province: Madrid
+Registrant Postal Code: 28011
+Registrant Country: ES
+Registrant Phone: +34.915458580
+Registrant Phone Ext:
+Registrant Fax:
+Registrant Fax Ext:
+
+[*] Registros A (IPv4):
+hackingyseguridad.com has address 185.66.41.219
+
+[*] Registros MX (Mail Exchange):
+hackingyseguridad.com mail is handled by 10 mail.hackingyseguridad.com.
+
+[*] Registros NS (Name Servers):
+hackingyseguridad.com name server ns1.cdmon.net.
+hackingyseguridad.com name server ns3.cdmon.net.
+hackingyseguridad.com name server ns4.cdmondns-01.org.
+hackingyseguridad.com name server ns5.cdmondns-01.com.
+hackingyseguridad.com name server ns2.cdmon.net.
+
+[*] Registros TXT (incluyendo SPF, DKIM, etc.):
+hackingyseguridad.com descriptive text "v=spf1 include:_spf.srv.cat ~all"
+
+[*] Buscando subdominios comunes...
+  [+] www.hackingyseguridad.com -> 185.66.41.219
+  [+] mail.hackingyseguridad.com -> 134.0.12.16
+  [+] ftp.hackingyseguridad.com -> 185.42.104.126
+  [+] ns1.hackingyseguridad.com -> 185.66.41.219
+  [+] ns2.hackingyseguridad.com -> 185.66.41.219
+  [+] blog.hackingyseguridad.com -> 185.66.41.219
+  [+] shop.hackingyseguridad.com -> 185.66.41.219
+  [+] api.hackingyseguridad.com -> 185.66.41.219
+  [+] dev.hackingyseguridad.com -> 185.66.41.219
+  [+] test.hackingyseguridad.com -> 185.66.41.219
+  [+] vpn.hackingyseguridad.com -> 185.66.41.219
+
+[*] Reputación y listas negras (básico):
+  Consultando en AbuseIPDB (resumen público):
+  https://www.abuseipdb.com/check/185.66.41.219
+
+  Consultando en VirusTotal (dominio):
+  https://www.virustotal.com/gui/domain/hackingyseguridad.com
+
+[*] Estado del host (ping):
+  [-] hackingyseguridad.com NO responde a ping (quizás bloqueado)
+
+[*] Puertos comunes abiertos (TCP):
+  [+] Puerto 22 abierto
+  [+] Puerto 80 abierto
+  [+] Puerto 443 abierto
+  [+] Puerto 3306 abierto
+
+=== Fin del reconocimiento ===
+
+┌──(root㉿hacking)-[/home/antonio/IA]
+└─# cat resultado.xml
+=== Reconocimiento sobre: hackingyseguridad.com ===
+
+[*] WHOIS - Información de registro:
+   Creation Date: 2014-10-23T16:50:29Z
+   Registry Expiry Date: 2026-10-23T16:50:29Z
+   Name Server: NS1.CDMON.NET
+   Name Server: NS2.CDMON.NET
+   Name Server: NS3.CDMON.NET
+   Name Server: NS4.CDMONDNS-01.ORG
+   Name Server: NS5.CDMONDNS-01.COM
+Creation Date: 2014-10-23T16:50:29Z
+Registry Registrant ID: 1624446
+Registrant Name: ANTONIO TABOADA LLUFRIU
+Registrant Organization:
+Registrant Street: Costanilla de los Olivos, 16, 2A
+Registrant City: Madrid
+Registrant State/Province: Madrid
+Registrant Postal Code: 28011
+Registrant Country: ES
+Registrant Phone: +34.915458580
+Registrant Phone Ext:
+Registrant Fax:
+Registrant Fax Ext:
+
+[*] Registros A (IPv4):
+hackingyseguridad.com has address 185.66.41.219
+
+[*] Registros MX (Mail Exchange):
+hackingyseguridad.com mail is handled by 10 mail.hackingyseguridad.com.
+
+[*] Registros NS (Name Servers):
+hackingyseguridad.com name server ns1.cdmon.net.
+hackingyseguridad.com name server ns3.cdmon.net.
+hackingyseguridad.com name server ns4.cdmondns-01.org.
+hackingyseguridad.com name server ns5.cdmondns-01.com.
+hackingyseguridad.com name server ns2.cdmon.net.
+
+[*] Registros TXT (incluyendo SPF, DKIM, etc.):
+hackingyseguridad.com descriptive text "v=spf1 include:_spf.srv.cat ~all"
+
+[*] Buscando subdominios comunes...
+  [+] www.hackingyseguridad.com -> 185.66.41.219
+  [+] mail.hackingyseguridad.com -> 134.0.12.16
+  [+] ftp.hackingyseguridad.com -> 185.42.104.126
+  [+] ns1.hackingyseguridad.com -> 185.66.41.219
+  [+] ns2.hackingyseguridad.com -> 185.66.41.219
+  [+] blog.hackingyseguridad.com -> 185.66.41.219
+  [+] shop.hackingyseguridad.com -> 185.66.41.219
+  [+] api.hackingyseguridad.com -> 185.66.41.219
+  [+] dev.hackingyseguridad.com -> 185.66.41.219
+  [+] test.hackingyseguridad.com -> 185.66.41.219
+  [+] vpn.hackingyseguridad.com -> 185.66.41.219
+
+[*] Reputación y listas negras (básico):
+  Consultando en AbuseIPDB (resumen público):
+  https://www.abuseipdb.com/check/185.66.41.219
+
+  Consultando en VirusTotal (dominio):
+  https://www.virustotal.com/gui/domain/hackingyseguridad.com
+
+[*] Estado del host (ping):
+  [-] hackingyseguridad.com NO responde a ping (quizás bloqueado)
+
+[*] Puertos comunes abiertos (TCP):
+  [+] Puerto 22 abierto
+  [+] Puerto 80 abierto
+  [+] Puerto 443 abierto
+  [+] Puerto 3306 abierto
