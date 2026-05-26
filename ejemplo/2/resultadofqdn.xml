@@ -1,0 +1,1537 @@
+└─# cat resultadofqdn.xml
+  __           _                         _ _ _
+ / _| __ _  __| |_ __     __ _ _   _  __| (_) |_
+| |_ / _` |/ _` | '_ \   / _` | | | |/ _` | | __|
+|  _| (_| | (_| | | | | | (_| | |_| | (_| | | |_
+|_|  \__, |\__,_|_| |_|  \__,_|\__,_|\__,_|_|\__| V 1.0
+        |_|      http://www.hackingyseguridad.com
+                 Aldea del Fresno
+$$$$$$ $$$$$ $$$$  $$$ $$$$  $$$     $$$$     $$$$$$ $$$$$ $$$$$$$$$ $$$$$$$$$
+
+=================================================
+test sobre la el fqdn de la URI.: hackingyseguridad.com
+=================================================
+
+-e # Informacion del host ########################################################
+
+hackingyseguridad.com has address 1.1.1.1
+hackingyseguridad.com mail is handled by 0 mail.hackingyseguridad.com.
+
+-e # Versiones HTTP soportadas por el  servidor web ####@@##########################
+
+HTTP/1.1 404 Not Found
+HTTP/1.1 404 Not Found
+HTTP/2 404
+
+https://hackingyseguridad.com [403 Forbidden] Country[UNITED STATES][US], HTTPServer[nginx/1.27.2], IP[1.1.1.1], Title[403 Forbidden], UncommonHeaders[host-header], nginx[1.27.2]
+
+404 Not Found
+Date: Wed, 20 May 2026 11:15:53 GMT
+Server: nginx/1.27.2
+Content-Length: 355
+Content-Type: text/html; charset=iso-8859-1
+Client-Date: Wed, 20 May 2026 11:15:53 GMT
+Client-Peer: 1.1.1.1:443
+Client-Response-Num: 1
+Client-SSL-Cert-Issuer: /C=US/O=Let's Encrypt/CN=R13
+Client-SSL-Cert-Subject: /CN=webdisk.hackingyseguridad.com
+Client-SSL-Cipher: TLS_AES_256_GCM_SHA384
+Client-SSL-Socket-Class: IO::Socket::SSL
+Client-SSL-Version: TLSv1_3
+Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+
+
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0* Host hackingyseguridad.com:443 was resolved.
+* IPv6: (none)
+* IPv4: 1.1.1.1
+*   Trying 1.1.1.1:443...
+* ALPN: curl offers h2,http/1.1
+} [5 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+} [1696 bytes data]
+* SSL Trust Anchors:
+*   CAfile: /etc/ssl/certs/ca-certificates.crt
+*   CApath: /etc/ssl/certs
+{ [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+{ [122 bytes data]
+* TLSv1.3 (IN), TLS change cipher, Change cipher spec (1):
+{ [1 bytes data]
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+{ [19 bytes data]
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+{ [2841 bytes data]
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+{ [264 bytes data]
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+{ [52 bytes data]
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+} [1 bytes data]
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+} [52 bytes data]
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / x25519 / RSASSA-PSS
+* ALPN: server accepted h2
+* Server certificate:
+*   subject: CN=webdisk.hackingyseguridad.com
+*   start date: Apr 24 08:04:34 2026 GMT
+*   expire date: Jul 23 08:04:33 2026 GMT
+*   issuer: C=US; O=Let's Encrypt; CN=R13
+*   Certificate level 0: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 1: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+*   Certificate level 2: Public key type RSA (4096/152 Bits/secBits), signed using sha256WithRSAEncryption
+*   subjectAltName: "hackingyseguridad.com" matches cert's "hackingyseguridad.com"
+* OpenSSL verify result: 0
+* SSL certificate verified via OpenSSL.
+* Established connection to hackingyseguridad.com (1.1.1.1 port 443) from 192.168.1.250 port 36898
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://hackingyseguridad.com/
+* [HTTP/2] [1] [:method: HEAD]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: hackingyseguridad.com]
+* [HTTP/2] [1] [:path: /]
+* [HTTP/2] [1] [user-agent: curl/8.19.0]
+* [HTTP/2] [1] [accept: */*]
+} [5 bytes data]
+> HEAD / HTTP/2
+> Host: hackingyseguridad.com
+> User-Agent: curl/8.19.0
+> Accept: */*
+>
+* Request completely sent off
+} [5 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [281 bytes data]
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+{ [281 bytes data]
+  0      0   0      0   0      0      0      0           00:15              0< HTTP/2 404
+< date: Wed, 20 May 2026 11:16:10 GMT
+< server: nginx/1.27.2
+< content-type: text/html; charset=iso-8859-1
+< content-length: 355
+< host-header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+<
+{ [0 bytes data]
+  0    355   0      0   0      0      0      0           00:16              0
+* Connection #0 to host hackingyseguridad.com:443 left intact
+HTTP/2 404
+date: Wed, 20 May 2026 11:16:10 GMT
+server: nginx/1.27.2
+content-type: text/html; charset=iso-8859-1
+content-length: 355
+host-header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+
+
+-e # Detecta firewall o balanceador ########################################################
+
+
+lbd - load balancing detector 0.4 - Checks if a given domain uses load-balancing.
+                                    Written by Stefan Behte (http://ge.mine.nu)
+                                    Proof-of-concept! Might give false positives.
+
+Checking for DNS-Loadbalancing: NOT FOUND
+Checking for HTTP-Loadbalancing [Server]:
+ Apache
+
+-e # Detecta firewall WAF ########################################################
+
+server: nginx/1.27.2
+
+
+-e #Vulnerabilidades SSL, certificado ######################################################
+
+/usr/lib/python3/dist-packages/sslyze/plugins/certificate_info/trust_stores/trust_store.py:55: CryptographyDeprecationWarning: Parsed a serial number which wasn't positive (i.e., it was negative or zero), which is disallowed by RFC 5280. Loading this certificate will cause an exception in a future release of cryptography.
+  self._x509_store = Store(load_pem_x509_certificates(self.path.read_bytes()))
+
+ CHECKING CONNECTIVITY TO SERVER(S)
+ ----------------------------------
+
+   hackingyseguridad.com:443     => 1.1.1.1
+
+
+ SCAN RESULTS FOR hackingyseguridad.com:443 - 1.1.1.1
+ --------------------------------------------------------
+
+ * Certificates Information:
+       Hostname sent for SNI:             hackingyseguridad.com
+       Number of cert chains detected:    1 (RSAPublicKey)
+       Cert chain with SNI disabled:      Yes
+
+
+     Certificate Chain #1 (RSAPublicKey, SNI enabled)
+       SHA1 Fingerprint:                  0c3abf5722df1651a0fdbe1a33edc1995df194ef
+       Common Name:                       webdisk.hackingyseguridad.com
+       Issuer:                            R13
+       Serial Number:                     576277631135910746539472910384821631396596
+       Not Before:                        2026-04-24
+       Not After:                         2026-07-23
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['autodiscover.hackingyseguridad.com', 'cgn.ilc.mybluehost.me', 'cpanel.hackingyseguridad.com', 'mail.cgn.ilc.mybluehost.me', 'mail.hackingyseguridad.com', 'hackingyseguridad.com', 'webdisk.hackingyseguridad.com', 'webmail.hackingyseguridad.com', 'www.cgn.ilc.mybluehost.me', 'www.hackingyseguridad.com']
+     Trust
+       Android CA Store (16.0.0_r4):      OK - Certificate is trusted
+       Apple CA Store (iOS 26, iPadOS 26, macOS 26, tvOS 26, visionOS 26 and watchOS 26):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2026-03-28):     OK - Certificate is trusted
+       Windows CA Store (2026-03-28):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    webdisk.hackingyseguridad.com --> R13
+       Verified Chain:                    webdisk.hackingyseguridad.com --> R13 --> ISRG Root X1
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          WARNING - Only 2 SCTs included but Google recommends 3 or more
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+     Certificate Chain with SNI disabled - can be ignored
+       SHA1 Fingerprint:                  1da447af66ec58068e2bab4c38bf23242b26d12d
+       Common Name:                       *.bluehost.com
+       Issuer:                            Sectigo Public Server Authentication CA DV R36
+       Serial Number:                     182875168526635816889642022961864226786
+       Not Before:                        2026-01-06
+       Not After:                         2027-01-06
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['*.bluehost.com', 'bluehost.com']
+     Trust
+       Android CA Store (16.0.0_r4):      FAILED - Certificate is NOT Trusted: validation failed: leaf certificate has no matching subjectAltName (encountered processing <Certificate(subject=<Name(CN=*.bluehost.com)>, ...)>)
+       Apple CA Store (iOS 26, iPadOS 26, macOS 26, tvOS 26, visionOS 26 and watchOS 26):FAILED - Certificate is NOT Trusted: validation failed: leaf certificate has no matching subjectAltName (encountered processing <Certificate(subject=<Name(CN=*.bluehost.com)>, ...)>)
+       Java CA Store (jdk-13.0.2):        FAILED - Certificate is NOT Trusted: validation failed: leaf certificate has no matching subjectAltName (encountered processing <Certificate(subject=<Name(CN=*.bluehost.com)>, ...)>)
+       Mozilla CA Store (2026-03-28):     FAILED - Certificate is NOT Trusted: validation failed: leaf certificate has no matching subjectAltName (encountered processing <Certificate(subject=<Name(CN=*.bluehost.com)>, ...)>)
+       Windows CA Store (2026-03-28):     FAILED - Certificate is NOT Trusted: validation failed: leaf certificate has no matching subjectAltName (encountered processing <Certificate(subject=<Name(CN=*.bluehost.com)>, ...)>)
+       Symantec 2018 Deprecation:         ERROR - Could not build verified chain (certificate untrusted?)
+       Received Chain:                    *.bluehost.com --> Sectigo Public Server Authentication CA DV R36 --> Sectigo Public Server Authentication Root R46
+       Verified Chain:                    ERROR - Could not build verified chain (certificate untrusted?)
+       Received Chain Contains Anchor:    ERROR - Could not build verified chain (certificate untrusted?)
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      ERROR - Could not build verified chain (certificate untrusted?)
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+ * SSL 2.0 Cipher Suites:
+     Attempted to connect using 7 cipher suites; the server rejected all cipher suites.
+
+ * SSL 3.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.0 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.1 Cipher Suites:
+     Attempted to connect using 80 cipher suites; the server rejected all cipher suites.
+
+ * TLS 1.2 Cipher Suites:
+     Attempted to connect using 156 cipher suites.
+
+     The server accepted the following 5 cipher suites:
+        TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256       256       ECDH: X25519 (253 bits)
+        TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384             256       ECDH: secp256r1 (256 bits)
+        TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256             128       ECDH: secp256r1 (256 bits)
+        TLS_DHE_RSA_WITH_AES_256_GCM_SHA384               256       DH (2048 bits)
+        TLS_DHE_RSA_WITH_AES_128_GCM_SHA256               128       DH (2048 bits)
+
+     The group of cipher suites supported by the server has the following properties:
+       Forward Secrecy                    OK - Supported
+       Legacy RC4 Algorithm               OK - Not Supported
+
+
+ * TLS 1.3 Cipher Suites:
+     Attempted to connect using 5 cipher suites.
+
+     The server accepted the following 4 cipher suites:
+        TLS_CHACHA20_POLY1305_SHA256                      256       ECDH: X25519 (253 bits)
+        TLS_AES_256_GCM_SHA384                            256       ECDH: X25519 (253 bits)
+        TLS_AES_128_GCM_SHA256                            128       ECDH: X25519 (253 bits)
+        TLS_AES_128_CCM_SHA256                            128       ECDH: X25519 (253 bits)
+
+
+ * Deflate Compression:
+                                          OK - Compression disabled
+
+ * OpenSSL CCS Injection:
+                                          OK - Not vulnerable to OpenSSL CCS injection
+
+ * Downgrade Attacks:
+       TLS_FALLBACK_SCSV:                 OK - Supported
+
+ * OpenSSL Heartbleed:
+                                          OK - Not vulnerable to Heartbleed
+
+ * ROBOT Attack:
+                                          OK - Not vulnerable, RSA cipher suites not supported.
+
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
+
+ * Elliptic Curve Key Exchange:
+       Supported curves:                  X25519, X448, secp256r1, secp384r1, secp521r1
+       Rejected curves:                   brainpoolP256r1, brainpoolP384r1, brainpoolP512r1, secp160k1, secp160r1, secp160r2, secp192k1, secp192r1, secp224k1, secp224r1, secp256k1, sect163k1, sect163r1, sect163r2, sect193r1, sect193r2, sect233k1, sect233r1, sect239k1, sect283k1, sect283r1, sect409k1, sect409r1, sect571k1, sect571r1
+
+ * TLS Extended Master Secret Extension:
+                                          OK - Supported
+
+ SCANS COMPLETED IN 114.263544 S
+ -------------------------------
+
+ COMPLIANCE AGAINST TLS CONFIGURATION
+ ------------------------------------
+
+    Checking results against Mozilla's "intermediate" configuration. See https://ssl-config.mozilla.org/ for more details.
+
+    hackingyseguridad.com:443: FAILED - Not compliant.
+        * ciphersuites: TLS 1.3 cipher suites {'TLS_AES_128_CCM_SHA256'} are supported, but should be rejected.
+        * tls_curves: TLS curves {'secp521r1', 'X448'} are supported, but should be rejected.
+
+
+Version: 2.1.5
+OpenSSL 3.6.2 7 Apr 2026
+
+Connected to 1.1.1.1
+
+Testing SSL server hackingyseguridad.com on port 443 using SNI name hackingyseguridad.com
+
+  SSL/TLS Protocols:
+SSLv2     disabled
+SSLv3     disabled
+TLSv1.0   disabled
+TLSv1.1   disabled
+TLSv1.2   enabled
+TLSv1.3   enabled
+
+  TLS Fallback SCSV:
+Server supports TLS Fallback SCSV
+
+  TLS renegotiation:
+Session renegotiation not supported
+
+  TLS Compression:
+Compression disabled
+
+  Heartbleed:
+TLSv1.3 not vulnerable to heartbleed
+TLSv1.2 not vulnerable to heartbleed
+
+  Supported Server Cipher(s):
+Preferred TLSv1.3  256 bits  TLS_AES_256_GCM_SHA384        Curve 25519 DHE 253
+Accepted  TLSv1.3  256 bits  TLS_CHACHA20_POLY1305_SHA256  Curve 25519 DHE 253
+Accepted  TLSv1.3  128 bits  TLS_AES_128_GCM_SHA256        Curve 25519 DHE 253
+Accepted  TLSv1.3  128 bits  TLS_AES_128_CCM_SHA256        Curve 25519 DHE 253
+Preferred TLSv1.2  128 bits  ECDHE-RSA-AES128-GCM-SHA256   Curve 25519 DHE 253
+Accepted  TLSv1.2  256 bits  ECDHE-RSA-AES256-GCM-SHA384   Curve 25519 DHE 253
+Accepted  TLSv1.2  256 bits  ECDHE-RSA-CHACHA20-POLY1305   Curve 25519 DHE 253
+Accepted  TLSv1.2  128 bits  DHE-RSA-AES128-GCM-SHA256     DHE 2048 bits
+Accepted  TLSv1.2  256 bits  DHE-RSA-AES256-GCM-SHA384     DHE 2048 bits
+
+  Server Key Exchange Group(s):
+TLSv1.3  128 bits  secp256r1 (NIST P-256)
+TLSv1.3  192 bits  secp384r1 (NIST P-384)
+TLSv1.3  260 bits  secp521r1 (NIST P-521)
+TLSv1.3  128 bits  x25519
+TLSv1.3  224 bits  x448
+TLSv1.3  112 bits  ffdhe2048
+TLSv1.3  128 bits  ffdhe3072
+TLSv1.3  150 bits  ffdhe4096
+TLSv1.3  175 bits  ffdhe6144
+TLSv1.3  192 bits  ffdhe8192
+TLSv1.2  128 bits  secp256r1 (NIST P-256)
+TLSv1.2  192 bits  secp384r1 (NIST P-384)
+TLSv1.2  260 bits  secp521r1 (NIST P-521)
+TLSv1.2  128 bits  x25519
+TLSv1.2  224 bits  x448
+
+  SSL Certificate:
+Signature Algorithm: sha256WithRSAEncryption
+RSA Key Strength:    2048
+
+Subject:  webdisk.hackingyseguridad.com
+Altnames: DNS:autodiscover.hackingyseguridad.com, DNS:cgn.ilc.mybluehost.me, DNS:cpanel.hackingyseguridad.com, DNS:mail.cgn.ilc.mybluehost.me, DNS:mail.hackingyseguridad.com, DNS:hackingyseguridad.com, DNS:webdisk.hackingyseguridad.com, DNS:webmail.hackingyseguridad.com, DNS:www.cgn.ilc.mybluehost.me, DNS:www.hackingyseguridad.com
+Issuer:   R13
+
+Not valid before: Apr 24 08:04:34 2026 GMT
+Not valid after:  Jul 23 08:04:33 2026 GMT
+
+/usr/lib/python3/dist-packages/sslyze/plugins/certificate_info/trust_stores/trust_store.py:55: CryptographyDeprecationWarning: Parsed a serial number which wasn't positive (i.e., it was negative or zero), which is disallowed by RFC 5280. Loading this certificate will cause an exception in a future release of cryptography.
+  self._x509_store = Store(load_pem_x509_certificates(self.path.read_bytes()))
+
+ CHECKING CONNECTIVITY TO SERVER(S)
+ ----------------------------------
+
+   hackingyseguridad.com:443     => 1.1.1.1
+
+
+ SCAN RESULTS FOR hackingyseguridad.com:443 - 1.1.1.1
+ --------------------------------------------------------
+
+ * Certificates Information:
+       Hostname sent for SNI:             hackingyseguridad.com
+       Number of cert chains detected:    1 (RSAPublicKey)
+       Cert chain with SNI disabled:      Yes
+
+
+     Certificate Chain #1 (RSAPublicKey, SNI enabled)
+       SHA1 Fingerprint:                  0c3abf5722df1651a0fdbe1a33edc1995df194ef
+       Common Name:                       webdisk.hackingyseguridad.com
+       Issuer:                            R13
+       Serial Number:                     576277631135910746539472910384821631396596
+       Not Before:                        2026-04-24
+       Not After:                         2026-07-23
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['autodiscover.hackingyseguridad.com', 'cgn.ilc.mybluehost.me', 'cpanel.hackingyseguridad.com', 'mail.cgn.ilc.mybluehost.me', 'mail.hackingyseguridad.com', 'hackingyseguridad.com', 'webdisk.hackingyseguridad.com', 'webmail.hackingyseguridad.com', 'www.cgn.ilc.mybluehost.me', 'www.hackingyseguridad.com']
+     Trust
+       Android CA Store (16.0.0_r4):      OK - Certificate is trusted
+       Apple CA Store (iOS 26, iPadOS 26, macOS 26, tvOS 26, visionOS 26 and watchOS 26):OK - Certificate is trusted
+       Java CA Store (jdk-13.0.2):        OK - Certificate is trusted
+       Mozilla CA Store (2026-03-28):     OK - Certificate is trusted
+       Windows CA Store (2026-03-28):     OK - Certificate is trusted
+       Symantec 2018 Deprecation:         OK - Not a Symantec-issued certificate
+       Received Chain:                    webdisk.hackingyseguridad.com --> R13
+       Verified Chain:                    webdisk.hackingyseguridad.com --> R13 --> ISRG Root X1
+       Received Chain Contains Anchor:    OK - Anchor certificate not sent
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      OK - No SHA1-signed certificate in the verified certificate chain
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          WARNING - Only 2 SCTs included but Google recommends 3 or more
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+     Certificate Chain with SNI disabled - can be ignored
+       SHA1 Fingerprint:                  1da447af66ec58068e2bab4c38bf23242b26d12d
+       Common Name:                       *.bluehost.com
+       Issuer:                            Sectigo Public Server Authentication CA DV R36
+       Serial Number:                     182875168526635816889642022961864226786
+       Not Before:                        2026-01-06
+       Not After:                         2027-01-06
+       Public Key Algorithm:              RSAPublicKey
+       Signature Algorithm:               sha256
+       Key Size:                          2048
+       Exponent:                          65537
+       SubjAltName - DNS Names:           ['*.bluehost.com', 'bluehost.com']
+     Trust
+       Android CA Store (16.0.0_r4):      FAILED - Certificate is NOT Trusted: validation failed: leaf certificate has no matching subjectAltName (encountered processing <Certificate(subject=<Name(CN=*.bluehost.com)>, ...)>)
+       Apple CA Store (iOS 26, iPadOS 26, macOS 26, tvOS 26, visionOS 26 and watchOS 26):FAILED - Certificate is NOT Trusted: validation failed: leaf certificate has no matching subjectAltName (encountered processing <Certificate(subject=<Name(CN=*.bluehost.com)>, ...)>)
+       Java CA Store (jdk-13.0.2):        FAILED - Certificate is NOT Trusted: validation failed: leaf certificate has no matching subjectAltName (encountered processing <Certificate(subject=<Name(CN=*.bluehost.com)>, ...)>)
+       Mozilla CA Store (2026-03-28):     FAILED - Certificate is NOT Trusted: validation failed: leaf certificate has no matching subjectAltName (encountered processing <Certificate(subject=<Name(CN=*.bluehost.com)>, ...)>)
+       Windows CA Store (2026-03-28):     FAILED - Certificate is NOT Trusted: validation failed: leaf certificate has no matching subjectAltName (encountered processing <Certificate(subject=<Name(CN=*.bluehost.com)>, ...)>)
+       Symantec 2018 Deprecation:         ERROR - Could not build verified chain (certificate untrusted?)
+       Received Chain:                    *.bluehost.com --> Sectigo Public Server Authentication CA DV R36 --> Sectigo Public Server Authentication Root R46
+       Verified Chain:                    ERROR - Could not build verified chain (certificate untrusted?)
+       Received Chain Contains Anchor:    ERROR - Could not build verified chain (certificate untrusted?)
+       Received Chain Order:              OK - Order is valid
+       Verified Chain contains SHA1:      ERROR - Could not build verified chain (certificate untrusted?)
+     Certificate Extensions
+       OCSP Must-Staple:                  NOT SUPPORTED - Extension not found
+       Certificate Transparency:          OK - 3 SCTs included
+     OCSP Stapling
+                                          NOT SUPPORTED - Server did not send back an OCSP response
+
+ SCANS COMPLETED IN 1.582126 S
+ -----------------------------
+
+ COMPLIANCE AGAINST TLS CONFIGURATION
+ ------------------------------------
+
+    Disabled; use --mozilla_config={old, intermediate, modern} or --custom_tls_config=path/to/profile.json.
+
+
+ CHECKING CONNECTIVITY TO SERVER(S)
+ ----------------------------------
+
+   hackingyseguridad.com:443     => 1.1.1.1
+
+
+ SCAN RESULTS FOR hackingyseguridad.com:443 - 1.1.1.1
+ --------------------------------------------------------
+
+ * Deflate Compression:
+                                          OK - Compression disabled
+
+ SCANS COMPLETED IN 1.329396 S
+ -----------------------------
+
+ COMPLIANCE AGAINST TLS CONFIGURATION
+ ------------------------------------
+
+    Disabled; use --mozilla_config={old, intermediate, modern} or --custom_tls_config=path/to/profile.json.
+
+
+ CHECKING CONNECTIVITY TO SERVER(S)
+ ----------------------------------
+
+   hackingyseguridad.com:443     => 1.1.1.1
+
+
+ SCAN RESULTS FOR hackingyseguridad.com:443 - 1.1.1.1
+ --------------------------------------------------------
+
+ * Session Renegotiation:
+       Client Renegotiation DoS Attack:   OK - Not vulnerable
+       Secure Renegotiation:              OK - Supported
+
+ SCANS COMPLETED IN 1.506510 S
+ -----------------------------
+
+ COMPLIANCE AGAINST TLS CONFIGURATION
+ ------------------------------------
+
+    Disabled; use --mozilla_config={old, intermediate, modern} or --custom_tls_config=path/to/profile.json.
+
+
+ CHECKING CONNECTIVITY TO SERVER(S)
+ ----------------------------------
+
+   hackingyseguridad.com:443     => 1.1.1.1
+
+
+ SCAN RESULTS FOR hackingyseguridad.com:443 - 1.1.1.1
+ --------------------------------------------------------
+
+ * TLS 1.2 Session Resumption Support:
+      With Session IDs: OK - Supported (5 successful resumptions out of 5 attempts).
+      With TLS Tickets: OK - Supported (5 successful resumptions out of 5 attempts).
+
+ SCANS COMPLETED IN 2.528961 S
+ -----------------------------
+
+ COMPLIANCE AGAINST TLS CONFIGURATION
+ ------------------------------------
+
+    Disabled; use --mozilla_config={old, intermediate, modern} or --custom_tls_config=path/to/profile.json.
+
+
+-e # Metodos HTTP ##########################################################
+
+ ==== Metodos http!
+PUT
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:18 GMT
+server: Apache
+
+
+prueba PUT
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+100    359 100    355   0      4     44      0   00:08   00:07   00:01     65
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+<p>Additionally, a 404 Not Found
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+</body></html>
+
+TRACE
+HTTP/2 406
+date: Wed, 20 May 2026 11:19:26 GMT
+server: Apache
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+
+
+prueba TRACE
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+100    226 100    226   0      0    426      0                              0
+<head><title>Not Acceptable!</title></head><body><h1>Not Acceptable!</h1><p>An appropriate representation of the requested resource could not be found on this server. This error was generated by Mod_Security.</p></body></html>
+GET
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:27 GMT
+server: Apache
+
+POST
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:28 GMT
+server: Apache
+
+HEAD
+HTTP/2 406
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:29 GMT
+server: Apache
+
+OPTIONS
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:29 GMT
+server: Apache
+
+PATCH
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:30 GMT
+server: Apache
+
+ ==== Mas metodos http!
+ACL
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:30 GMT
+server: Apache
+
+ARBITRARY
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:31 GMT
+server: Apache
+
+BASELINE-CONTROL
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:32 GMT
+server: Apache
+
+BIND
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:32 GMT
+server: Apache
+
+CHECKIN
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:33 GMT
+server: Apache
+
+CHECKOUT
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:33 GMT
+server: Apache
+
+CONNECT
+COPY
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:35 GMT
+server: Apache
+
+INDEX
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:35 GMT
+server: Apache
+
+LABEL
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:36 GMT
+server: Apache
+
+LINK
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:36 GMT
+server: Apache
+
+LOCK
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:37 GMT
+server: Apache
+
+MERGE
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:38 GMT
+server: Apache
+
+MKACTIVITY
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:38 GMT
+server: Apache
+
+MKCALENDAR
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:39 GMT
+server: Apache
+
+MKCOL
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:39 GMT
+server: Apache
+
+MKREDIRECTREF
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:40 GMT
+server: Apache
+
+MKWORKSPACE
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:41 GMT
+server: Apache
+
+MOVE
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:41 GMT
+server: Apache
+
+ORDERPATCH
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:42 GMT
+server: Apache
+
+PRI
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:42 GMT
+server: Apache
+
+PROPFIND
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:43 GMT
+server: Apache
+
+PROPPATCH
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:44 GMT
+server: Apache
+
+REBIND
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:44 GMT
+server: Apache
+
+REPORT
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:45 GMT
+server: Apache
+
+SEARCH
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:45 GMT
+server: Apache
+
+SHOWMETHOD
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:46 GMT
+server: Apache
+
+SPACEJUMP
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:46 GMT
+server: Apache
+
+TEXTSEARCH
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:47 GMT
+server: Apache
+
+TRACK
+HTTP/2 406
+date: Wed, 20 May 2026 11:19:48 GMT
+server: Apache
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+
+UNBIND
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:48 GMT
+server: Apache
+
+UNCHECKOUT
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:49 GMT
+server: Apache
+
+UNLINK
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:49 GMT
+server: Apache
+
+UNLOCK
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:50 GMT
+server: Apache
+
+UPDATE
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:51 GMT
+server: Apache
+
+UPDATEREDIRECTREF
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:51 GMT
+server: Apache
+
+VERSION-CONTROL
+HTTP/2 406
+content-length: 226
+content-type: text/html; charset=iso-8859-1
+date: Wed, 20 May 2026 11:19:52 GMT
+server: Apache
+
+
+-e # SQLi ########################################################
+        ___
+       __H__
+ ___ ___[.]_____ ___ ___  {1.10.4#stable}
+|_ -| . [)]     | .'| . |
+|___|_  [.]_|_|_|__,|  _|
+      |_|V...       |_|   https://sqlmap.org
+
+[!] legal disclaimer: Usage of sqlmap for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program
+
+[*] starting @ 13:19:55 /2026-05-20/
+
+[13:19:56] [INFO] fetched random HTTP User-Agent header value 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36' from file '/usr/share/sqlmap/data/txt/user-agents.txt'
+do you want to check for the existence of site's sitemap(.xml) [y/N] N
+[13:19:56] [INFO] starting crawler for target URL 'https://$1'
+[13:19:56] [INFO] searching for links with depth 1
+[13:19:56] [CRITICAL] connection exception detected ('can't establish SSL connection'). skipping URL 'https://$1'
+[13:19:56] [WARNING] no usable links found (with GET parameters) or forms
+
+[*] ending @ 13:19:57 /2026-05-20/
+
+
+-e # Vulnerabilidades web con Nikto ########################################################
+
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingyseguridad.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:           Subject:  /CN=webdisk.hackingyseguridad.com
+                      CN:       webdisk.hackingyseguridad.com
+                      SAN:      autodiscover.hackingyseguridad.com, cgn.ilc.mybluehost.me, cpanel.hackingyseguridad.com, mail.cgn.ilc.mybluehost.me, mail.hackingyseguridad.com, hackingyseguridad.com, webdisk.hackingyseguridad.com, webmail.hackingyseguridad.com, www.cgn.ilc.mybluehost.me, www.hackingyseguridad.com
+                      Ciphers:  TLS_AES_256_GCM_SHA384
+                      Issuer:   /C=US/O=Let's Encrypt/CN=R13
++ Platform:           Unknown
++ Start Time:         2026-05-20 13:20:03 (GMT2)
+---------------------------------------------------------------------------
++ Server: nginx/1.27.2
++ ERROR: Failed to check for updates: 403
++ 11 requests: 0 errors and 0 items reported on the remote host
++ End Time:           2026-05-20 13:20:26 (GMT2) (23 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingyseguridad.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:           Subject:  /CN=webdisk.hackingyseguridad.com
+                      CN:       webdisk.hackingyseguridad.com
+                      SAN:      autodiscover.hackingyseguridad.com, cgn.ilc.mybluehost.me, cpanel.hackingyseguridad.com, mail.cgn.ilc.mybluehost.me, mail.hackingyseguridad.com, hackingyseguridad.com, webdisk.hackingyseguridad.com, webmail.hackingyseguridad.com, www.cgn.ilc.mybluehost.me, www.hackingyseguridad.com
+                      Ciphers:  TLS_AES_256_GCM_SHA384
+                      Issuer:   /C=US/O=Let's Encrypt/CN=R13
++ Platform:           Unknown
++ Start Time:         2026-05-20 13:20:42 (GMT2)
+---------------------------------------------------------------------------
++ Server: nginx/1.27.2
++ ERROR: Failed to check for updates: 403
++ [999100] /: Uncommon header(s) 'host-header' found, with contents: c2hhcmVkLmJsdWVob3N0LmNvbQ==.
++ [999962] /: Server banner changed from 'nginx/1.27.2' to 'Apache'.
++ [013587] /: Suggested security header missing: referrer-policy. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
++ [013587] /: Suggested security header missing: permissions-policy. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy
++ [013587] /: Suggested security header missing: strict-transport-security. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
++ [013587] /: Suggested security header missing: content-security-policy. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
++ [013587] /: Suggested security header missing: x-content-type-options. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options
++ 40 requests: 0 errors and 7 items reported on the remote host
++ End Time:           2026-05-20 13:21:45 (GMT2) (63 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingyseguridad.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:           Subject:  /CN=webdisk.hackingyseguridad.com
+                      CN:       webdisk.hackingyseguridad.com
+                      SAN:      autodiscover.hackingyseguridad.com, cgn.ilc.mybluehost.me, cpanel.hackingyseguridad.com, mail.cgn.ilc.mybluehost.me, mail.hackingyseguridad.com, hackingyseguridad.com, webdisk.hackingyseguridad.com, webmail.hackingyseguridad.com, www.cgn.ilc.mybluehost.me, www.hackingyseguridad.com
+                      Ciphers:  TLS_AES_256_GCM_SHA384
+                      Issuer:   /C=US/O=Let's Encrypt/CN=R13
++ Platform:           Unknown
++ Start Time:         2026-05-20 13:21:53 (GMT2)
+---------------------------------------------------------------------------
++ Server: nginx/1.27.2
++ ERROR: Failed to check for updates: 403
++ 12 requests: 1 error and 0 items reported on the remote host
++ End Time:           2026-05-20 13:22:49 (GMT2) (56 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingyseguridad.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:           Subject:  /CN=webdisk.hackingyseguridad.com
+                      CN:       webdisk.hackingyseguridad.com
+                      SAN:      autodiscover.hackingyseguridad.com, cgn.ilc.mybluehost.me, cpanel.hackingyseguridad.com, mail.cgn.ilc.mybluehost.me, mail.hackingyseguridad.com, hackingyseguridad.com, webdisk.hackingyseguridad.com, webmail.hackingyseguridad.com, www.cgn.ilc.mybluehost.me, www.hackingyseguridad.com
+                      Ciphers:  TLS_AES_256_GCM_SHA384
+                      Issuer:   /C=US/O=Let's Encrypt/CN=R13
++ Platform:           Unknown
++ Start Time:         2026-05-20 13:23:00 (GMT2)
+---------------------------------------------------------------------------
++ Server: nginx/1.27.2
++ ERROR: Failed to check for updates: 403
++ [999962] /: Server banner changed from 'nginx/1.27.2' to 'Apache'.
++ [999990] OPTIONS: Allowed HTTP Methods: OPTIONS, HEAD, GET, POST .
++ 22 requests: 0 errors and 2 items reported on the remote host
++ End Time:           2026-05-20 13:23:36 (GMT2) (36 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+- Nikto v2.6.0
+---------------------------------------------------------------------------
++ Target IP:          1.1.1.1
++ Target Hostname:    hackingyseguridad.com
++ Target Port:        443
+---------------------------------------------------------------------------
++ SSL Info:           Subject:  /CN=webdisk.hackingyseguridad.com
+                      CN:       webdisk.hackingyseguridad.com
+                      SAN:      autodiscover.hackingyseguridad.com, cgn.ilc.mybluehost.me, cpanel.hackingyseguridad.com, mail.cgn.ilc.mybluehost.me, mail.hackingyseguridad.com, hackingyseguridad.com, webdisk.hackingyseguridad.com, webmail.hackingyseguridad.com, www.cgn.ilc.mybluehost.me, www.hackingyseguridad.com
+                      Ciphers:  TLS_AES_256_GCM_SHA384
+                      Issuer:   /C=US/O=Let's Encrypt/CN=R13
++ Platform:           Unknown
++ Start Time:         2026-05-20 13:23:42 (GMT2)
+---------------------------------------------------------------------------
++ Server: nginx/1.27.2
++ ERROR: Failed to check for updates: 403
++ 12 requests: 0 errors and 0 items reported on the remote host
++ End Time:           2026-05-20 13:24:09 (GMT2) (27 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+
+fqdnaudit.sh: 137: wapiti: not found
+
+
+-e # Escaneo con Nmap de puertos web habituales ########################################################
+
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-05-20 13:24 +0200
+Nmap scan report for hackingyseguridad.com (1.1.1.1)
+Host is up (0.16s latency).
+rDNS record for 1.1.1.1: box5182.bluehost.com
+Not shown: 10 closed tcp ports (reset)
+Bug in http-security-headers: no string output.
+PORT    STATE SERVICE
+80/tcp  open  http
+| http-methods:
+|_  Supported Methods: GET HEAD POST OPTIONS
+443/tcp open  https
+| ssl-enum-ciphers:
+|   TLSv1.2:
+|     ciphers:
+|       TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A
+|       TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (dh 2048) - A
+|       TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (dh 2048) - A
+|     compressors:
+|       NULL
+|     cipher preference: server
+|   TLSv1.3:
+|     ciphers:
+|       TLS_AKE_WITH_AES_256_GCM_SHA384 (ecdh_x25519) - A
+|       TLS_AKE_WITH_CHACHA20_POLY1305_SHA256 (ecdh_x25519) - A
+|       TLS_AKE_WITH_AES_128_GCM_SHA256 (ecdh_x25519) - A
+|       TLS_AKE_WITH_AES_128_CCM_SHA256 (ecdh_x25519) - A
+|     cipher preference: server
+|_  least strength: A
+| http-security-headers:
+|   Strict_Transport_Security:
+|_    HSTS not configured in HTTPS Server
+| ssl-cert: Subject: commonName=webdisk.hackingyseguridad.com
+| Subject Alternative Name: DNS:autodiscover.hackingyseguridad.com, DNS:cgn.ilc.mybluehost.me, DNS:cpanel.hackingyseguridad.com, DNS:mail.cgn.ilc.mybluehost.me, DNS:mail.hackingyseguridad.com, DNS:hackingyseguridad.com, DNS:webdisk.hackingyseguridad.com, DNS:webmail.hackingyseguridad.com, DNS:www.cgn.ilc.mybluehost.me, DNS:www.hackingyseguridad.com
+| Issuer: commonName=R13/organizationName=Let's Encrypt/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2026-04-24T08:04:34
+| Not valid after:  2026-07-23T08:04:33
+| MD5:     bd32 0e50 0fe8 9308 34e9 d48c 2eab 1ea4
+| SHA-1:   0c3a bf57 22df 1651 a0fd be1a 33ed c199 5df1 94ef
+|_SHA-256: 9c7a 762c a0df b957 5411 d4c6 2dd0 8f25 ff5a 0a3e 375b db0d 7d6d 1630 97b5 a7b2
+|_ssl-date: ERROR: Script execution failed (use -d to debug)
+| http-methods:
+|_  Supported Methods: OPTIONS HEAD GET POST
+Aggressive OS guesses: Linux 4.19 - 5.15 (96%), Linux 3.4 (95%), Linux 4.15 (95%), Linux 3.11 - 4.9 (92%), Linux 3.2 - 3.8 (92%), Android TV OS 11 (Linux 4.19) (91%), IPFire 2.25 firewall (Linux 4.14) (91%), IPFire 2.27 (Linux 5.15 - 6.1) (91%), Linux 2.6.32 (91%), Linux 2.6.32 or 3.10 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 12 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 420.98 seconds
+
+-e # Descubre directorios por fuerza bruta ########################################################
+
+Fuzz de:  hackingyseguridad.com
+--- -----------
+Cod Significado
+--- -----------
+200 OK
+301 Movido permamentemente
+302 Encontrado
+304 No modificado
+400 Solicitud incorrecta
+400 No autorizado
+403 Prohibido
+404 No encontrado
+410 Ya no esta disponible
+500 Error interno en el servidor
+
+
+-----------------
+DIRB v2.22
+By The Dark Raver
+-----------------
+
+START_TIME: Wed May 20 13:31:10 2026
+URL_BASE: https://hackingyseguridad.com/
+WORDLIST_FILES: diccionario.txt
+USER_AGENT: User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0
+OPTION: Not squashing or merging ./../path
+ADDED_HEADERS:
+--
+Accept: text/html, applicattion/xhtml+xml, application/xml;q=0.9,*/*;q=0.8
+--
+OPTION: Ignoring NOT_FOUND code -> 302
+OPTION: Silent Mode
+OPTION: Not Stopping on warning messages
+SPEED_DELAY: 99 milliseconds
+
+-----------------
+
+GENERATED WORDS: 89481
+
+---- Scanning URL: https://hackingyseguridad.com/ ----
++ https://hackingyseguridad.com/admin/%2e (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/xmlrpc.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administratoraccounts (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrators (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/guestbook (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/register (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/tellafriend (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/wp-register (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/_vti_pvt/administrators.pwd (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/acart2_0/admin/category.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/acart2_0/admin/index.asp?msg=<script>alert(\"test\")</script> (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/account (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/account.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/adminLogin.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/db (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/index (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/upload (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/gallery/uploadimage.php?directory=\"<script>alert(document.cookie)</script> (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrators.pwd (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/CFIDE/administrator/index.cfm (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/cfide/administrator/index.cfm (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/cgi-bin/boozt/admin/index.cgi?section=5&input=1 (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//administrator/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/guestbook.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/register.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//SiteServer/admin/findvserver.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//_vti_pvt/administrator.pwd (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//_vti_pvt/administrators.pwd (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/guestbook/?number=5&lng=%3Cscript%3Ealert(document.domain);%3C/script%3E (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/guestbooks (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/phorum/admin/header.php?GLOBALS[message]=<script>alert('Vulnerable')</script> (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/register.html.orig (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/register.tpl (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/SiteServer/admin/findvserver.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/tiki-register (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/user/register (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/account.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/account.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/add_banner.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/addblog.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/add_gallery_image.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/add.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/add-room.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/add-slider.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/add_testimonials.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/adminarea.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/AdminDashboard.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin-home.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/AdminHome.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin_index.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin_login.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin-login.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/adminLogin.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin_login.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin-login.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin_login.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin-login.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/adminLogin.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin_management.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin_users.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/adminview.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/adm.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/banner.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/banners_report.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/category.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/change_gallery.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/checklogin.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/configration.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/control.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/control_pages/admin_home.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/controlpanel.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/controlpanel.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/controlpanel.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/cpanel.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/cp.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/CPhome.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/cp.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/cp.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/dashboard/index.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/dashboard.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/dashbord.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/dash.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/default.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/enter.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/event.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/form.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/gallery.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/headline.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/home.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/home.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/home.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/index.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/index-digital.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/index.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/index.php (CODE:409|SIZE:83)
+(!) WARNING: Too many responses for this directory seem to be FOUND.
+    (Something is going wrong - Try Other Scan Mode)
+    (Use mode '-w' if you want to scan it anyway)
++ https://hackingyseguridad.com/admin/index_ref.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/initialadmin.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/account.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/account.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/account.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/index.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/index.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/index.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administratorlogin (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/login.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administratorlogin.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/login.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/login.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/leads.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/list_gallery.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/login (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/login.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/login-home.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/login.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/login.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/login_success.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/loginsuccess.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/log.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/main_page.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/main.php/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/ManageAdmin.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/manageImages.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/manage_team.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/member_home.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/moderator.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/my_account.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/myaccount.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/overview.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/page_management.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/pages/home_admin.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/product.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/products.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/save.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/slider.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/specializations.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/uhome.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/upload.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/userpage.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/viewblog.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/viewmembers.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/voucher.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/welcomepage.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/welcome.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/nsw/admin/login.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/pages/admin/admin-login.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/pages/admin/admin-login.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/pages/admin/admin-login.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/rcjakar/admin/login.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/wp-login.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//CFIDE/administrator/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/_vti_pvt/administrator.pwd (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/.config (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/.htaccess (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/?/login (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/_logs/access-log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/_logs/access.log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/_logs/access_log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/_logs/err.log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/_logs/error-log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/_logs/error.log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/_logs/error_log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/_logs/login.txt (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/access.log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/access.txt (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/access_log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/account.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin-login (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin-login.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin.shtml (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin/login (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin_login (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin_login.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/adminLogin (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/adminLogin.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/adminLogin.htm (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/backup/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/backups/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/config.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/controlpanel (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/controlpanel.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/controlpanel.htm (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/cp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/cp.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/db/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/default (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/default.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/default/admin.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/default/login.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/download.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/dumper/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/error.log (CODE:409|SIZE:83)
+(!) WARNING: Too many responses for this directory seem to be FOUND.
+    (Something is going wrong - Try Other Scan Mode)
+    (Use mode '-w' if you want to scan it anyway)
++ https://hackingyseguridad.com/admin/error.txt (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/error_log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/export.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/FCKeditor (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/fckeditor/editor/filemanager/connectors/asp/connector.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/fckeditor/editor/filemanager/connectors/asp/upload.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/fckeditor/editor/filemanager/connectors/aspx/connector.aspx (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/fckeditor/editor/filemanager/connectors/aspx/upload.aspx (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/fckeditor/editor/filemanager/connectors/php/connector.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/fckeditor/editor/filemanager/connectors/php/upload.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/fckeditor/editor/filemanager/upload/asp/upload.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/fckeditor/editor/filemanager/upload/aspx/upload.aspx (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/fckeditor/editor/filemanager/upload/php/upload.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/file.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/files.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/home (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/home.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/includes/configure.php~ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/index.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/js/tiny_mce (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/js/tiny_mce/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/js/tinymce (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/js/tinymce/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/login.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/login.do (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/login.htm (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/login.jsp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/login.py (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/login.rb (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/logon.jsp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/logs/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/logs/access-log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/logs/access.log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/logs/access_log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/logs/err.log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/logs/error-log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/logs/error.log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/logs/error_log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/logs/login.txt (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/manage (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/manage.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/manage/admin.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/manage/login.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/mysql/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/phpMyAdmin (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/phpmyadmin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/phpMyAdmin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/pMA/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/pma/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/pol_log.txt (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/private/logs (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/release (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/scripts/fckeditor (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/secure/logon.jsp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/signin (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/sqladmin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/sxd/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/sysadmin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/tiny_mce (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/tinymce (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/uploads.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/user_count.txt (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/web/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin_guestbook.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator-login/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator.htm (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator.jsp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator.py (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator.rb (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator.shtml (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/.htaccess (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/account (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/account.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/admin.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/db/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/index.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/login (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/login.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/logs (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/phpmyadmin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/phpMyAdmin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/pma/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/PMA/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/web/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator2 (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administratoraccounts/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administratorlogin.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administratorlogin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrators.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrators/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/article/admin/admin.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/bbs/admin/login (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/bitrix/admin/help.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/bitrix/admin/index.php (CODE:409|SIZE:83)
+(!) WARNING: Too many responses for this directory seem to be FOUND.
+    (Something is going wrong - Try Other Scan Mode)
+    (Use mode '-w' if you want to scan it anyway)
++ https://hackingyseguridad.com/bitrix/modules/main/admin/restore.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/blog/wp-login.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/docs/html/admin/ch01.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/docs/html/admin/ch01s04.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/docs/html/admin/ch03s07.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/docs/html/admin/index.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/en/admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/forum/admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/joomla/administrator (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/login/admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/login/admin/admin.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/login/administrator/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/modules/admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/mysql/admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/nsw/admin/login.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/pages/admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/pages/admin/admin-login (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/pages/admin/admin-login.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/patient/register.do (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/rcjakar/admin/login.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/register.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/SiteServer/admin/findvserver.%EXT% (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/solr/admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/wp-register.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/system.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/shell.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/shel.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/she.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/c99.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/wbn.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/c100.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/DB.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/fuck.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/fucking.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/lol.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/xxx.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/fenixshell.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/phoenix.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/x.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/xd.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/pwned.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/PWNED.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/owned.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/OWNED.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/0.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/1.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/7.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/123.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/adm.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/root.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/symlink.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/symlink/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/sym.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/config.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrator/xtremecrip.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/administrators.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/admin/Login (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/login.aspx (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/admin/upload.asp (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//?op=register (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/blablabal/admin/..;/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//blablabal/admin/..;/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/../admin (CODE:409|SIZE:83)
++ https://hackingyseguridad.com///admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//index.php/admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com///admin/admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com///anything/admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin//phpmyadmin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/adminer.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/buoy (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/config (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/config.json (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/configs/application.ini (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/data/autosuggest (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/error.log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/errors.log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/expvar (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/gc (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/heap (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/heapdump (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/index.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/init (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/log/error.log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/login (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/login.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/login/?next=/admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/logs/error.log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/logs/errors.log (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/metrics (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/outgoing (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/ping (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/pprof (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/proxy/config.json (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/proxy/configs (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/proxy/discovery (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/proxy/metrics (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/proxy/routes (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/proxy/servers (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/proxy/svc (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/proxy/tap (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/proxy/tree (CODE:409|SIZE:83)
+(!) WARNING: Too many responses for this directory seem to be FOUND.
+    (Something is going wrong - Try Other Scan Mode)
+    (Use mode '-w' if you want to scan it anyway)
++ https://hackingyseguridad.com//admin/proxy/vars (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/proxy/versions (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/queues.jsp?QueueFilter=yu1ey%22%3e%3cscript%3ealert(%221%22)%3c%2fscript%3eqb68 (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/routes (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/runtime/tree (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/tap (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/threadz (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/tls (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/tracing (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//admin/views/ajax/autocomplete/user/a (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//CFIDE/administrator/images/background.jpg (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//cfide/administrator/images/background.jpg (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//CFIDE/administrator/images/componentutilslogin.jpg (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//cfide/administrator/images/componentutilslogin.jpg (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//CFIDE/administrator/images/mx_login.gif (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//cfide/administrator/images/mx_login.gif (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//common/admin/Calendar/Telerik.Web.UI.DialogHandler.aspx?dp=1 (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//common/admin/Jobs2/Telerik.Web.UI.DialogHandler.aspx?dp=1 (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//common/admin/PhotoGallery2/Telerik.Web.UI.DialogHandler.aspx?dp=1 (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//mysql/admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//robots.txt../admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//robots.txt/../admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//sap/wdisp/admin/public/default.html (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//static../admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//static/../admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//xmlrpc.php (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//api/admin/auth (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//api/admin/menu (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//api/admin/menu/tree (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//api/admin/properties (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//api/admin/role (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//api/admin/role/id/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//api/admin/role/perm (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//api/admin/role/status (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//api/admin/user (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//api/admin/user/id/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//api/admin/user/password (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//api/admin/user/status (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//api/register (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//api/v1/account/user/register (CODE:409|SIZE:83)
++ https://hackingyseguridad.com/api/v2/cmdb/system/admin/admin (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//api/v2/cmdb/system/admin/ (CODE:409|SIZE:83)
++ https://hackingyseguridad.com//api/v2/cmdb/system/admin/admin (CODE:409|SIZE:83)
