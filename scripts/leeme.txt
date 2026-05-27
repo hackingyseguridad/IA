@@ -1,7 +1,7 @@
 Scripts para usar en Kali Linux 
 
 ===================================================================
-     S C R I P T S   -   KALI LINUX + IA
+     S C R I P T S   -   KALI LINUX 
 ===================================================================
 
  [ hackingyseguridad ]
@@ -10,22 +10,17 @@ Scripts para usar en Kali Linux
              │
              └─── [ scripts ] ─── ( Repositorio )
                     │
-                    ├─── [ recon_ia ]
-                    │      ├─── osint_gpt.py
-                    │      └─── subdominios_llm.sh
+                    ├─── [ recon ]
+                    │      └─── reconaudit.sh
                     │
-                    ├─── [ exploit_gen ]
-                    │      ├─── fuzzing_assistant.py
-                    │      └─── payload_crafter.py
+                    ├─── [ escaneo red ]
+                    │      └─── redaudit.sh
                     │
-                    ├─── [ analysis_logs ]
-                    │      ├─── log_anomaly_detector.py
-                    │      └─── siem_enricher.py
+                    ├─── [ web audit ]
+                    │      └─── webaudit.sh
                     │
-                    ├─── [ phishing_ai ]
-                    │      ├─── text_generator.py
-                    │      └─── mail_sender.sh
+                    ├─── [ api audit ]
+                    │      └─── fqdnaudit.sh
                     │
-                    ├─── config.json
                     ├─── requirements.txt
-                    └─── README.md
+                    └─── leeme.txt
