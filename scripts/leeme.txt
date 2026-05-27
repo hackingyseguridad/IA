@@ -1,1 +1,31 @@
 Scripts para usar en Kali Linux 
+
+===================================================================
+     S C R I P T S   -   KALI LINUX + IA
+===================================================================
+
+ [ hackingyseguridad ]
+       │
+       └─── [ IA ]
+             │
+             └─── [ scripts ] ─── ( Repositorio )
+                    │
+                    ├─── [ recon_ia ]
+                    │      ├─── osint_gpt.py
+                    │      └─── subdominios_llm.sh
+                    │
+                    ├─── [ exploit_gen ]
+                    │      ├─── fuzzing_assistant.py
+                    │      └─── payload_crafter.py
+                    │
+                    ├─── [ analysis_logs ]
+                    │      ├─── log_anomaly_detector.py
+                    │      └─── siem_enricher.py
+                    │
+                    ├─── [ phishing_ai ]
+                    │      ├─── text_generator.py
+                    │      └─── mail_sender.sh
+                    │
+                    ├─── config.json
+                    ├─── requirements.txt
+                    └─── README.md
