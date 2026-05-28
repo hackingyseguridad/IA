@@ -89,6 +89,8 @@ En modelos hibridos, la interfaz es localhost (terminal(Cli), api o web), pero e
 | **Prompt** | Prompt IA | **Instrucción / Consigna**: Texto o comando de entrada que se le proporciona a un modelo de IA para guiarlo y obtener una respuesta específica. |
 | **Agente** | Agent IA | **Agente IA**: Capaz de tomar decisiones y actuar de forma autónoma para alcanzar un objetivo específico, sin necesidad de supervisión humana constante. |
 | **VSCode** | VS Code | **VS Code**: Visual Studio Code, (VSCode=, es un editor de código para programadores gratuito, de código abierto y multiplataforma. Desarrollado por Microsoft, para la creación de IDEs (entornos de desarrollo integrados). |
+| **SKILL** | SKILLs | **SKILL**: Habilidad / competencia; capacidad específica orientada a cumplir tareas o interactuar con el usuario final. |
+| **Pluging** | Pluging | **Pluging**: Complemento / Extensión; es un bloque de código o módulo complementario que se integra directamente en el sistema base para ampliar sus capacidades técnicas o de análisis. |
 | **MCP** | MCP | **MCP**: Model Context Protocol (MCP) (Protocolo de Contexto de Modelos) es un estándar abierto de código abierto (creado originalmente por Anthropic y donado a la Linux Foundation) que funciona como un "puerto USB-C" universal para la Inteligencia Artificial. . |
 | **IPSec** | Internet Protocol Security | **Seguridad del Protocolo de Internet**: Conjunto de protocolos para asegurar las comunicaciones de red cifrando y autenticando cada paquete de datos. |
 | **SSL** | Secure Sockets Layer | **Capa de Sockets Seguros**: Protocolo de seguridad antiguo (reemplazado por TLS) para establecer enlaces cifrados entre un servidor web y un navegador. |
