@@ -1,6 +1,6 @@
 La Inteligencia Artificial (IA) está transformando el pentesting: acelera el análisis de vulnerabilidades, automatiza la creación de exploits y permite simular atacantes avanzados. Pero su uso conlleva riesgos de privacidad (datos enviados a la nube) y limitaciones ético-legales (generación de código).
 
-### lista ejemplo modelos de lenguaje de datos (LLM):  habilidades por defecto (SKILLS)
+### lista ejemplo modelos de lenguaje de datos (LLM):  habilidades por defecto (SKILLs)
 
 
 | # | Compañía | IA Modelo | Exploit | Skills básicas (versión gratuita / básica) |
