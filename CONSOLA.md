@@ -6,7 +6,7 @@ para ayudar a identificar vulnerabilidades conocidas CVE, como para hacking ofen
 
 <img style="float:left" alt="hacking con IA Gemini-Cli" src="https://github.com/hackingyseguridad/ia/blob/main/gemini-cli.png">
   
-[ClaudeCode.sh](https://code.claude.com/docs/es/overview/) ; la IA de Anthropic desde la terminal (CLI) tiene una alta capacidad de análisis; Claude Code tiene Skils instalables o plugins, para hacer la IA mas  especialista, p.ej en analizar vulnerabilidades o p.ej skils especificos de hacking.
+[Claude-Code](https://code.claude.com/docs/es/overview/) ; la IA de Anthropic desde la terminal (CLI) tiene una alta capacidad de análisis; Claude Code tiene Skils instalables o plugins, para hacer la IA mas  especialista, p.ej en analizar vulnerabilidades o p.ej skils especificos de hacking.
 
 **Instalar Claude Code Security** , desde la terminal (Cli)
 
