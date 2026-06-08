@@ -1,6 +1,6 @@
 # Security Policy
 
-`claude-red` is an offensive security tooling library. Its content describes attack methodologies for use by authorized red team operators, penetration testers, and security researchers.
+`hackingyseguridad-IA` is an offensive security tooling library. Its content describes attack methodologies for use by authorized red team operators, penetration testers, and security researchers.
 
 ## Intended Use
 
@@ -17,7 +17,7 @@ These skills are **not** intended for unauthorized access to systems you do not 
 
 If you discover a security issue in this repository — for example a malicious payload accidentally committed, a credential leaked in an example, a typosquat-prone install path, or an unsafe shell command in `install.sh` — please report it privately rather than opening a public issue.
 
-**Contact:** security@snailsploit.com
+**Contact:** hackingyseguridad@hackingyseguridad.com
 
 Please include:
 
@@ -30,7 +30,7 @@ We aim to acknowledge reports within 72 hours and resolve confirmed issues withi
 
 ## Reporting a Vulnerability Found Using This Library
 
-If you discover a vulnerability in a third-party product or service while using `claude-red`'s methodologies, follow that vendor's responsible disclosure process. The [`offensive-reporting`](Skills/utility/offensive-reporting/SKILL.md) skill includes guidance on responsible disclosure, evidence handling, and report writing.
+If you discover a vulnerability in a third-party product or service while using `hackingyseguridad-IA`'s methodologies, follow that vendor's responsible disclosure process. The [`offensive-reporting`](Skills/utility/offensive-reporting/SKILL.md) skill includes guidance on responsible disclosure, evidence handling, and report writing.
 
 If the vendor has no published security contact:
 
@@ -57,3 +57,4 @@ If you receive a `claude-red` archive from a third party (mirror, pastebin, pack
 | Malicious payloads in examples | The Claude platform itself (report to Anthropic) |
 | Unsafe installation defaults | Bugs in tools you find using this library |
 | Leaked credentials in example traffic | Bugs in your own implementation of techniques described |
+
