@@ -23,6 +23,7 @@ if command -v systemctl >/dev/null 2>&1; then
 fi
 
 curl -fsSL https://claude.ai/install.sh | bash
+ echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc
 
 echo
 echo "... actualizando diccionarios ...  (R) 2025 hackingyseguridad.com "
