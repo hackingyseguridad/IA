@@ -34,15 +34,18 @@ skills capacidades, tarea especifica
 
 skills secuenciales, autmatizacion
 
-CLAUDE.md
+usa la SKILL /home/antonio/IA/claude/README.md
 
-.clude/SKILLS/Vuln/
+usa la SKILL /home/antonio/IA/claude/skills/recon/SKILL.md
 
-.claude/skills/poc/
+usa la SKILL /home/antonio/IA/claude/skills/Vuln/SKILL.md
 
-.claude/skills/exploit/
+usa la SKILL /home/antonio/IA/claude/skills/POC/SKILL.md
 
-.claude/skills/poc/
+usa la SKILL /home/antonio/IA/claude/skills/Exploit/SKILL.md
+
+usa la SKILL /home/antonio/IA/claude/skills/report/SKILL.md
+
 
 Anthropic Claude Code Security Mythos opera de forma agéntica; no es un simple emulador o sandbox, sino que interactúa con herramientas, ejecuta scripts, analiza codigo, vulnerabilidades lógicas complejas, corrupción de memoria y fallos estructurales en sistemas operativos, navegadores (como Firefox) y protocolos de red, simula el comportamiento de un atacante y analiza las respuestas del sistema para validar si el fallo que ha descubierto es realmente explotable.
 
