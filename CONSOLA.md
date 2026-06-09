@@ -30,9 +30,9 @@ podemos crear un fichero [CLAUDE.md](https://github.com/hackingyseguridad/IA/blo
 
 Las Skills, son lo requisitos especificos, o inforamción adicional que dotaremos a la IA. Hay dos tipos de SKILLs, donde especificaremos parametros concretos de lo que queremos y no:
 
-skills capacidades, tarea especifica
+1.- skills capacidades, tarea especifica
 
-skills secuenciales, autmatizacion
+2.- skills secuenciales, autmatizacion
 
 usa la SKILL /home/antonio/IA/claude/README.md
 
@@ -67,7 +67,6 @@ IA/
 
 Anthropic Claude Code, Security, Mythos opera de forma agéntica; no es un simple emulador o sandbox, sino que interactúa con herramientas, ejecuta scripts, analiza codigo, vulnerabilidades lógicas complejas, corrupción de memoria y fallos estructurales en sistemas operativos, navegadores (como Firefox) y protocolos de red, simula el comportamiento de un atacante y analiza las respuestas del sistema para validar si el fallo que ha descubierto es realmente explotable.
 
-[hackingtool - Claude Code plugin](https://github.com/AKCodez/hackingtool-plugin)
 
 [DeepSeek Coder ](https://github.com/hackingyseguridad/IA/blob/main/deepseek2.sh) ; modelo de lenguaje (especializado en programacion), 
 suele ser menos restrictivo en su versión base (ejecutado en la terminal (CLI) localmente) o para detección de bugs críticos
