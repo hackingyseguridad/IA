@@ -30,9 +30,9 @@ podemos crear un fichero [CLAUDE.md](https://github.com/hackingyseguridad/IA/blo
 
 Las SKILLs, son los requisitos especificos, o inforamción adicional que dotaremos a la IA. Hay dos tipos de SKILLs, donde especificaremos parametros concretos de lo que queremos y no:
 
-1.- skills capacidades, tarea especifica
+1.- SKILLs capacidades, tarea especifica
 
-2.- skills secuenciales, autmatizacion
+2.- SKILLs secuenciales, autmatizacion
 
 usa la SKILL /home/antonio/IA/claude/README.md
 
