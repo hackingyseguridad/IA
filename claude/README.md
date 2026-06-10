@@ -9,9 +9,9 @@ Este documento describe la estructura de Skills para pentesting utilizada en el 
 Repositorio base:
 https://github.com/hackingyseguridad/IA/tree/main/claude/skills
 
----
-
 ###  Estructura del proyecto
+
+```
 
 IA/
 └── claude/
@@ -28,7 +28,7 @@ IA/
         └── report/
             └── SKILL.md       # Generación de informes
 
----
+```
 
 ###  Descripción de cada Skill
 
@@ -44,7 +44,7 @@ Después de cargar la SKILL con el comando usa la SKILL ..., simplemente pídele
 
 ---
 
-# 🤖 Uso de Skills
+### 🤖 Uso de Skills
 
 usa la SKILL /home/antonio/IA/claude/README.md
 usa la SKILL /home/antonio/IA/claude/skills/recon/SKILL.md
@@ -55,6 +55,6 @@ usa la SKILL /home/antonio/IA/claude/skills/report/SKILL.md
 
 ---
 
-# 🔐 Flujo recomendado
+### Flujo recomendado
 
 Recon → Vuln → POC → Exploit → Report
