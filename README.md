@@ -8,7 +8,7 @@
 
 > **Inteligencia Artificial aplicada a la detección y explotación de vulnerabilidades en entornos de auditoría de seguridad autorizada.**
 
-📖 [INTRODUCCIÓN](https://github.com/hackingyseguridad/IA/blob/main/INTRODUCCION.md) · 💻 [USO IA POR CONSOLA TERMINAL(CLI)](https://github.com/hackingyseguridad/IA/blob/main/CONSOLA.md) · 📝 [PROMPTS](https://github.com/hackingyseguridad/IA/blob/main/PROMPTS.md) · ⚖️ [AVISO LEGAL](https://github.com/hackingyseguridad/IA/blob/main/DISCLAIMER.md)
+📖 [INTRODUCCIÓN](https://github.com/hackingyseguridad/IA/blob/main/INTRODUCCION.md) · 💻 [USO IA POR CONSOLA TERMINAL(CLI)](https://github.com/hackingyseguridad/IA/blob/main/CONSOLA.md) · 📝 [PROMPTS](https://github.com/hackingyseguridad/IA/blob/main/PROMPTS.md) · 📝 [SKILLs](https://github.com/hackingyseguridad/IA/tree/main/claude/) · ⚖️ [AVISO LEGAL](https://github.com/hackingyseguridad/IA/blob/main/DISCLAIMER.md)
 
 ---
 
