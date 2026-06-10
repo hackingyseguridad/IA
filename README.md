@@ -20,7 +20,7 @@ La Inteligencia Artificial actúa como un **asistente experto especializado** co
 - **Generación de scripts:** produce código de prueba en múltiples lenguajes (Bash, Python, C) para: pruebas de detección, pruebas de concepto (POC) y scripts de explotación de vulnerabilidades confirmadas.
 - **Aceleración del proceso:** ayuda a ejecutar las pruebas de forma más rápida y eficiente, reduciendo el tiempo invertido en tareas repetitivas o de análisis masivo de datos.
 
->  **Importante:** La IA no sustituye todavia el criterio humano en una auditoría. El auditor sigue siendo quien rige el proceso y el único responsable de validar hallazgos, acciones y conclusiones.
+>  **-** La IA no sustituye todavia el criterio humano en una auditoría. El auditor sigue siendo quien rige el proceso y el único responsable de validar hallazgos, acciones y conclusiones.
 
 ---
 
