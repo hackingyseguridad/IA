@@ -32,7 +32,6 @@ uname -a
 date
 echo
 timedatectl set-timezone Europe/Madrid
-timedatectl set-local-rtc 0
 timedatectl set-local-rtc 1
 timedatectl status
 apt-get install ntpdate
@@ -54,8 +53,6 @@ curl -fsSL https://claude.ai/install.sh | bash
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc
 
 echo
-echo "... actualizando diccionarios ...  (R) 2025 hackingyseguridad.com "
-echo
 wget https://raw.githubusercontent.com/hackingyseguridad/diccionarios/refs/heads/master/ficheros.txt -q -O diccionario.txt  --inet4-only
 wc -l diccionario.txt
 echo ".."
@@ -64,8 +61,16 @@ wget https://raw.githubusercontent.com/hackingyseguridad/diccionarios/refs/heads
 wc -l diccionario2.txt
 echo "...."
 echo "....."
-echo
-echo "actualizado !!! "
-echo 
 df -h
+echo "Ejecutar Claude!"
+echo "~/.local/bin/./claude"
+echo "Escoger opcion 2. Anthropic Console account · API usage billing"
+echo "ir al enlace https://platform.claude.com/oauth/authorize?code=true&client_id=9d1"
+echo "y copiar y pegar codigo para activar Claude"
+echo "Seleccionamos la carpeta atual ~/.local/bin/"
+echo "Contro + C, salir" 
+echo "lo mismo con ollama..."
+echo 
+
+
 
