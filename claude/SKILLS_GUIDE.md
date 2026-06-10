@@ -3,30 +3,106 @@
 Este documento explica la estructura y el propósito de cada Skill en el repositorio de IA para pentesting. Las Skills permiten a Claude Code ejecutar tareas especializadas de seguridad ofensiva de manera estructurada y reproducible.
 
 
-## 📋 Tabla de Contenidos
-- [Introducción](#introducción)
-- [Estructura de Carpetas](#estructura-de-carpetas)
-- [Skill 1: Reconocimiento](#skill-1-reconocimiento-recon)
-- [Skill 2: Detección de Vulnerabilidades](#skill-2-detección-de-vulnerabilidades-vuln)
-- [Skill 3: Pruebas de Concepto](#skill-3-pruebas-de-concepto-poc)
-- [Skill 4: Explotación](#skill-4-explotación-exploit)
-- [Skill 5: Generación de Informes](#skill-5-generación-de-informes-report)
-- [Cómo Usar las Skills en Claude Code](#cómo-usar-las-skills-en-claude-code)
-- [Ejemplos Prácticos](#ejemplos-prácticos)
-- [Recomendaciones de Seguridad](#recomendaciones-de-seguridad-y-ética)
-- [Personalización](#personalización-de-skills)
-- [Solución de Problemas](#solución-de-problemas)
-- [Contribución](#contribución)
+
+# 🧠 IA Pentesting Skills (Claude)
+
+Este documento describe la estructura de Skills para pentesting utilizada en el proyecto `IA/claude/skills`.
+
+Repositorio base:
+https://github.com/hackingyseguridad/IA/tree/main/claude/skills
 
 ---
 
-## Introducción
+# 📁 Estructura del proyecto
 
-Este documento explica la estructura y el propósito de cada Skill en el repositorio de IA para pentesting. Las Skills permiten a **Claude Code** ejecutar tareas especializadas de seguridad ofensiva de manera estructurada, reproducible y ética.
-
-**⚠️ NOTA LEGAL IMPORTANTE**: Este material es solo para fines educativos y pruebas autorizadas. El mal uso puede violar leyes locales e internacionales. Siempre obtener permiso por escrito antes de realizar pruebas de penetración.
+IA/
+└── claude/
+    ├── README.md
+    └── skills/
+        ├── recon/
+        │   └── SKILL.md       # Reconocimiento y enumeración
+        ├── Vuln/
+        │   └── SKILL.md       # Detección de vulnerabilidades
+        ├── POC/
+        │   └── SKILL.md       # Pruebas de concepto
+        ├── Exploit/
+        │   └── SKILL.md       # Explotación
+        └── report/
+            └── SKILL.md       # Generación de informes
 
 ---
 
-## Estructura de Carpetas
+# 🔍 Descripción de cada Skill
 
+## 🛰️ recon/
+
+Fase de reconocimiento:
+- OSINT
+- Enumeración de servicios
+- Subdominios
+- Fingerprinting
+
+Objetivo: recolectar información sin interacción agresiva.
+
+---
+
+## 🛡️ Vuln/
+
+Detección de vulnerabilidades:
+- CVEs
+- OWASP Top 10
+- Configuraciones inseguras
+- Servicios expuestos
+
+Objetivo: identificar debilidades.
+
+---
+
+## 💣 POC/
+
+Pruebas de concepto:
+- Validación de vulnerabilidades
+- Scripts de prueba
+- Demostración controlada
+
+Objetivo: confirmar existencia real del fallo.
+
+---
+
+## ⚔️ Exploit/
+
+Explotación:
+- RCE
+- Escalada de privilegios
+- Acceso no autorizado
+
+Objetivo: demostrar impacto real.
+
+---
+
+## 📊 report/
+
+Reportes:
+- Documentación técnica
+- CVSS
+- Evidencias
+- Mitigación
+
+Objetivo: comunicación profesional de hallazgos.
+
+---
+
+# 🤖 Uso de Skills
+
+usa la SKILL /home/antonio/IA/claude/README.md
+usa la SKILL /home/antonio/IA/claude/skills/recon/SKILL.md
+usa la SKILL /home/antonio/IA/claude/skills/Vuln/SKILL.md
+usa la SKILL /home/antonio/IA/claude/skills/POC/SKILL.md
+usa la SKILL /home/antonio/IA/claude/skills/Exploit/SKILL.md
+usa la SKILL /home/antonio/IA/claude/skills/report/SKILL.md
+
+---
+
+# 🔐 Flujo recomendado
+
+Recon → Vuln → POC → Exploit → Report
