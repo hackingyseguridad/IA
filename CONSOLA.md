@@ -111,6 +111,10 @@ usa la SKILL /home/antonio/IA/claude/skills/Exploit/SKILL.md
 usa la SKILL /home/antonio/IA/claude/skills/report/SKILL.md
 ```
 
+<img style="float:left" alt="hacking con IA Claude Code" src="https://github.com/hackingyseguridad/ia/blob/main/claudecode1.png">
+
+<img style="float:left" alt="hacking con IA Claude Code" src="https://github.com/hackingyseguridad/ia/blob/main/claudecode2.png">
+
 ---
 
 ## DeepSeek Coder
