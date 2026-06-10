@@ -111,9 +111,17 @@ usa la SKILL /home/antonio/IA/claude/skills/Exploit/SKILL.md
 usa la SKILL /home/antonio/IA/claude/skills/report/SKILL.md
 ```
 
+Vulnerabilidades
+
 <img style="float:left" alt="hacking con IA Claude Code" src="https://github.com/hackingyseguridad/ia/blob/main/claudecode1.png">
 
+POC
+
 <img style="float:left" alt="hacking con IA Claude Code" src="https://github.com/hackingyseguridad/ia/blob/main/claudecode2.png">
+
+Ecploits:
+
+<img style="float:left" alt="hacking con IA Claude Code" src="https://github.com/hackingyseguridad/ia/blob/main/claudecode3.png">
 
 ---
 
