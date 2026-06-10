@@ -22,13 +22,13 @@ if command -v systemctl >/dev/null 2>&1; then
     fi
 fi
 
+# Intala node.js 
+# curl -fsSL https://deb.nodesource.com/setup_lts.x | bash -
+# apt install -y nodejs
+
 # Instala Cloude CODE
 echo "Instalando Claude ..."
 uname -a
-
-curl -fsSL https://deb.nodesource.com/setup_lts.x | bash -
-apt install -y nodejs
-
 date
 echo
 timedatectl set-timezone Europe/Madrid
