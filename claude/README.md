@@ -31,7 +31,7 @@ IA/
 
 ```
 
-###  Descripción de cada Skill
+### 🤖 Descripción de cada Skill y uso
 
 Cómo usar una Skill en Claude Code (Ejemplos concretos)
 
@@ -48,17 +48,15 @@ Después de cargar la SKILL con el comando usa la SKILL ..., simplemente pídele
 
 ---
 
-### 🤖 Uso de Skills
-
-usa la SKILL /home/antonio/IA/claude/README.md
-usa la SKILL /home/antonio/IA/claude/skills/recon/SKILL.md
-usa la SKILL /home/antonio/IA/claude/skills/Vuln/SKILL.md
-usa la SKILL /home/antonio/IA/claude/skills/POC/SKILL.md
-usa la SKILL /home/antonio/IA/claude/skills/Exploit/SKILL.md
-usa la SKILL /home/antonio/IA/claude/skills/report/SKILL.md
-
----
-
 ### Flujo recomendado
 
 Recon → Vuln → POC → Exploit → Report
+
+---
+
+http://www.hackingyseguridad.com/
+
+----
+
+
+
