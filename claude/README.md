@@ -44,7 +44,7 @@ Cómo usar una Skill en Claude Code (Ejemplos concretos)
 | Explotación | `usa la SKILL /home/antonio/IA/claude/skills/Exploit/SKILL.md` |
 | Informes | `usa la SKILL /home/antonio/IA/claude/skills/report/SKILL.md` |
 
-Después de cargar la SKILL con el comando usa la SKILL ..., simplemente pídele a Claude que realice la tarea correspondiente en lenguaje natural.
+Después de cargar la SKILL con el comando usa la SKILL ...,  pídele a Claude que realice la tarea correspondiente en lenguaje natural.
 
 ---
 
