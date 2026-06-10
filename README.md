@@ -12,7 +12,7 @@
 
 ---
 
-## IA
+## IA ( Pentesting con inteligencia artificial )
 
 La Inteligencia Artificial actúa como un **asistente experto especializado** con alto nivel de conocimiento en programación y ciberseguridad. Sus capacidades en el contexto de una auditoría de seguridad incluyen:
 
