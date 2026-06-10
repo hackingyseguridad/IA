@@ -4,7 +4,7 @@ Este documento explica la estructura y el propósito de cada Skill en el reposit
 
 ### Skills de Claude Code
 
-Las Skills son los requisitos específicos o información adicional que se dota a la IA. Hay dos tipos:
+Las Skills son las especificaciones ampliadas o información adicional que se dota a la IA. Hay dos tipos:
 
 | Tipo | Descripción |
 |---|---|
