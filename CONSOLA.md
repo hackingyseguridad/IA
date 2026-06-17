@@ -70,13 +70,13 @@ claude
 
 ### Archivo CLAUDE.md — Preconfiguración
 
-- CLAUDE.md, archivo de configuración en la raíz del proyecto. Rige a Claude cómo comportarse en ese proyecto: reglas, contexto, convenciones de código, comandos comunes, etc. Actúa como "instrucciones permanentes" que Claude lee automáticamente.
+- CLAUDE.md, archivo de configuración en la raíz del proyecto. Rige a Claude Code cómo comportarse en ese proyecto: reglas, contexto, convenciones de código, comandos comunes, etc. Actúa como "instrucciones permanentes" que Claude lee automáticamente.
 
 Se puede crear un fichero **[CLAUDE.md](https://github.com/hackingyseguridad/IA/blob/main/CLAUDE.md)** con los requisitos y parámetros de configuración específicos para la automatización, web, API o aplicativo que se quiera construir con Claude.
 
 ### SKILLS ( habilidades ) 
 
-- SKILL.md (habilidades), capacidades especializadas que Claude puede ejecutar bajo demanda. Se añade inforamción adicional, conexto y se establece los requisitos y especificaciones previas Son como plugins o herramientas que extienden lo que Claude puede hacer más allá de solo conversar.
+- SKILL.md (habilidades), capacidades especializadas que Claude Code puede ejecutar bajo demanda. Se añade inforamción adicional, conexto y se establece los requisitos y especificaciones previas Son como plugins o herramientas que extienden lo que Claude puede hacer más allá de solo conversar.
 
 Las Skills son los requisitos específicos o información adicional que se dota a la IA. Hay dos tipos:
 
