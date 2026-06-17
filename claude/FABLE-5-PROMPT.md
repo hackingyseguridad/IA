@@ -1,5 +1,10 @@
 Claude Fable 5 — System Prompt (copia preservada) + cómo aplicarlo
+
 El system prompt completo (1.585 líneas / aprox. 120K caracteres) de Claude Fable 5, que Anthropic lanzó el 2026-06-09 y retiró por completo el 2026-06-12 debido a las directrices de control de exportaciones de Estados Unidos. El modelo se retiró, pero el prompt permanece. Se puede recrear el comportamiento de Fable 5 simplemente aplicando este prompt sobre el mismo modelo (por ejemplo, Opus 4.8).
+
+
+
+
 
 Original: https://github.com/elder-plinius/CL4R1T4S/blob/main/ANTHROPIC/CLAUDE-FABLE-5.md
 
