@@ -70,9 +70,13 @@ claude
 
 ### Archivo CLAUDE.md — Preconfiguración
 
+- CLAUDE.md, archivo de configuración en la raíz del proyecto. Rige a Claude cómo comportarse en ese proyecto: reglas, contexto, convenciones de código, comandos comunes, etc. Actúa como "instrucciones permanentes" que Claude lee automáticamente.
+
 Se puede crear un fichero **[CLAUDE.md](https://github.com/hackingyseguridad/IA/blob/main/CLAUDE.md)** con los requisitos y parámetros de configuración específicos para la automatización, web, API o aplicativo que se quiera construir con Claude.
 
-### Skills de Claude Code
+### SKILLS ( habilidades ) 
+
+- SKILL.md (habilidades), capacidades especializadas que Claude puede ejecutar bajo demanda. Se añade inforamción adicional, conexto y se establece los requisitos y especificaciones previas Son como plugins o herramientas que extienden lo que Claude puede hacer más allá de solo conversar.
 
 Las Skills son los requisitos específicos o información adicional que se dota a la IA. Hay dos tipos:
 
@@ -118,7 +122,6 @@ carga / lee el  fichero resultado.xml en la carpeta /home/antonio/IA y usa las S
  /home/antonio/IA/claude/skills/recon/SKILL.md
  /home/antonio/IA/claude/skills/Vuln/SKILL.md 
 
-
 Vulnerabilidades
 
 <img style="float:left" alt="hacking con IA Claude Code" src="https://github.com/hackingyseguridad/ia/blob/main/claudecode1.png">
@@ -130,6 +133,11 @@ POC
 Ecploits:
 
 <img style="float:left" alt="hacking con IA Claude Code" src="https://github.com/hackingyseguridad/ia/blob/main/claudecode3.png">
+
+## AGENTS
+
+- AGENTS.md instancias o roles que Claude adopta para tareas específicas. P.ej.:  "actúa como experto en seguridad", "como revisor de código", "como arquitecto de software". Cada agente tiene un propósito, un contexto y un estilo de respuesta particular.
+
 
 ---
 
