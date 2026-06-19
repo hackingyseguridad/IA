@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj Madrid - Tiempo Real</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #00ff88;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            text-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88;
+        }
+
+        #clock-container {
+            text-align: center;
+        }
+
+        #time {
+            font-size: 120px;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+        }
+
+        #date {
+            font-size: 24px;
+            margin-top: 20px;
+            opacity: 0.8;
+        }
+
+        #timezone {
+            font-size: 18px;
+            margin-top: 10px;
+            opacity: 0.6;
+        }
+
+        #alert {
+            position: fixed;
+            top: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 32px;
+            background-color: #00ff88;
+            color: #0d1117;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-weight: bold;
+            display: none;
+            box-shadow: 0 0 30px #00ff88;
+            z-index: 100;
+            animation: flash 0.5s infinite alternate;
+        }
+
+        @keyframes flash {
+            from { opacity: 1; }
+            to { opacity: 0.7; }
+        }
+
+        .flash-bg {
+            animation: bg-flash 0.5s ease-out;
+        }
+
+        @keyframes bg-flash {
+            0% { background-color: #0d1117; }
+            50% { background-color: #003322; }
+            100% { background-color: #0d1117; }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="alert"></div>
+
+    <div id="clock-container">
+        <div id="time">00:00:00</div>
+        <div id="date">-- -- ----</div>
+        <div id="timezone">Europe/Madrid (CET/CEST)</div>
+    </div>
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+
+            // Formatter for time in Madrid
+            const timeFormatter = new Intl.DateTimeFormat('es-ES', {
+                timeZone: 'Europe/Madrid',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: false
+            });
+
+            // Formatter for date in Madrid
+            const dateFormatter = new Intl.DateTimeFormat('es-ES', {
+                timeZone: 'Europe/Madrid',
+                weekday: 'long',
+                day: 'numeric',
+                month: 'long',
+                year: 'numeric'
+            });
+
+            const timeParts = timeFormatter.formatToParts(now);
+            const hour = timeParts.find(p => p.type === 'hour').value;
+            const minute = timeParts.find(p => p.type === 'minute').value;
+            const second = timeParts.find(p => p.type === 'second').value;
+
+            const timeString = `${hour}:${minute}:${second}`;
+            document.getElementById('time').textContent = timeString;
+            document.getElementById('date').textContent = dateFormatter.format(now);
+
+            // Logica de hora en punto (cada minuto, segundo 00)
+            if (parseInt(second) === 0) {
+                showPointAlert(hour);
+            }
+        }
+
+        function showPointAlert(hour) {
+            const alertEl = document.getElementById('alert');
+            const bodyEl = document.body;
+
+            alertEl.textContent = `🔔 ¡Hora en punto! — ${hour}:00 h`;
+            alertEl.style.display = 'block';
+
+            bodyEl.classList.add('flash-bg');
+            setTimeout(() => bodyEl.classList.remove('flash-bg'), 500);
+
+            setTimeout(() => {
+                alertEl.style.display = 'none';
+            }, 5000);
+        }
+
+        setInterval(updateClock, 1000);
+        updateClock();
+    </script>
+</body>
+</html>
