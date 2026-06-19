@@ -29,6 +29,7 @@ echo
 echo "Interface CLAUDE CODE ,  impulsado por otro modelo online:cloud: -- hackingyseguridad.com -- v1.0 "
 echo "/"
 export LANG=es_US.UTF-8
+export LC_ALL=es_ES.UTF-8
 sleep 3
 # Opcion0
 # ollama launch claude --config
