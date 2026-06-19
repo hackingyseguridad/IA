@@ -7,7 +7,6 @@
 #  curl -fsSL https://claude.ai/install.sh | bash
 ollama -v
 echo " "
-
 cat << 'EOF'
  ██████  ██       █████  ██    ██ ██████  ███████
 ██       ██      ██   ██ ██    ██ ██   ██ ██
