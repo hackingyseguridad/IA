@@ -5,7 +5,9 @@
 #  curl -fsSL https://ollama.com/install.sh | sh
 # Tenemos que instalar primero Claude , con API Gratuita, sin saldo ni inscripcion
 #  curl -fsSL https://claude.ai/install.sh | bash
+echo
 echo "... "
+echo
 ollama -v
 echo " "
 cat << 'EOF'
@@ -26,7 +28,7 @@ claude -v
 echo
 echo "Interface CLAUDE CODE ,  impulsado por otro modelo online:cloud: -- hackingyseguridad.com -- v1.0 "
 echo "/"
-
+sleep 3
 # Opcion0
 # ollama launch claude --config
 # escogemos una opcion para ejecutar claude code online o local impulsado
