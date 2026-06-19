@@ -5,6 +5,7 @@
 #  curl -fsSL https://ollama.com/install.sh | sh
 # Tenemos que instalar primero Claude , con API Gratuita, sin saldo ni inscripcion
 #  curl -fsSL https://claude.ai/install.sh | bash
+echo "... "
 ollama -v
 echo " "
 cat << 'EOF'
