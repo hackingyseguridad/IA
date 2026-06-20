@@ -25,7 +25,7 @@ cat << 'EOF'
 EOF
 echo
 claude -v
-claude --doctor
+claude doctor
 echo
 echo "Interface CLAUDE CODE ,  impulsado por otro modelo online:cloud: -- hackingyseguridad.com -- v1.0 "
 echo "/"
