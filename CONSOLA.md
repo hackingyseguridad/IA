@@ -93,7 +93,10 @@ Las Skills son los requisitos específicos o información adicional que se dota 
 | **Skills de capacidad** | Tarea específica y concreta |
 | **Skills secuenciales** | Automatización encadenada de pasos |
 
-**Estructura de Skills recomendada para pentesting:**
+**Skill** es un archivo .md (formato markdown) que se instala en el proyecto, para especificaciones en una tarea, de forma global o para una tarea especifica.
+**Pluging** son varios archivos dentro de una carpeta, .md.. html, .json , ... con las herramientas que le damos  a Claude Code para una tarea.
+
+**Estructura de Skills recomendada para Pentesting:**
 
 ```
 IA/
