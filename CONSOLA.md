@@ -122,8 +122,8 @@ En la ventana de conexto podemos poner un PROMPT con una limitación de caracter
 
 ```
 carga, lee los ficheros: resultadofqdn.xml resultadored.xml resultadoweb.xml, en la carpeta: /home/antonio/IA/ejemplo/3/
-y
-usa la SKILL global en: /home/antonio/IA/.claude/README.md
+
+usa la SKILL global en: /home/antonio/IA/CLAUDE.md
 
 usa la SKILL de recon en:  /home/antonio/IA/.claude/skills/recon/SKILL.md
 usa la SKILL de ordenar vulnerabilidades en: /home/antonio/IA/.claude/skills/Vuln/SKILL.md
