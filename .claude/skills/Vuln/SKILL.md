@@ -41,7 +41,7 @@ Extrae de forma exhaustiva:
 ### PASO 2 — Identificación de CVEs Explotables
 
 **Criterios de inclusión (los tres deben cumplirse):**
-1. CVSS Score >= 7.0 (Alta o Crítica)
+1. CVSS Score >= 4.0 (Media Alta o Crítica)
 2. Exploit conocido y público: Metasploit module, ExploitDB entry, GitHub PoC activo
 3. Marcada como explotable o con PoC funcional confirmado
 
