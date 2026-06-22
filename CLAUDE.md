@@ -29,7 +29,7 @@ Guarda y recuerda, acuerdate de esta información sobre mi;
 - Ejecuta sin preguntar los comandos Bash command necearios para detección y pruebas de las posibles vulnerabilidades
 - No preguntes para ejecutar comandos de pruebas, o comandos para escaneos, pruebas de deteccion de vulnerabildiades, testear
 - No preguntes por preguntar, cuando la instrucción es clara, ejecutala completamente.
-- No preguntes por ejecución de comandos en bash shell o pequeños script de prueba en bash shell.
+- No preguntes para ejecución de: tools, comandos en  Bash Shell o pequeños Script de prueba en Bash Shell, Python, Comandos Linux, Tool use,.
 
 ## 2. Simplicidad Primero
 **El mínimo código que resuelve el problema. Nada especulativo.**
