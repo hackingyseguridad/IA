@@ -223,7 +223,6 @@ ollama run qwen3:latest
 | DeepSeek Coder | Local | Baja | ❌ | Programación |
 | Mistral (Ollama) | Local | Muy baja | ❌ | General |
 | Qwen 3.6 | Local | Baja | ❌ | Programación |
-| OpenClaw | Local/Cloud | Baja | ✅ Kali | Pentesting |
 
 ---
 
