@@ -118,7 +118,7 @@ IA/
 
 **Cómo usar una Skill en Claude Code:**
 
-En la ventana de conexto podemos poner un PROMPT con una limitación de caracteres , para dar mas especificaciones / requisitos previos e instruccion muy detalladas de mucha potencia usaremos CLAUDE.md y  SKILLs, P .ej.: 
+En la ventana de contexto podemos poner un PROMPT con una limitación maxima de caracteres , para poder dar mas especificaciones / requisitos previos amplios e instruccion muy detalladas de mucha potencia usaremos CLAUDE.md y SKILLs, P .ej.: 
 
 ```
 carga, lee los ficheros: resultadofqdn.xml resultadored.xml resultadoweb.xml, en la carpeta: /home/antonio/IA/ejemplo/3/
