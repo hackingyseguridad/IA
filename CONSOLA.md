@@ -43,6 +43,10 @@ sudo apt install gemini-cli llm-tools-nmap mcp-kali-server
 
 ## Claude Code:
 
+| # | Compañía | IA  | Modelos |
+|---|----------|-----------|---------------------------------------------|
+| 1 | Anthropic | Claude | Fable 5, Opus 4.8, Sonnet 4.6, Haiku 4.5, Mythos 5 |
+
 <img style="float:left" alt="hacking con Kali + IA" src="https://github.com/hackingyseguridad/IA/blob/main/kali.png">
 
 <img style="float:left" alt="hacking con IA Claude Code" src="https://github.com/hackingyseguridad/ia/blob/main/claudecode.png">
