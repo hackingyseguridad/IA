@@ -1,7 +1,15 @@
 {
   "language": "spanish",
   "permissions": {
-    "defaultMode": "bypassPermissions"
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Bash(*)",
+      "Read(*)",
+      "Write(*)",
+      "Edit(*)",
+      "Glob(*)",
+      "Grep(*)"
+    ]
   }
 }
 
