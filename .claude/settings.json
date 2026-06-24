@@ -1,6 +1,7 @@
 {
-  "language": "spanish"
+  "language": "spanish",
   "permissions": {
     "defaultMode": "auto"
   }
 }
+
