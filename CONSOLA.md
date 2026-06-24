@@ -6,8 +6,6 @@
 
 > Modelos especializados en programación y ciberseguridad para identificar vulnerabilidades conocidas (CVE), realizar hacking ofensivo (explotar vulnerabilidades o generar pruebas de concepto PoC) y **conectar la IA con Kali Linux** (Function Calling) para ejecutar comandos y scripts con las herramientas del sistema operativo.
 
-<img style="float:left" alt="hacking con Kali + IA" src="https://github.com/hackingyseguridad/IA/blob/main/kali.png">
-
 ---
 
 ## Índice
@@ -44,6 +42,8 @@ sudo apt install gemini-cli llm-tools-nmap mcp-kali-server
 ---
 
 ## Claude Code:
+
+<img style="float:left" alt="hacking con Kali + IA" src="https://github.com/hackingyseguridad/IA/blob/main/kali.png">
 
 <img style="float:left" alt="hacking con IA Claude Code" src="https://github.com/hackingyseguridad/ia/blob/main/claudecode.png">
 
