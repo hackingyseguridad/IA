@@ -47,7 +47,7 @@ Claude Code es un agente de programación autónomo, integrado que trabaja direc
 
 | # | Compañía | IA  | Modelos |
 |---|----------|-----------|---------------------------------------------|
-| 1 | Anthropic | Claude Code | Mythos Preview, Fable 5, Opus 4.8, Sonnet 4.6, Haiku 4.5, Mythos 5, Mythos oceanus-v1-p |
+| 1 | Anthropic | Claude Code | Opus 4.8, Sonnet 4.6, Haiku 4.5, Mythos 5, Mythos Preview, Fable 5, Mythos oceanus-v1-p |
 
 ### Claude Code + Kali Linux ( Ofensive IA )
 
