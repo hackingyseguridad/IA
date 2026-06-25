@@ -77,7 +77,7 @@
 
 ```
 
-CODE: ESPECIFICACIONES PREVIAS, PROMPS, SKILLs, AGENTES
+### CODE: ESPECIFICACIONES PREVIAS, PROMPS, SKILLs, AGENTES
 
 ```
 ┌───────────────────────────────────────────────────────────────────────────────┐
@@ -98,7 +98,7 @@ CODE: ESPECIFICACIONES PREVIAS, PROMPS, SKILLs, AGENTES
 
 ```
 
-LEGAL
+## LEGAL
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
