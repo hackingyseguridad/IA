@@ -77,11 +77,11 @@
 
 ```
 
-ESPECIFICACIONES, PROMPS, SKILLs, 
+CODE: ESPECIFICACIONES PREVIAS, PROMPS, SKILLs, AGENTES
 
 ```
 ┌───────────────────────────────────────────────────────────────────────────────┐
-│                     CONFIGURACIÓN Y PROMPTS                                   │
+│                   ESPECIFICACIONES CONFIGURACIÓN Y PROMPTS                    │
 ├───────────────────────────────────────────────────────────────────────────────┤
 │                                                                               │
 │   📄 CLAUDE.md       → Instrucciones global base para el asistente IA         │
@@ -90,7 +90,7 @@ ESPECIFICACIONES, PROMPS, SKILLs,
 │   📄 chatboot.md     → Guía para el asistante IA por web chatbot              │
 │                                                                               │
 │   📁 .claude/        → Configuración específica para Claude Code.             │
-│   └── settings.json  # Ajustes del entorno Claude                             │
+│   └── settings.json  → Ajustes del entorno Claude, (idioma modo automatico)   │
 │   📁 .claude/skills/ → SKILLs, habilidades especificaciones para Claude Code  │
 │   📁 .claude/agents/ → Agentes, especificaciones para Claude Code.            │
 │                                                                               │
