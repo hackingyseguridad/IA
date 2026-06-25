@@ -13,7 +13,7 @@ https://grok.com/ IA con acceso en tiempo real a la red social X.
 
 https://chatgpt.com/ IA versatil, lenguaje natural, con filtros de seguridad.
 
-https://claude.ai/ IA especializaa en programación y ciberseguridad
+https://claude.ai/ IA especializada en programación y ciberseguridad
 
 <img style="float:left" alt="hacking con IA" src="https://github.com/hackingyseguridad/ia/blob/main/claudeweb.png">
 
