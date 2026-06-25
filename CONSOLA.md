@@ -59,7 +59,7 @@ Claude Code es un agente de programación autónomo, integrado que trabaja direc
 
 Claude Code, requiere un plan (Pro, Max, Team, Enterprise) o facturación por consola/API. en ninguna modalidad es gratis!
 
-Claude Code tiene **Skills** instalables (plugins) para especializar la IA, por ejemplo en análisis de vulnerabilidades o hacking ofensivo.
+Claude Code, permite instalar **Skills** (Plugins) para añadir habilidades y especializar el uso del modelo IA, por ejemplo en análisis de vulnerabilidades o hacking ofensivo.
 
 > También disponible: **Claude Code Security** y **Claude Mythos** (modelo de frontera avanzado).
 
