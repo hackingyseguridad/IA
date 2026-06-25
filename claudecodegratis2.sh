@@ -37,8 +37,8 @@ sleep 3
 # escogemos una opcion para ejecutar claude code online o local impulsado
 
 # Opcion1
-# Claude Code Impulsado por deepseek-v4-pro:cloud online en la nube !!!
-# ollama launch claude --model deepseek-v4-flash:cloud
+# Claude Code Impulsado por  nemotron-3-super:cloud online en la nube !!!
+# ollama launch claude --model nemotron-3-super:cloud
 
 # Opcion2
 # CLaude Code impulsado por Gemma4 online!!!
