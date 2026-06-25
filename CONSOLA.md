@@ -88,7 +88,7 @@ claude
 
 Se puede crear un fichero **[CLAUDE.md](https://github.com/hackingyseguridad/IA/blob/main/CLAUDE.md)** con los requisitos y parámetros de configuración específicos para la automatización, web, API o aplicativo que se quiera construir con Claude.
 
-### SKILLS ( habilidades ) 
+### SKILL.md ( habilidades ) 
 
 - **SKILL.md** (habilidades), capacidades especializadas y herramientas que Claude Code puede ejecutar bajo demanda. Se añade inforamción adicional, conexto y se establece los requisitos y especificaciones previas Son como plugins o herramientas que extienden lo que Claude puede hacer más allá de solo conversar.
 
