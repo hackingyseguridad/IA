@@ -52,3 +52,9 @@ ollama launch claude --model minimax-m3:cloud
 # ejecuta Claude (sin GPU NVIDIA)
 # Claude Code impulsado por Qwen en local PC
 # ollama launch claude --model qwen3-coder
+
+# Opcion6
+# ollama launch claude --model mistral
+
+
+
