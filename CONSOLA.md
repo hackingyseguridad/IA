@@ -234,6 +234,7 @@ ollama run qwen3:latest
 
 ## Referencias
 
+- [https://code.claude.com/](https://code.claude.com/)
 - [https://ollama.com/](https://ollama.com/)
 - [https://docs.ollama.com/integrations/claude-code#recommended-models](https://docs.ollama.com/integrations/claude-code#recommended-models)
 - [https://github.com/deepseek-ai/DeepSeek-Coder/](https://github.com/deepseek-ai/DeepSeek-Coder/)
