@@ -98,6 +98,25 @@ CODE: ESPECIFICACIONES PREVIAS, PROMPS, SKILLs, AGENTES
 
 ```
 
+LEGAL
 
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                   SEGURIDAD Y LEGAL                                        │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  📄 DISCLAIMER.md      → Aviso legal y responsabilidades                  │
+│  📄 CODIGODECONDUCTA.md → Código de conducta para contribuciones          │
+│  📄 SECURITY.md        → Políticas de seguridad del proyecto              │
+│  📄 LICENSE            → Licencia MIT                                     │
+│                                                                             │
+│  ⚠️  Uso exclusivo para entornos autorizados.                             │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+#
+http://www.hackingyseguridad.com/
+#
 
 
