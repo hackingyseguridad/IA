@@ -77,5 +77,25 @@
 
 ```
 
+ESPECIFICACIONES, PROMPS, SKILLs, 
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                   CONFIGURACIÓN Y PROMPTS                                   │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  📄 CLAUDE.md      → Instrucciones base para el asistente IA                │
+│  📄 PROMPTS.md     → Colección de prompts para cada fase del proceso        │
+│  📄 CONSOLA.md     → Uso de IA por línea de comandos terminal (CLI)         │
+│  📄 chatboot.md    → Guía para el chatbot de seguridad                      │
+│                                                                             │
+│  📁 .claude/       → Configuración específica para Claude Code.             │
+│  📁 .claude/SKILL/ → SKILLs, habilidades especificaciones para Claude Code  │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+```
+
+
 
 
