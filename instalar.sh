@@ -49,8 +49,8 @@ apt update
 apt -f -y install
 
 curl -fsSL https://claude.ai/install.sh | bash
-
-echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc
+export PATH="$HOME/.local/bin:$PATH"
+#  echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc
 
 echo
 wget https://raw.githubusercontent.com/hackingyseguridad/diccionarios/refs/heads/master/ficheros.txt -q -O diccionario.txt  --inet4-only
