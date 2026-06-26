@@ -73,7 +73,7 @@ Claude Code, permite instalar **Skills** (Plugins) para añadir habilidades y es
 curl -fsSL https://claude.ai/install.sh | bash
 
 # Añadir al PATH (zsh)
-echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc
+export PATH="$HOME/.local/bin:$PATH"
 
 # Verificar versión
 claude --version
