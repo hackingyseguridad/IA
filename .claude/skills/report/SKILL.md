@@ -804,3 +804,20 @@ Calculadora: https://www.first.org/cvss/calculator/3.1
 - El output técnico de herramientas: bloques de fuente monoespaciada con fondo oscuro
   (estilo terminal Kali Linux)
 - El documento final se entrega en /mnt/user-data/outputs/informe_pentest_[cliente]_[fecha].docx
+
+### Guardar el informe en disco
+
+Guarda el informe en la carpeta: /mnt/user-data/outputs/ 
+
+en ficheros en formatos: 
+
+- PDF v1.7 
+- DOC compatible con Microsoft Word 97-2003
+- Rich Text Format v1, ANSI
+- Microsoft Word 2007+
+
+
+
+
+
+
