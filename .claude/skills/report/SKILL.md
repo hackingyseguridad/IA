@@ -807,7 +807,7 @@ Calculadora: https://www.first.org/cvss/calculator/3.1
 
 ### Guardar el informe en disco
 
-Guarda el informe en la carpeta: /mnt/user-data/outputs/ 
+Guarda el informe en la carpeta: /tmp/ 
 
 en ficheros en formatos: 
 
