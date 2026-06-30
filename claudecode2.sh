@@ -49,9 +49,8 @@ sleep 3
 ollama launch claude --model minimax-m3:cloud
 
 # Opcion4
-# ejecuta Claude (sin GPU NVIDIA)
-# Claude Code impulsado por Qwen en local PC
-# ollama launch claude --model qwen3-coder
+# Claude Code Impulsado por gpt-oss:20b-cloud online en la nube !!!
+# ollama launch claude --model  gpt-oss:20b-cloud
 
 #Opcion5  
 # ollama launch claude --model  llama3.2:3b
