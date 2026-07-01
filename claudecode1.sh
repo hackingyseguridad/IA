@@ -24,7 +24,7 @@ cat << 'EOF'
  ██████  ██████  ██████  ███████
 EOF
 echo
-claude -v
+~/.local/bin/./claude -V
 claude doctor
 echo
 echo "Interface CLAUDE CODE ,  impulsado por otro modelo online:cloud: -- hackingyseguridad.com -- v1.0 "
