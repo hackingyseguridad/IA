@@ -48,6 +48,8 @@ apt -y autoclean
 apt update
 apt -f -y install
 
+# sudo apt update && sudo apt install claude-desktop
+
 curl -fsSL https://claude.ai/install.sh | bash
 export PATH="$HOME/.local/bin:$PATH"
 #  echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc && source ~/.zshrc
