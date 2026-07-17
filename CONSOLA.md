@@ -2,13 +2,13 @@
 
 ---
 
-# Hacking Ofensivo con IA en Consola (CLI)
+### Hacking Ofensivo con IA en Consola (CLI)
 
 > Modelos especializados en programación y ciberseguridad para identificar vulnerabilidades conocidas (CVE), realizar hacking ofensivo (explotar vulnerabilidades o generar pruebas de concepto PoC) y **conectar la IA con Kali Linux** (Function Calling) para ejecutar comandos y scripts con las herramientas del sistema operativo.
 
 ---
 
-## Índice
+### Índice
 
 1. [Gemini CLI](#gemini-cli)
 2. [Claude Code](#claude-code)
@@ -20,7 +20,7 @@
 
 ---
 
-## Gemini CLI
+### Gemini CLI
 
 <img style="float:left" alt="hacking con IA Gemini-Cli" src="https://github.com/hackingyseguridad/ia/blob/main/gemini-cli.png">
 
@@ -41,7 +41,7 @@ sudo apt install gemini-cli llm-tools-nmap mcp-kali-server
 
 ---
 
-## Claude Code:
+### Claude Code:
 
 Claude Code es un agente de programación autónomo, integrado que trabaja directamente desde terminal(Cli), editando archivos, ejecutando comandos y escribiendo código  Basta con darle instrucciones en lenguaje humano natural ("analiza las vulerabilidades de esta IP" o "ordena las vulnerabilidades CVE de este portal web") y se encarga de planificar, ejecutar y mostrar los comanodos y pruebas que realiza
 
