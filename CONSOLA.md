@@ -164,11 +164,15 @@ Ecploits:
 
 ### GPT (OpenIA)
 
-tgap, permite integrar GPT en Kali Linux, 
+**tgpt**, permite integrar GPT en Kali Linux, 
 
 <img style="float:left" alt="http://hackingyseguridad.com/" src="https://github.com/hackingyseguridad/ia/blob/main/gpt.png">
 
 https://github.com/aandrew-me/tgpt/ 
+
+Instalar:
+
+curl -sSL https://raw.githubusercontent.com/aandrew-me/tgpt/main/install | bash -s /usr/local/bin 
 
 ### DeepSeek Coder
 
