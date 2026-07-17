@@ -65,7 +65,6 @@ Claude Code, permite instalar **Skills** (Plugins) para añadir habilidades y es
 
 <img style="float:left" alt="hacking con IA Claude Code" src="https://github.com/hackingyseguridad/ia/blob/main/claudecode0.png">
 
-
 ### Instalación de Claude Code
 
 ```bash
@@ -163,7 +162,14 @@ Ecploits:
 
 ---
 
-## DeepSeek Coder
+### GPT (OpenIA)
+
+
+
+<img style="float:left" alt="http://hackingyseguridad.com/" src="https://github.com/hackingyseguridad/ia/blob/main/gpt.png">
+
+
+### DeepSeek Coder
 
 **[DeepSeek Coder](https://github.com/hackingyseguridad/IA/blob/main/deepseek2.sh)** — Modelo de lenguaje especializado en programación. En su versión base ejecutada localmente en terminal (CLI), suele ser menos restrictivo para generación de exploits o detección de bugs críticos.
 
