@@ -9,8 +9,6 @@ Esta guía recopila herramientas de **IA generativa/agéntica ejecutadas en loca
 1. **Detección e investigación de vulnerabilidades conocidas (CVE)** — análisis de código, identificación de patrones vulnerables, correlación con bases de datos públicas.
 2. **Hacking ofensivo / explotación** — generación de *scripts* de explotación, *Proofs of Concept* (PoC) listos para copiar y pegar, o conexión directa de la IA con un sistema **Kali Linux** mediante *Function Calling*, permitiendo que el propio modelo ejecute comandos y herramientas del sistema operativo.
 
-> ⚠️ **Uso responsable:** todas las herramientas descritas deben emplearse únicamente en entornos propios, laboratorios controlados o con autorización explícita (pentesting autorizado, CTF, formación). El uso contra sistemas de terceros sin permiso es ilegal.
-
 ## Índice
 
 - [Tabla resumen de herramientas](#tabla-resumen-de-herramientas)
@@ -25,7 +23,6 @@ Esta guía recopila herramientas de **IA generativa/agéntica ejecutadas en loca
 - [Mistral IA](#mistral-ia)
 - [Qwen 3.6](#qwen-36)
 - [OpenClaw](#openclaw)
-  - [Comandos de consola](#comandos-de-consola-openclaw)
 - [Comparativa: IA local vs IA en la nube para hacking](#comparativa-ia-local-vs-ia-en-la-nube-para-hacking)
 - [Referencias](#referencias)
 
