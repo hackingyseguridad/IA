@@ -2,14 +2,12 @@
 
 ---
 
-# Hacking ofensivo con IA en local: modelos y agentes especializados en programación y ciberseguridad
+### Hacking ofensivo con IA en local: modelos y agentes especializados en programación y ciberseguridad
 
 Esta guía recopila herramientas de **IA generativa/agéntica ejecutadas en local o en terminal (CLI)**, orientadas a dos usos complementarios en ciberseguridad:
 
 1. **Detección e investigación de vulnerabilidades conocidas (CVE)** — análisis de código, identificación de patrones vulnerables, correlación con bases de datos públicas.
 2. **Hacking ofensivo / explotación** — generación de *scripts* de explotación, *Proofs of Concept* (PoC) listos para copiar y pegar, o conexión directa de la IA con un sistema **Kali Linux** mediante *Function Calling*, permitiendo que el propio modelo ejecute comandos y herramientas del sistema operativo.
-
-> ⚠️ **Uso responsable:** todas las herramientas descritas deben emplearse únicamente en entornos propios, laboratorios controlados o con autorización explícita (pentesting autorizado, CTF, formación). El uso contra sistemas de terceros sin permiso es ilegal.
 
 ## Índice
 
@@ -24,14 +22,12 @@ Esta guía recopila herramientas de **IA generativa/agéntica ejecutadas en loca
 - [Ollama](#ollama)
 - [Mistral IA](#mistral-ia)
 - [Qwen 3.6](#qwen-36)
-- [OpenClaw](#openclaw)
-  - [Comandos de consola](#comandos-de-consola-openclaw)
 - [Comparativa: IA local vs IA en la nube para hacking](#comparativa-ia-local-vs-ia-en-la-nube-para-hacking)
 - [Referencias](#referencias)
 
 ---
 
-## Tabla resumen de herramientas
+### Tabla resumen de herramientas
 
 | Herramienta | Tipo | Entorno / SO | Function Calling | Requisitos destacados | Enlace |
 |---|---|---|---|---|---|
@@ -46,7 +42,7 @@ Esta guía recopila herramientas de **IA generativa/agéntica ejecutadas en loca
 
 ---
 
-## Gemini-Cli
+### Gemini-Cli
 
 [Gemini-Cli](https://www.kali.org/tools/gemini-cli/) es la IA de Google integrada como herramienta en la terminal (CLI) de **Kali Linux**, con capacidad de *Function Calling*: puede interactuar directamente sobre los dispositivos, ejecutar comandos y operar la conexión de la máquina.
 
@@ -59,7 +55,7 @@ Esta guía recopila herramientas de **IA generativa/agéntica ejecutadas en loca
 
 ---
 
-## OpenAI Codex CLI (GPT-5.6)
+### OpenAI Codex CLI (GPT-5.6)
 
 **OpenAI Codex CLI** es el agente de terminal de OpenAI, equivalente funcional a Claude Code y Gemini-Cli: inspecciona código, ejecuta comandos, modifica ficheros y automatiza tareas repetitivas sin salir de la consola. Es *open source* (licencia Apache-2.0, repositorio `openai/codex`, reescrito en Rust) y desde el **26 de junio de 2026** utiliza como modelo por defecto la familia **GPT-5.6**.
 
@@ -71,7 +67,7 @@ Es la primera vez que OpenAI lanza una familia de modelos en **tres niveles** en
 | **GPT-5.6 Terra** | Rendimiento equivalente a GPT-5.5 a mitad de coste | 2,50 $ / 15 $ | Programación diaria, tests, revisión de código |
 | **GPT-5.6 Luna** | Nivel de volumen: respuestas más rápidas y económicas | 1 $ / 6 $ | Automatización masiva, resúmenes, generación de código sencillo |
 
-> 📊 Según *benchmarks* de 2026, **GPT-5.6 Sol Ultra** lidera Terminal-Bench 2.1 con un 91,9 % de acierto, mientras que en SWE-Bench Verified el liderazgo lo mantienen modelos de la familia Mythos/Fable de Anthropic.
+>  Según *benchmarks* de 2026, **GPT-5.6 Sol Ultra** lidera Terminal-Bench 2.1 con un 91,9 % de acierto, mientras que en SWE-Bench Verified el liderazgo lo mantienen modelos de la familia Mythos/Fable de Anthropic.
 
 ### Instalación de Codex CLI
 
@@ -114,7 +110,7 @@ Punto fuerte diferencial de Codex CLI frente a otros agentes: su **sandbox de ej
 
 ---
 
-## Claude Code
+### Claude Code
 
 [Claude Code](https://code.claude.com/docs/es/overview/) es el agente de IA de **Anthropic** ejecutado desde terminal (CLI), con una alta capacidad de análisis de código. Admite **Skills** instalables (plugins) que especializan al agente en tareas concretas, por ejemplo el análisis de vulnerabilidades o flujos específicos de hacking.
 
@@ -186,7 +182,7 @@ CLAUDE.md
 
 ---
 
-## Mistral IA
+### Mistral IA
 
 [Mistral IA](https://chat.mistral.ai) destaca por no aplicar restricciones fuertes a la hora de detallar el funcionamiento de vulnerabilidades CVE, PoC y exploits, incluyendo la generación de código para su explotación o enlaces relacionados.
 
@@ -200,50 +196,9 @@ ollama run mistral
 
 ---
 
-## Qwen 3.6
+### Qwen 3.6
 
 [Qwen 3.6](https://github.com/hackingyseguridad/IA/blob/main/qwen3_6.sh) es la IA de **Alibaba**. Requiere aproximadamente **23 GB de espacio en disco duro** para su instalación local.
-
----
-
-## OpenClaw
-
-[OpenClaw](https://openclaw.ai/) permite instalarse en Kali Linux en modo consola (CLI) e interactuar con las herramientas de Kali Linux y con la conexión de red disponible.
-
-- Guía oficial de inicio: <https://docs.openclaw.ai/start/getting-started>
-
-[![hacking con IA OpenClaw](https://github.com/hackingyseguridad/ia/raw/main/openclaw.png)](https://github.com/hackingyseguridad/ia/blob/main/openclaw.png)
-
-### Comandos de consola (OpenClaw)
-
-```bash
-# Ver token de configuración
-cat /usuario/.openclaw/openclaw.json
-
-# Aplicar token
-openclaw config set gateway.auth.token "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-
-# Lanzar el gateway
-openclaw gateway run
-
-# Interfaz TUI en modo local
-openclaw tui --local
-
-# Asistente de configuración inicial
-openclaw onboard
-```
-
-[![hacking con IA OpenClaw](https://github.com/hackingyseguridad/ia/raw/main/openclaw2.png)](https://github.com/hackingyseguridad/ia/blob/main/openclaw2.png)
-
-**Modelos/proveedores adicionales usados con OpenClaw:**
-
-```bash
-# OpenRouter - modelo gratuito
-openrouter - gemini.genma4:free
-
-# Modelo Linux Buster vía Ollama
-ollama run comanderanch/Linux-Buster
-```
 
 ---
 
@@ -278,3 +233,9 @@ ollama run comanderanch/Linux-Buster
 | Offensive-Claude | <https://github.com/hypnguyen1209/offensive-claude> |
 | OpenCode | <https://opencode.ai/> |
 | Enlace adicional | <http://goo.gl/ID8XBX> |
+
+
+
+#
+http://www.hackingyseguridad.com/
+#
