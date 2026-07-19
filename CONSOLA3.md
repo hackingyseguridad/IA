@@ -347,8 +347,6 @@ ollama run mistral
 
 - Guía oficial de inicio: <https://docs.openclaw.ai/start/getting-started>
 
-[![hacking con IA OpenClaw](https://github.com/hackingyseguridad/ia/raw/main/openclaw.png)](https://github.com/hackingyseguridad/ia/blob/main/openclaw.png)
-
 ### Comandos de consola (OpenClaw)
 
 ```bash
@@ -367,8 +365,6 @@ openclaw tui --local
 # Asistente de configuración inicial
 openclaw onboard
 ```
-
-[![hacking con IA OpenClaw](https://github.com/hackingyseguridad/ia/raw/main/openclaw2.png)](https://github.com/hackingyseguridad/ia/blob/main/openclaw2.png)
 
 **Modelos/proveedores adicionales usados con OpenClaw:**
 
