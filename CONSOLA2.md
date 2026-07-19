@@ -166,6 +166,8 @@ CLAUDE.md
 - Detecta corrupción de memoria y fallos estructurales en sistemas operativos, navegadores (p. ej. Firefox) y protocolos de red.
 - Simula el comportamiento de un atacante y analiza las respuestas del sistema objetivo para **validar si el fallo descubierto es realmente explotable**.
 
+<img style="float:left" alt="hacking con IA Claude Code" src="https://github.com/hackingyseguridad/ia/blob/main/claudecode0.png">
+
 ### Claude Code:
 
 Claude Code es un agente de programación autónomo, integrado que trabaja directamente desde terminal(Cli), editando archivos, ejecutando comandos y escribiendo código  Basta con darle instrucciones en lenguaje humano natural ("analiza las vulerabilidades de esta IP" o "ordena las vulnerabilidades CVE de este portal web") y se encarga de planificar, ejecutar y mostrar los comanodos y pruebas que realiza
@@ -187,8 +189,6 @@ Claude Code, requiere un plan (Pro, Max, Team, Enterprise) o facturación por co
 Claude Code, permite instalar **Skills** (Plugins) para añadir habilidades y especificaiciones para un uso concreto en el modelo IA, por ejemplo SKILLs en análisis de vulnerabilidades o hacking ofensivo.
 
 > También disponible: **Claude Code Security** y **Claude Mythos** (modelo de frontera avanzado).
-
-<img style="float:left" alt="hacking con IA Claude Code" src="https://github.com/hackingyseguridad/ia/blob/main/claudecode0.png">
 
 ### Instalación de Claude Code
 
