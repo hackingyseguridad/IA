@@ -68,7 +68,7 @@ Es la primera vez que OpenAI lanza una familia de modelos en **tres niveles** en
 | **GPT-5.6 Terra** | Rendimiento equivalente a GPT-5.5 a mitad de coste | 2,50 $ / 15 $ | Programación diaria, tests, revisión de código |
 | **GPT-5.6 Luna** | Nivel de volumen: respuestas más rápidas y económicas | 1 $ / 6 $ | Automatización masiva, resúmenes, generación de código sencillo |
 
-> 📊 Según *benchmarks* de 2026, **GPT-5.6 Sol Ultra** lidera Terminal-Bench 2.1 con un 91,9 % de acierto, mientras que en SWE-Bench Verified el liderazgo lo mantienen modelos de la familia Mythos/Fable de Anthropic.
+> Según *benchmarks* de 2026, **GPT-5.6 Sol Ultra** lidera Terminal-Bench 2.1 con un 91,9 % de acierto, mientras que en SWE-Bench Verified el liderazgo lo mantienen modelos de la familia Mythos/Fable de Anthropic.
 
 ### Instalación de Codex CLI
 
@@ -133,7 +133,7 @@ ollama run deepseek-coder
 ```
 
 
-## Claude Code
+### Claude Code
 
 [Claude Code](https://code.claude.com/docs/es/overview/) es el agente de IA de **Anthropic** ejecutado desde terminal (CLI), con una alta capacidad de análisis de código. Admite **Skills** instalables (plugins) que especializan al agente en tareas concretas, por ejemplo el análisis de vulnerabilidades o flujos específicos de hacking.
 
