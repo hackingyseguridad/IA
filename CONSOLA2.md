@@ -133,6 +133,10 @@ claude
 
 [![hacking con IA Claude Code](https://github.com/hackingyseguridad/ia/raw/main/claudecode.png)](https://github.com/hackingyseguridad/ia/blob/main/claudecode.png)
 
+
+<img style="float:left" alt="hacking con Kali + IA" src="https://github.com/hackingyseguridad/IA/blob/main/kali.png">
+
+
 ### CLAUDE.md y Skills
 
 Se puede crear un fichero [`CLAUDE.md`](https://github.com/hackingyseguridad/IA/blob/main/CLAUDE.md) con los requisitos y la preconfiguración específica de los parámetros deseados para cualquier automatización, aplicación web, API o aplicativo que se construya con Claude.
