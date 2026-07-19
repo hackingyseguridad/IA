@@ -300,16 +300,9 @@ Ecploits:
 
 <img style="float:left" alt="hacking con IA Claude Code" src="https://github.com/hackingyseguridad/ia/blob/main/claudecode3.png">
 
-## AGENTS
+### AGENTS
 
 - **AGENTS.md** es el modo de funcionamiento autónomo donde Claude no solo responde preguntas, sino que ejecuta tareas complejas de principio a fin; instancias o roles que Claude adopta para tareas específicas. P.ej.:  "actúa como experto en seguridad", "como revisor de código", "como arquitecto de software". Cada agente tiene un propósito, un contexto y un estilo de respuesta particular.
-
-
----
-
-
-
-
 
 ---
 
