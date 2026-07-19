@@ -306,13 +306,13 @@ Ecploits:
 
 ---
 
-## DeepSeek Coder
+### DeepSeek Coder
 
 [DeepSeek Coder](https://github.com/hackingyseguridad/IA/blob/main/deepseek2.sh) es un modelo de lenguaje especializado en programación. Suele ser **menos restrictivo en su versión base** cuando se ejecuta en la terminal (CLI) localmente, lo que lo hace útil para la detección de *bugs* críticos.
 
 ---
 
-## Ollama
+### Ollama
 
 [Ollama](https://ollama.com) es una herramienta *open source* que permite **descargar, ejecutar y gestionar modelos de lenguaje (LLMs)** comprimidos, cuantizados y optimizados, en local, sobre CPU, GPU o NPU.
 
@@ -321,7 +321,7 @@ Ecploits:
 
 ---
 
-## Mistral IA
+### Mistral IA
 
 [Mistral IA](https://chat.mistral.ai) destaca por no aplicar restricciones fuertes a la hora de detallar el funcionamiento de vulnerabilidades CVE, PoC y exploits, incluyendo la generación de código para su explotación o enlaces relacionados.
 
@@ -335,13 +335,13 @@ ollama run mistral
 
 ---
 
-## Qwen 3.6
+### Qwen 3.6
 
 [Qwen 3.6](https://github.com/hackingyseguridad/IA/blob/main/qwen3_6.sh) es la IA de **Alibaba**. Requiere aproximadamente **23 GB de espacio en disco duro** para su instalación local.
 
 ---
 
-## OpenClaw
+### OpenClaw
 
 [OpenClaw](https://openclaw.ai/) permite instalarse en Kali Linux en modo consola (CLI) e interactuar con las herramientas de Kali Linux y con la conexión de red disponible.
 
@@ -382,7 +382,7 @@ ollama run comanderanch/Linux-Buster
 
 ---
 
-## Comparativa: IA local vs IA en la nube para hacking
+### Comparativa: IA local vs IA en la nube para hacking
 
 | Criterio | IA local (Ollama, DeepSeek, Qwen, Mistral-local) | IA en la nube / agente CLI conectado (Claude Code, Gemini-Cli, OpenClaw, Codex CLI) |
 |---|---|---|
@@ -396,7 +396,7 @@ ollama run comanderanch/Linux-Buster
 
 ---
 
-## Referencias
+### Referencias
 
 | Recurso | Enlace |
 |---|---|
@@ -413,3 +413,9 @@ ollama run comanderanch/Linux-Buster
 | Offensive-Claude | <https://github.com/hypnguyen1209/offensive-claude> |
 | OpenCode | <https://opencode.ai/> |
 | Enlace adicional | <http://goo.gl/ID8XBX> |
+
+
+# 
+http://www.hackingyseguridad.com/
+# 
+
