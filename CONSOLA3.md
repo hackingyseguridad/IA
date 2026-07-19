@@ -111,6 +111,28 @@ Punto fuerte diferencial de Codex CLI frente a otros agentes: su **sandbox de ej
 
 ---
 
+### GPT (OpenIA)
+
+**tgpt**, permite integrar GPT en Kali Linux, 
+
+<img style="float:left" alt="http://hackingyseguridad.com/" src="https://github.com/hackingyseguridad/ia/blob/main/gpt.png">
+
+https://github.com/aandrew-me/tgpt/ 
+
+Instalar:
+
+curl -sSL https://raw.githubusercontent.com/aandrew-me/tgpt/main/install | bash -s /usr/local/bin 
+
+### DeepSeek Coder
+
+**[DeepSeek Coder](https://github.com/hackingyseguridad/IA/blob/main/deepseek2.sh)** — Modelo de lenguaje especializado en programación. En su versión base ejecutada localmente en terminal (CLI), suele ser menos restrictivo para generación de exploits o detección de bugs críticos.
+
+```bash
+# Ejecutar via Ollama
+ollama run deepseek-coder
+```
+
+
 ## Claude Code
 
 [Claude Code](https://code.claude.com/docs/es/overview/) es el agente de IA de **Anthropic** ejecutado desde terminal (CLI), con una alta capacidad de análisis de código. Admite **Skills** instalables (plugins) que especializan al agente en tareas concretas, por ejemplo el análisis de vulnerabilidades o flujos específicos de hacking.
