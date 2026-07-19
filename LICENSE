@@ -1,6 +1,12 @@
-MIT License
+================================================================================
+                         LICENCIA MIT COMPLETA
+                    	          IA
+================================================================================
 
-Copyright (c) 2024 pentest-ai Contributors
+MIT LICENSE - VERSIÓN ORIGINAL EN INGLÉS
+========================================
+
+Copyright (c) 2026 Antonio Taboada / hackingyseguridad.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +25,651 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+================================================================================
+                    TRADUCCIÓN AL ESPAÑOL DE MIT LICENSE
+================================================================================
+
+LICENCIA MIT
+
+Derechos de autor (c) 2020 Antonio Taboada / hackingyseguridad.com
+
+Por este medio se otorga permiso, sin cargo alguno, a cualquier persona que 
+obtenga una copia de este software y archivos de documentación asociados 
+(en adelante "el Software"), para usar el Software sin restricción alguna, 
+incluyendo sin limitación los derechos a usar, copiar, modificar, fusionar, 
+publicar, distribuir, sublicenciar, y/o vender copias del Software, y para 
+permitir que las personas a las que se proporcione el Software lo hagan, 
+sujeto a las siguientes condiciones:
+
+El aviso de derechos de autor anterior y este aviso de permiso deberán ser 
+incluidos en todas las copias o partes sustanciales del Software.
+
+EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, NI 
+EXPLÍCITA NI IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A GARANTÍAS DE 
+COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. 
+EN NINGÚN CASO LOS AUTORES O TITULARES DE DERECHOS DE AUTOR SERÁN 
+RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑOS O OTRA RESPONSABILIDAD, YA SEA 
+EN ACCIÓN DE CONTRATO, AGRAVIO O DE OTRA MANERA, DERIVADA DE, DE O EN 
+CONEXIÓN CON EL SOFTWARE O EL USO U OTRO TRATO EN EL SOFTWARE.
+
+
+================================================================================
+                   CLÁUSULAS ADICIONALES DE SEGURIDAD
+          (Aplicables a Herramientas de Prueba de Penetración)
+================================================================================
+
+1. DESCARGO DE RESPONSABILIDAD AMPLIADO
+========================================
+
+1.1 PROHIBICIÓN DE USO NO AUTORIZADO
+
+Este Software es una herramienta de prueba de penetración y análisis de 
+seguridad. El Usuario reconoce y acepta que:
+
+a) El Software SOLO puede ser utilizado en sistemas informáticos:
+   - De los que es propietario legítimo, O
+   - Donde tiene permiso escrito explícito del propietario/administrador
+
+b) Cualquier uso no autorizado es ilegal y constituye:
+   - En España: Delito previsto en el Código Penal (ver sección 2)
+   - En Europa: Violación de normativas vigentes (ver sección 3)
+   - Internacionalmente: Crimen informático
+
+c) El Usuario es el ÚNICO responsable de:
+   - Obtener autorizaciones legales previas
+   - Verificar legalidad en su jurisdicción
+   - Documentar consentimiento del propietario del sistema
+   - Respetar leyes locales, nacionales e internacionales
+
+1.2 RENUNCIA A GARANTÍAS
+
+El Software se proporciona "TAL CUAL", sin garantía de ningún tipo, incluyendo:
+
+- NO hay garantía de que funcionará correctamente
+- NO hay garantía de que no causará daño o pérdida de datos
+- NO hay garantía de seguridad jurídica de su uso
+- NO hay garantía de que el uso sea legal en su jurisdicción
+
+1.3 LIMITACIÓN DE RESPONSABILIDAD DEL AUTOR
+
+En ningún caso el autor (Antonio Taboada / hackingyseguridad) será responsable de:
+
+a) Daños directos: Pérdida de datos, sistemas fuera de servicio
+b) Daños indirectos: Pérdida de ingresos, reputación dañada
+c) Daños consecuentes: Cualquier efecto secundario del uso del Software
+d) Daños punitivos: Multas, costas judiciales, acciones legales
+e) Responsabilidad criminal: Delitos cometidos por el Usuario
+f) Violaciones legales: Crímenes informáticos, ciberataques
+
+La responsabilidad total del autor, en cualquier circunstancia, es CERO.
+
+1.4 ASUNCIÓN DE RIESGOS POR PARTE DEL USUARIO
+
+El Usuario asume voluntariamente:
+
+- Todo riesgo de uso del Software
+- Toda responsabilidad criminal o civil
+- Todas las consecuencias legales de sus acciones
+- Todos los daños derivados de su uso
+
+Si el Usuario es perseguido legalmente, encarcelado, multado o demandado 
+por el uso del Software, el autor NO será responsable de ninguna forma.
+
+
+2. LEGISLACIÓN ESPAÑOLA APLICABLE
+==================================
+
+2.1 CÓDIGO PENAL - DELITOS INFORMÁTICOS
+
+Este Software puede constituir herramienta para cometer los siguientes delitos:
+
+A) ACCESO NO AUTORIZADO (Art. 197 CP)
+
+Tipificación:
+- El que, sin autorización y deliberadamente, acceda a un sistema informático
+- Pena: Prisión de 6 meses a 2 años
+
+Agravante:
+- Si causa daño: Prisión de 1 a 3 años
+- Si causa daño grave: Prisión de 2 a 4 años
+- Si reitera la conducta: Aumento de pena en una o dos mitades
+
+Ejemplo Delictivo:
+"Ejecutar ICMPFlood contra servidor de empresa sin autorización"
+→ Delito (Art. 197) → Culpabilidad del Usuario, NO del autor del Software
+
+B) SABOTAJE DE SISTEMAS (Art. 264 CP)
+
+Tipificación:
+- El que cause, mediante ataque ICMP o similar, interrupción de servicio
+- Pena: Prisión de 3 a 5 años
+
+Agravante:
+- Si es crítico (hospital, emergencias): Prisión de 5 a 7 años
+- Si causa muerte: Prisión de 8 a 12 años
+
+Ejemplo Delictivo:
+"Ejecutar ICMP Flood contra hospital causando fallo en sistemas"
+→ Delito (Art. 264) + Potencial homicidio → Pena severísima
+
+C) REVELACIÓN DE SECRETOS PROFESIONALES (Art. 197.7 CP)
+
+Si durante pruebas accedes a datos sensibles:
+- Pena: Prisión de 1 a 4 años
+
+D) INCUMPLIMIENTO DE DEBER DE CONFIDENCIALIDAD (Art. 248 CP)
+
+Si revelaS vulnerabilidades encontradas sin autorización:
+- Pena: Prisión de 1 a 3 años
+
+2.2 RECIENTEMENTE AGRAVADA: REFORMA PENAL 2015
+
+La reforma de 2015 aumentó penas de delitos informáticos:
+
+Conducta Anterior → Pena Anterior | Conducta Posterior → Pena Posterior
+├─ Acceso sin daño → 6 m. a 2 años | Acceso sin daño → 6 m. a 2 años
+├─ Acceso con daño → 1 a 3 años | Acceso con daño → 1 a 3 años
+├─ Sabotaje crítico → 3 a 5 años | Sabotaje crítico → 5 a 7 años
+└─ Sabotaje grave → 5 a 7 años | Sabotaje grave → 7 a 10 años
+
+2.3 LEY DE SERVICIOS DE LA SOCIEDAD DE LA INFORMACIÓN (LSSI-CE)
+
+Ley 34/1988, transposición de Directiva Europea 2000/31/CE
+
+Artículos Relevantes:
+- Art. 8: Responsabilidad penal por acceso no autorizado
+- Art. 9: Obligación de no interferir con sistemas
+- Art. 10: Propiedad intelectual de contenidos
+
+2.4 LEY ORGÁNICA DE PROTECCIÓN DE DATOS (LORTAD) / RGPD
+
+Si el ICMP Flood afecta datos personales:
+- Responsabilidad civil y penal aumentada
+- Multas RGPD: Hasta €20.000.000 o 4% ingresos anuales
+- Pena adicional: Prisión de 2 a 5 años
+
+Ejemplo:
+"ICMP Flood contra servidor que contiene datos personales de 100.000 usuarios"
+→ Delito informático (Art. 197)
+→ Violación RGPD (Multa + cárcel)
+→ Pena total: Severísima
+
+2.5 ATORIDAD COMPETENTE EN ESPAÑA
+
+Organismos que persiguen estos delitos:
+
+- 🚨 Policía Nacional - Unidad de Delitos Telemáticos (UDT)
+- 🚨 Guardia Civil - Grupo de Delitos Telemáticos (GDT)
+- 🚨 Fiscalía de la Audiencia Nacional
+- ⚖️ Juzgados de lo Penal (delitos menores)
+- ⚖️ Audiencia Nacional (delitos graves)
+
+Penas Mínimas Típicas por Delito:
+├─ Acceso no autorizado: 6 meses - 2 años
+├─ Sabotaje de sistema: 3 - 5 años
+├─ Sabotaje crítico: 5 - 7 años
+└─ Sabotaje + daños graves: 7 - 10 años
+
+
+3. LEGISLACIÓN EUROPEA APLICABLE
+==================================
+
+3.1 RGPD (REGLAMENTO GENERAL DE PROTECCIÓN DE DATOS)
+
+Reglamento (UE) 2016/679
+
+Aplicación:
+- Cualquier ataque que afecte datos personales
+- Territorio: Todos los 27 estados miembros de la UE
+- Sanciones: Multas administrativas de €20.000.000 o 4% ingresos
+
+Artículos Relevantes:
+
+Art. 32 - Seguridad de Tratamiento:
+"Si un ICMP Flood compromete seguridad de datos personales, es violación"
+→ Multa: Hasta €10.000.000 o 2% ingresos
+
+Art. 33 - Notificación de Brecha:
+"Si causa brecha de datos, debe notificarse en 72h"
+→ No notificar = Multa adicional: €10.000.000 o 2% ingresos
+
+Art. 34 - Notificación a Afectados:
+"Si brecha de datos, avisar a usuarios"
+→ No avisar = Multa + Responsabilidad civil por daños
+
+3.2 DIRECTIVA NIS (SEGURIDAD DE REDES E INFORMACIÓN)
+
+Directiva (UE) 2016/1148
+
+Aplicación:
+- Operadores de infraestructura crítica
+- Proveedores de servicios digitales
+
+Obligaciones:
+- Reportar incidentes de seguridad (incluidos ataques ICMP)
+- Implementar medidas de seguridad
+- Cooperar con autoridades
+
+Sanciones:
+- Multas administrativas según legislación nacional
+- En España: Art. 49 RD 3/2010
+
+3.3 CÓDIGO PENAL EUROPEO ARMONIZADO
+
+Aunque la UE no tiene Código Penal único, directivas armonizadas definen:
+
+Directiva 2013/40/UE - Delitos Informáticos:
+- Acceso no autorizado
+- Interferencia con datos
+- Interferencia con sistemas
+- Uso de herramientas
+
+Penas Mínimas Armonizadas:
+├─ Delito básico: 2 años prisión
+├─ Delito grave: 5 años prisión
+├─ Daño crítico: Hasta 10 años prisión
+└─ En banda organizada: Hasta 15 años prisión
+
+Implementación Nacional Española:
+Art. 197-264 del Código Penal Español (ver sección 2)
+
+3.4 LEGISLACIÓN POR PAÍS EUROPEO
+
+| País | Delito Básico | Delito Grave | Autoridad |
+|------|--------------|-------------|-----------|
+| 🇪🇸 España | 2 años | 5 años | Policía Nacional / Guardia Civil |
+| 🇩🇪 Alemania | StGB §263a | 10 años | Bundeskriminalamt |
+| 🇫🇷 Francia | 3 años | 7 años | Police Nationale / Gendarmerie |
+| 🇮🇹 Italia | 3 años | 5 años | Carabinieri / Polizia |
+| 🇬🇧 UK | 2 años | 14 años | National Crime Agency |
+| 🇳🇱 Países Bajos | 6 años | 9 años | KLPD / OM |
+| 🇧🇪 Bélgica | 2 años | 5 años | Gendarmerie |
+| 🇵🇱 Polonia | 3 años | 10 años | CBŚ / ABW |
+| 🇸🇪 Suecia | 2 años | 6 años | SÄKERHETSPOLISEN |
+
+3.5 TRATADOS INTERNACIONALES
+
+Convenio de Budapest sobre Cibercrimen (2001):
+- Suscriptores: 70+ países incluyendo España
+- Obliga a criminalizar acceso no autorizado
+- Facilita extradición de cibercriminales
+- España es firmante → Delito perseguible internacionalmente
+
+Implicación:
+Si cometes delito informático en España y huyes a otro país, puedes ser 
+extraditado si ese país es signatario del Convenio de Budapest.
+
+
+4. NORMAS INTERNACIONALES RELEVANTES
+====================================
+
+4.1 COMPUTER FRAUD AND ABUSE ACT (CFAA) - USA
+
+18 U.S.C. § 1030
+
+Aplicación:
+- Aunque sea en USA, afecta a cualquiera atacando sistemas americanos
+- Servidores en USA (Google, Amazon, etc.) están protegidos
+
+Sanciones:
+- Acceso no autorizado: Hasta $100.000 y 1 año cárcel
+- Con daño: Hasta $100.000 y 5 años cárcel
+- Sabotaje crítico: Hasta $250.000 y 10 años cárcel
+
+Ejemplo:
+"ICMP Flood contra servidor Google (ubicado en USA)"
+→ Violación CFAA + Delito español
+→ Perseguible en USA y España
+
+4.2 COMPUTER MISUSE ACT 1990 - REINO UNIDO
+
+UK Legislation
+
+Secciones Relevantes:
+- Sección 1: Acceso no autorizado (2 años)
+- Sección 2: Sabotaje (10 años)
+- Sección 3: Uso de herramientas (2-10 años)
+
+4.3 LEY FEDERAL DE TELECOMUNICACIONES - CANADÁ
+
+Canadian Criminal Code:
+- Art. 342.1: Fraude por computadora (10 años)
+- Art. 430: Sabotaje (14 años)
+
+Aplicabilidad:
+- Afecta a cualquier ciberataque desde/hacia Canadá
+- Cooperación con España bajo acuerdos MLAT
+
+
+5. ESPECIFICACIONES SOBRE USO AUTORIZADO
+=========================================
+
+5.1 REQUISITOS PARA USO LEGAL
+
+Para que el uso de este Software sea legítimo, TODAS estas condiciones deben cumplirse:
+
+CONDICIÓN 1: Consentimiento Explícito Previo
+┌─ Tipo: Consentimiento escrito del propietario/administrador
+├─ Forma: Correo electrónico, contrato, autorización firmada
+├─ Temporalidad: Antes de ejecutar el Software
+├─ Alcance: Debe especificar sistemas, duración, método
+└─ Evidencia: Guardar copia de la autorización
+
+CONDICIÓN 2: Alcance Definido
+┌─ Sistemas: Listar direcciones IP/dominios específicos
+├─ Periodo: Definir fechas y horas permitidas
+├─ Método: Especificar técnicas a usar
+├─ Datos: Clarificar qué datos se pueden acceder
+└─ Limitaciones: Establecer restricciones claras
+
+CONDICIÓN 3: Seguridad de Datos
+┌─ Integridad: Datos no serán modificados
+├─ Confidencialidad: Datos encontrados serán protegidos
+├─ Disponibilidad: Sistemas seguirán disponibles (excepto test autorizado)
+├─ Documentación: Registro de acciones realizadas
+└─ Destrucción: Eliminar datos recopilados tras prueba
+
+CONDICIÓN 4: Reporte y Remediación
+┌─ Informe: Proporcionar hallazgos al cliente
+├─ Confidencialidad: No revelar a terceros sin autorización
+├─ Tiempo: Dar plazo para corregir vulnerabilidades
+├─ Seguimiento: Verificar que se corrijan
+└─ Responsabilidad: Solo revelar si lo autoriza cliente
+
+CONDICIÓN 5: Cumplimiento Legal
+┌─ Legislación: Respetar leyes españolas y europeas
+├─ Permisos: Obtener todo permiso requerido
+├─ Pericia: Ser técnico autorizado / profesional de seguridad
+├─ Cobertura: Tener seguro de responsabilidad civil
+└─ Registro: Documentar todo para defensa legal
+
+5.2 MODELO DE AUTORIZACIÓN RECOMENDADA
+
+[DOCUMENTO FORMAL DE AUTORIZACIÓN]
+
+Autorizo uso de herramientas de prueba de penetración incluyendo ICMP Flood
+
+Datos del Propietario/Autorizado:
+- Nombre: ________________________
+- Cargo: ________________________
+- Empresa: ________________________
+- Teléfono: ________________________
+- Email: ________________________
+- Firma: ________________________ Fecha: ________
+
+Datos del Tester:
+- Nombre: ________________________
+- Empresa: ________________________
+- Licencia/Certificación: ________________________
+- Teléfono: ________________________
+- Email: ________________________
+- Firma: ________________________ Fecha: ________
+
+Alcance de la Prueba:
+- Sistemas: ________________________
+- Direcciones IP: ________________________
+- Puertos: ________________________
+- Periodo: Desde ________ Hasta ________
+- Horario: Desde ________ Hasta ________
+
+Limitaciones:
+- ☐ No interrumpir servicios esenciales
+- ☐ No acceder a datos sensibles
+- ☐ No modificar sistemas
+- ☐ No revelar información a terceros
+- ☐ Otro: ________________________
+
+Responsabilidades del Tester:
+1. Usar herramientas solo en sistemas autorizados
+2. Documentar todas las acciones
+3. Proteger datos encontrados
+4. Reportar hallazgos confidencialmente
+5. Cumplir todas las leyes aplicables
+
+Responsabilidades del Propietario:
+1. Respaldar sistemas antes de prueba
+2. Tener contacto disponible durante prueba
+3. Autorizar técnicas potencialmente destructivas
+4. Proporcionar acceso si es necesario
+
+Reconocimiento de Riesgos:
+El propietario reconoce que la prueba puede:
+- Causar interrupción de servicios
+- Provocar pérdida de datos
+- Revelar vulnerabilidades graves
+- Generar carga en sistemas
+
+El propietario ASUME todos estos riesgos voluntariamente.
+
+Términos y Condiciones:
+1. Esta autorización es específica y limitada
+2. Válida solo para fecha/hora especificadas
+3. No autoriza acceso a sistemas no listados
+4. No autoriza acceso a datos personales
+5. Revocable en cualquier momento
+
+Autorizo el uso de ICMP Flood y herramientas similares bajo los términos 
+descritos anteriormente, con pleno conocimiento de riesgos y cumplimiento 
+de legislación aplicable.
+
+Firma del Propietario: _______________________
+Firma del Tester: _______________________
+Testigos (opcional): _______________________
+Fecha: _______________________
+
+
+6. EXENCIÓN DE RESPONSABILIDAD ESPECÍFICA
+=========================================
+
+6.1 RESPONSABILIDAD POR CARGOS CRIMINALES
+
+El autor (Antonio Taboada / hackingyseguridad) NO será responsable de:
+
+- Detencion o encarcelamiento del Usuario
+- Cargos criminales por Código Penal Español
+- Sentencias condenatorias
+- Antecedentes penales del Usuario
+- Restricciones de empleo derivadas
+- Mandamientos de captura internacionales
+
+6.2 RESPONSABILIDAD CIVIL
+
+El autor NO será responsable de:
+
+- Demandas civiles contra el Usuario
+- Sentencias de indemnización
+- Daños y perjuicios reclamados
+- Costas procesales del Usuario
+- Intereses moratorios
+- Daño reputacional del Usuario
+
+6.3 RESPONSABILIDAD ADMINISTRATIVA
+
+El autor NO será responsable de:
+
+- Sanciones administrativas
+- Multas impuestas por autoridades
+- Prohibición de profesión
+- Inhabilitación de derechos
+- Antecedentes administrativos
+- Revocación de licencias profesionales
+
+6.4 RESPONSABILIDAD CORPORATIVA
+
+El autor NO será responsable de:
+
+- Pérdida de clientes para el Usuario
+- Pérdida de contractos por Usuario
+- Cierre de negocio de Usuario
+- Bancarrota de Usuario
+- Despidos causados en empresa del Usuario
+- Crisis reputacional de Usuario/empresa
+
+6.5 RESPONSABILIDAD SOBRE TERCEROS
+
+El autor NO será responsable de:
+
+- Daños a sistemas de terceros
+- Daños a datos de terceros
+- Robo de identidad facilitado por Software
+- Fraude electrónico mediante Software
+- Ransomware usando técnicas del Software
+- Botnets usando Software
+
+El Usuario es ÚNICO responsable de asegurar que daño a terceros es evitado.
+
+
+7. GARANTÍA LIMITADA
+===================
+
+7.1 GARANTÍA EXPLÍCITA
+
+No hay garantía de ningún tipo:
+
+- El Software no está garantizado que funcione
+- El Software no está garantizado que sea seguro
+- El Software no está garantizado que sea legal usarlo
+- El Software no está garantizado que cumpla requisitos
+- El Software no está garantizado que sea compatible
+- El Software no está garantizado que no cause daño
+
+7.2 GARANTÍA IMPLÍCITA
+
+Se renuncia expresamente a:
+
+- Garantía de comerciabilidad (merchantability)
+- Garantía de idoneidad (fitness for particular purpose)
+- Garantía de no infracción (non-infringement)
+- Garantía de título (title warranty)
+- Cualquier otra garantía implícita por ley
+
+
+8. INDEMNIZACIÓN
+================
+
+8.1 INDEMNIZACIÓN POR USUARIO
+
+El Usuario indemniza y libera al autor de:
+
+- Cualquier reclamación relacionada con uso del Software
+- Cualquier daño causado por el Software
+- Cualquier violación legal relacionada
+- Cualquier responsabilidad derivada
+- Costas legales de defensa del autor
+
+8.2 CÓMO SE APLICA LA INDEMNIZACIÓN
+
+Si:
+a) Usuario usa Software ilegalmente
+b) Autoridades investigan al autor
+c) Terceros demandan al autor
+d) El autor incurre en costas legales
+
+Entonces:
+- Usuario paga 100% de costas legales del autor
+- Usuario paga indemnizaciones al autor
+- Usuario paga daños punitivos
+- Usuario paga intereses
+
+
+9. DISPOSICIONES FINALES
+=======================
+
+9.1 ÁMBITO DE APLICACIÓN
+
+Esta licencia es aplicable en:
+
+✓ España (legislación primaria)
+✓ Unión Europea (legislación complementaria)
+✓ Cualquier país signatario del Convenio de Budapest
+✓ Internacionalmente donde sea legal
+
+9.2 SUPREMACÍA LEGAL
+
+En caso de conflicto:
+1. Leyes españolas prevalecen
+2. Leyes europeas complementan
+3. Legislación más restrictiva se aplica
+4. MIT License proporciona términos mínimos
+
+9.3 SEPARABILIDAD
+
+Si alguna cláusula se considera inválida:
+- Esa cláusula se elimina
+- El resto permanece válido
+- Se aplica el siguiente término más cercano
+
+9.4 NO RENUNCIAS
+
+- La falta de ejecución de derechos no implica renuncia
+- El autor se reserva todos los derechos
+
+9.5 MODIFICACIONES
+
+El autor se reserva derecho a:
+- Modificar esta licencia en cualquier momento
+- Cambios aplican a nuevas versiones
+- No retroactivo a versiones anteriores
+
+
+10. RECONOCIMIENTO Y ACEPTACIÓN
+==============================
+
+AL DESCARGAR, COPIAR, MODIFICAR O EJECUTAR ESTE SOFTWARE, EL USUARIO 
+ACEPTA EXPRESAMENTE:
+
+□ He leído y entiendo completamente esta licencia
+□ Acepto los términos y condiciones
+□ Renuncio a cualquier garantía
+□ Asumo toda responsabilidad de mis acciones
+□ Entiendo que violar leyes es mi responsabilidad
+□ Autorizo al autor a proceder legalmente si violo términos
+□ Certifico que usaré Software solo legalmente
+□ Reconozco que uso es bajo mi propio riesgo
+□ Cumpliré con todas las leyes aplicables
+□ Indemnizaré y liberaré al autor
+
+SI NO ACEPTAS ESTOS TÉRMINOS, NO DESCARGUES, COPIES, MODIFIQUES O EJECUTES 
+ESTE SOFTWARE.
+
+
+================================================================================
+                            INFORMACIÓN LEGAL
+================================================================================
+
+Titular de Derechos:
+- Antonio Taboada
+- Organizacion: hackingyseguridad.com
+- País: España
+
+Jurisdicción Aplicable:
+- Juzgados de Madrid, España
+- Sujeto a legislación española y europea
+
+Para Soporte Legal o Consultas:
+- Contactar a través de hackingyseguridad.com
+- No hay garantía de respuesta
+- No hay responsabilidad del autor
+
+Última Actualización:
+- 2026
+- Versión 1.0 (Expandida con legislación española y europea)
+
+Validez:
+- Esta licencia es válida indefinidamente
+- Se aplica a todas las versiones del Software
+
+
+================================================================================
+                      FIN DEL DOCUMENTO DE LICENCIA
+================================================================================
+
+AVISO CRÍTICO:
+
+Este software es SOLO para investigación y educación, en sistemas autorizados.
+
+Cualquier USO NO AUTORIZADO es ILEGAL en España y Europa.
+
+================================================================================
