@@ -2,14 +2,14 @@
 
 ---
 
-# Hacking ofensivo con IA en local: modelos y agentes especializados en programación y ciberseguridad
+### Hacking ofensivo con IA en local: modelos y agentes especializados en programación y ciberseguridad
 
 Esta guía recopila herramientas de **IA generativa/agéntica ejecutadas en local o en terminal (CLI)**, orientadas a dos usos complementarios en ciberseguridad:
 
 1. **Detección e investigación de vulnerabilidades conocidas (CVE)** — análisis de código, identificación de patrones vulnerables, correlación con bases de datos públicas.
 2. **Hacking ofensivo / explotación** — generación de *scripts* de explotación, *Proofs of Concept* (PoC) listos para copiar y pegar, o conexión directa de la IA con un sistema **Kali Linux** mediante *Function Calling*, permitiendo que el propio modelo ejecute comandos y herramientas del sistema operativo.
 
-## Índice
+### Índice
 
 - [Tabla resumen de herramientas](#tabla-resumen-de-herramientas)
 - [Gemini-Cli](#gemini-cli)
@@ -28,7 +28,7 @@ Esta guía recopila herramientas de **IA generativa/agéntica ejecutadas en loca
 
 ---
 
-## Tabla resumen de herramientas
+### Tabla resumen de herramientas
 
 | Herramienta | Tipo | Entorno / SO | Function Calling | Requisitos destacados | Enlace |
 |---|---|---|---|---|---|
@@ -43,7 +43,7 @@ Esta guía recopila herramientas de **IA generativa/agéntica ejecutadas en loca
 
 ---
 
-## Gemini-Cli
+### Gemini-Cli
 
 [Gemini-Cli](https://www.kali.org/tools/gemini-cli/) es la IA de Google integrada como herramienta en la terminal (CLI) de **Kali Linux**, con capacidad de *Function Calling*: puede interactuar directamente sobre los dispositivos, ejecutar comandos y operar la conexión de la máquina.
 
@@ -56,7 +56,7 @@ Esta guía recopila herramientas de **IA generativa/agéntica ejecutadas en loca
 
 ---
 
-## OpenAI Codex CLI (GPT-5.6)
+### OpenAI Codex CLI (GPT-5.6)
 
 **OpenAI Codex CLI** es el agente de terminal de OpenAI, equivalente funcional a Claude Code y Gemini-Cli: inspecciona código, ejecuta comandos, modifica ficheros y automatiza tareas repetitivas sin salir de la consola. Es *open source* (licencia Apache-2.0, repositorio `openai/codex`, reescrito en Rust) y desde el **26 de junio de 2026** utiliza como modelo por defecto la familia **GPT-5.6**.
 
@@ -111,7 +111,7 @@ Punto fuerte diferencial de Codex CLI frente a otros agentes: su **sandbox de ej
 
 ---
 
-###  tgpt, GPT (OpenIA)
+###  tgpt, GPT (OpenIA) en modo consola, termincal (cli)
 
 **tgpt**, permite integrar GPT en Kali Linux, 
 
