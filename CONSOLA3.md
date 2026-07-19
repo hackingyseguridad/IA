@@ -111,7 +111,7 @@ Punto fuerte diferencial de Codex CLI frente a otros agentes: su **sandbox de ej
 
 ---
 
-### GPT (OpenIA)
+###  tgpt, GPT (OpenIA)
 
 **tgpt**, permite integrar GPT en Kali Linux, 
 
