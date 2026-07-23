@@ -410,6 +410,8 @@ ollama run comanderanch/Linux-Buster
 | OpenCode | <https://opencode.ai/> |
 | Enlace adicional | <http://goo.gl/ID8XBX> |
 
+#
+
 # 
 
 <p align="center">
