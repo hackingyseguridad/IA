@@ -413,7 +413,7 @@ ollama run comanderanch/Linux-Buster
 # 
 
 <p align="center">
-  <img src="https://github.com/hackingyseguridad/IA/blob/main/master/autor.png" alt="@antonio_taboada">
+  <img src="https://github.com/hackingyseguridad/IA/blob/main/autor.png" alt="@antonio_taboada">
 </p>
 
 #
