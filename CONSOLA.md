@@ -410,8 +410,19 @@ ollama run comanderanch/Linux-Buster
 | OpenCode | <https://opencode.ai/> |
 | Enlace adicional | <http://goo.gl/ID8XBX> |
 
+# 
 
-# 
-http://www.hackingyseguridad.com/
-# 
+<p align="center">
+  <img src="https://github.com/hackingyseguridad/ssha/blob/master/autor.png" alt="@antonio_taboada">
+</p>
+
+#
+
+
+<p align="center">
+  <a href="https://www.hackingyseguridad.com/">https://www.hackingyseguridad.com/</a>
+</p>
+
+
+
 
